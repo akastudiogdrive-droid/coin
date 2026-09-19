@@ -1,0 +1,59 @@
+# Dated events. Keep them granular: specific occasions or niches, not whole seasons.
+# verified: false = date needs checking before money is spent.
+# sell_days: how many days before the date demand really starts.
+# items: ids from trend_map.yml, or free-text ideas not yet in the map.
+events:
+  - id: secret-santa-2026
+    name: Office Secret Santa (£5–£10 gifts)
+    date: 2026-12-11
+    verified: false
+    sell_days: 28
+    items: [keycap-keychain, magnetic-slider]
+    note: Peak for small novelty desk gifts; exact peak week to be confirmed from data.
+  - id: geminids-2026
+    name: Geminid meteor shower peak
+    date: 2026-12-14
+    verified: false
+    sell_days: 21
+    items: [red-torch]
+    note: Niche; test of the calendar logic more than a big earner.
+  - id: cny-2027
+    name: Chinese New Year (Year of the Goat)
+    date: 2027-02-06
+    verified: false
+    sell_days: 21
+    items: ["goat-year charms", "red envelope sets"]
+  - id: world-book-day-2027
+    name: World Book Day (costume accessories)
+    date: 2027-03-04
+    verified: false
+    sell_days: 21
+    items: ["round wire costume glasses", "felt character hats (unbranded)"]
+    note: Avoid licensed-character items.
+  - id: glastonbury-2027
+    name: Glastonbury and festival season opener
+    date: 2027-06-23
+    verified: false
+    sell_days: 42
+    items: [face-gems, "festival glitter gel"]
+  - id: eclipse-2027
+    name: Total solar eclipse (totality in Spain/N Africa, partial in UK)
+    date: 2027-08-02
+    verified: false
+    sell_days: 45
+    items: [eclipse-glasses]
+    note: UK travellers heading to Spain. Certified glasses only.
+  - id: euro-2028
+    name: UEFA Euro 2028 (hosted in UK and Ireland)
+    date: 2028-06-09
+    verified: false
+    sell_days: 60
+    items: ["unbranded flag face gems", "home-nation colour bag charms"]
+    note: Long-range planning. No official UEFA or team crests.
+weather_triggers:
+  - id: first-cold-snap
+    name: First cold snap (London min below 3°C in forecast)
+    lat: 51.51
+    lon: -0.13
+    min_temp_below: 3
+    items: [rechargeable-hand-warmer]

@@ -1,0 +1,125 @@
+# Opportunities trend map: wave -> trend -> item.
+# STARTER HYPOTHESES seeded 2026-09-19. The daily run scores them; weak ones get
+# pruned and new ones added as evidence builds. Keep items granular.
+#
+# item fields:
+#   id, name        unique id and display name
+#   keywords        search terms used for interest signals (GB)
+#   attributes      material / use / aesthetic / audience / price_band
+#   flags           risk flags for your case-by-case call
+#   unit_cost       rough landed cost per unit in £ (fill in when you've checked)
+#   sell_price      rough achievable sell price in £ (fill in when you've checked)
+#   ebay_query      search used for listing-count / price saturation (needs eBay keys)
+waves:
+  - id: self-adornment
+    name: Temporary self-adornment
+    trends:
+      - id: stick-on-jewellery
+        name: Stick-on jewellery
+        wiki: Body_jewelry
+        items:
+          - id: face-gems
+            name: Face gems
+            keywords: [face gems]
+            attributes: {material: acrylic, use: festival, aesthetic: sparkle, audience: teens-20s, price_band: under-5}
+            flags: [skin-contact adhesive]
+            ebay_query: face gems
+          - id: nail-charms-3d
+            name: 3D nail charms
+            keywords: [nail charms]
+            attributes: {material: resin, use: everyday, aesthetic: cute, audience: teens-20s, price_band: under-5}
+            flags: []
+            ebay_query: 3d nail charms
+          - id: fake-piercings
+            name: Magnetic / clip-on fake piercings
+            keywords: [fake nose ring]
+            attributes: {material: metal, use: everyday, aesthetic: edgy, audience: teens-20s, price_band: under-5}
+            flags: [nickel content, possible child appeal]
+            ebay_query: fake nose ring clip on
+          - id: tooth-gems
+            name: DIY tooth gems
+            keywords: [tooth gems]
+            attributes: {material: crystal, use: everyday, aesthetic: sparkle, audience: 20s, price_band: 5-15}
+            flags: [cosmetic/dental safety, marketplace restrictions likely]
+            ebay_query: tooth gem kit
+      - id: phone-bag-charms
+        name: Phone and bag charms
+        items:
+          - id: beaded-phone-charm
+            name: Beaded phone straps
+            keywords: [phone charm]
+            attributes: {material: beads, use: everyday, aesthetic: cute, audience: teens-20s, price_band: under-5}
+            flags: []
+            ebay_query: beaded phone charm strap
+          - id: plush-bag-charm
+            name: Plush bag charms (unbranded)
+            keywords: [bag charm]
+            attributes: {material: plush, use: everyday, aesthetic: cute, audience: teens-30s, price_band: 5-15}
+            flags: [branded look-alikes are common - avoid]
+            ebay_query: plush bag charm keyring
+  - id: tactile-calm
+    name: Tactile and calming gadgets
+    trends:
+      - id: fidget
+        name: Fidget gadgets
+        wiki: Fidget_spinner
+        items:
+          - id: magnetic-slider
+            name: Magnetic fidget sliders
+            keywords: [magnetic fidget]
+            attributes: {material: metal, use: desk, aesthetic: premium, audience: adults, price_band: 5-15}
+            flags: [small magnets - keep away from young children]
+            ebay_query: magnetic fidget slider
+          - id: keycap-keychain
+            name: Clicky keycap keychains
+            keywords: [keycap keychain]
+            attributes: {material: plastic, use: bag, aesthetic: techy, audience: teens-30s, price_band: under-5}
+            flags: []
+            ebay_query: keycap keychain fidget
+          - id: taba-squishy
+            name: Taba / mochi squishies
+            keywords: [taba squishy]
+            attributes: {material: silicone, use: desk, aesthetic: cute, audience: kids-teens, price_band: 5-15}
+            flags: [toy safety marking (UKCA/CE) for under-14s]
+            ebay_query: taba squishy
+  - id: cosy-warmth
+    name: Cosy and warmth
+    trends:
+      - id: personal-heat
+        name: Personal heating
+        wiki: Hand_warmer
+        items:
+          - id: rechargeable-hand-warmer
+            name: Rechargeable hand warmers
+            keywords: [rechargeable hand warmer]
+            attributes: {material: electronic, use: outdoor, aesthetic: practical, audience: adults, price_band: 5-15}
+            flags: [lithium battery - postage restrictions, electrical safety]
+            ebay_query: rechargeable hand warmer
+      - id: ambient-light
+        name: Ambient lighting
+        items:
+          - id: sunset-lamp
+            name: Sunset projection lamps
+            keywords: [sunset lamp]
+            attributes: {material: electronic, use: home, aesthetic: moody, audience: teens-20s, price_band: 5-15}
+            flags: [electrical safety, UK plug/USB only]
+            ebay_query: sunset lamp projector
+  - id: sky-outdoors
+    name: Sky and outdoors
+    trends:
+      - id: stargazing
+        name: Stargazing kit
+        wiki: Amateur_astronomy
+        items:
+          - id: red-torch
+            name: Red-light astronomy torches
+            keywords: [red light torch]
+            attributes: {material: electronic, use: outdoor, aesthetic: practical, audience: adults, price_band: under-5}
+            flags: [battery]
+            ebay_query: red light torch astronomy
+          - id: eclipse-glasses
+            name: Eclipse glasses
+            keywords: [eclipse glasses]
+            attributes: {material: card-film, use: event, aesthetic: practical, audience: all, price_band: under-5}
+            flags: [MUST be ISO 12312-2 certified with verifiable supplier certificate, eye-safety liability]
+            ebay_query: eclipse glasses iso

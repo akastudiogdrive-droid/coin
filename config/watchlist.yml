@@ -1,0 +1,28 @@
+# Coin watchlist. Add or remove lines freely; the next daily run picks them up.
+# kind: uk_stock | us_stock | crypto | commodity
+assets:
+  - {symbol: SHEL.L,  name: Shell,              kind: uk_stock}
+  - {symbol: AZN.L,   name: AstraZeneca,        kind: uk_stock}
+  - {symbol: HSBA.L,  name: HSBC,               kind: uk_stock}
+  - {symbol: ULVR.L,  name: Unilever,           kind: uk_stock}
+  - {symbol: BP.L,    name: BP,                 kind: uk_stock}
+  - {symbol: RR.L,    name: Rolls-Royce,        kind: uk_stock}
+  - {symbol: GSK.L,   name: GSK,                kind: uk_stock}
+  - {symbol: LLOY.L,  name: Lloyds,             kind: uk_stock}
+  - {symbol: TSCO.L,  name: Tesco,              kind: uk_stock}
+  - {symbol: AAPL,    name: Apple,              kind: us_stock}
+  - {symbol: MSFT,    name: Microsoft,          kind: us_stock}
+  - {symbol: NVDA,    name: Nvidia,             kind: us_stock}
+  - {symbol: AMZN,    name: Amazon,             kind: us_stock}
+  - {symbol: GOOGL,   name: Alphabet,           kind: us_stock}
+  - {symbol: BRK-B,   name: Berkshire Hathaway, kind: us_stock}
+  - {symbol: KO,      name: Coca-Cola,          kind: us_stock}
+  - {symbol: JPM,     name: JPMorgan,           kind: us_stock}
+  - {symbol: BTC-USD, name: Bitcoin,            kind: crypto}
+  - {symbol: ETH-USD, name: Ethereum,           kind: crypto}
+  - {symbol: SOL-USD, name: Solana,             kind: crypto}
+  - {symbol: XRP-USD, name: XRP,                kind: crypto}
+  - {symbol: GC=F,    name: Gold,               kind: commodity}
+  - {symbol: SI=F,    name: Silver,             kind: commodity}
+  - {symbol: CL=F,    name: Crude oil,          kind: commodity}
+  - {symbol: HG=F,    name: Copper,             kind: commodity}

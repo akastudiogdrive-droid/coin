@@ -1,0 +1,17 @@
+# Selling-cost assumptions for the margin model. CHECK THESE against current
+# eBay/Amazon rate cards before relying on them; edit here and the model follows.
+shipping_in_days: 21        # typical AliExpress/Temu delivery to UK
+buffer_days: 7              # slack for delays, photographing, listing
+platforms:
+  ebay_business:
+    percent_fee: 0.128      # final value fee, typical category rate
+    fixed_fee: 0.30         # per order
+    postage_out: 1.55       # typical large-letter postage you pay
+  amazon_individual:
+    percent_fee: 0.153      # referral fee (varies by category)
+    fixed_fee: 0.75         # per-item fee on the Individual plan
+    postage_out: 1.55
+  amazon_fba:
+    percent_fee: 0.153
+    fixed_fee: 2.60         # rough small-item FBA fulfilment fee
+    postage_out: 0.0

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coin</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%232E7D6B'/><circle cx='50' cy='50' r='32' fill='none' stroke='%23EEF0EA' stroke-width='5'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF0EA; --card:#F7F8F4; --ink:#1D2B2A; --muted:#5E6E6C; --rule:#CBD2CB;
+  --rise:#2E7D6B; --peak:#A7832E; --fall:#B4452F; --quiet:#8A9793;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#16201F; --card:#1D2928; --ink:#E4E9E3; --muted:#9AAAA6; --rule:#324240;
+  --rise:#5DB59E; --peak:#D2AE57; --fall:#E0735C; --quiet:#7D8D89; } }
+:root[data-theme="dark"]{ --paper:#16201F; --card:#1D2928; --ink:#E4E9E3; --muted:#9AAAA6; --rule:#324240;
+  --rise:#5DB59E; --peak:#D2AE57; --fall:#E0735C; --quiet:#7D8D89; }
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.5 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums}
+.wrap{max-width:980px;margin:0 auto;padding:20px 18px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mark{font-weight:800;font-size:2.4rem;letter-spacing:-.04em;line-height:1;margin:0}
+.run{color:var(--muted);font-size:.9rem}
+.health{display:inline-flex;gap:4px;margin-left:8px;vertical-align:middle}
+.health i{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--quiet)}
+.health i.ok{background:var(--rise)} .health i.failed{background:var(--fall)}
+nav{display:flex;gap:4px;margin:22px 0 18px;border-bottom:1px solid var(--rule);overflow-x:auto}
+nav button{font:inherit;font-weight:500;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:10px 12px;cursor:pointer;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-color:var(--ink)}
+nav button:focus-visible,summary:focus-visible{outline:2px solid var(--rise);outline-offset:2px}
+section[hidden]{display:none}
+h2{font-size:1.35rem;letter-spacing:-.02em;margin:34px 0 4px;font-weight:700}
+h2:first-child{margin-top:8px}
+.lede{color:var(--muted);margin:0 0 14px;max-width:62ch}
+.curve{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:10px 8px 4px;overflow-x:auto}
+.curve svg{display:block;width:100%;min-width:560px;height:auto}
+.curve text{font-family:inherit;fill:var(--ink)}
+.stage-lbl{fill:var(--muted)!important;font-size:12px}
+.chip{display:inline-block;font-size:.78rem;font-weight:500;padding:1px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.s-emerging,.s-rising{color:var(--rise)} .s-peak,.s-steady{color:var(--peak)}
+.s-saturating,.s-fading{color:var(--fall)} .s-no{color:var(--quiet)}
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.list li{padding:12px 2px;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:baseline}
+.list .name{font-weight:700}
+.list .sub{grid-column:1/-1;color:var(--muted);font-size:.9rem}
+.flag{color:var(--fall);font-size:.85rem}
+.pick{font-weight:700;color:var(--rise)} .watch{color:var(--muted)}
+details.wave{border-top:1px solid var(--rule);padding:10px 0}
+details.wave>summary{cursor:pointer;font-weight:700;font-size:1.1rem;list-style:none}
+details.wave>summary::-webkit-details-marker{display:none}
+details.wave>summary::before{content:"+";display:inline-block;width:1.2em;color:var(--muted)}
+details.wave[open]>summary::before{content:"–"}
+.trend{margin:10px 0 4px 1.2em}
+.trend h3{font-size:1rem;margin:0 0 4px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.items{margin:0 0 0 0;padding:0;list-style:none}
+.items li{display:flex;gap:8px;flex-wrap:wrap;align-items:baseline;padding:4px 0;border-bottom:1px dotted var(--rule);font-size:.95rem}
+.items .pos{color:var(--muted);font-size:.85rem}
+table{border-collapse:collapse;width:100%;font-size:.93rem}
+.tbl{overflow-x:auto}
+th{text-align:left;font-weight:500;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--rule);white-space:nowrap}
+td{padding:8px;border-bottom:1px solid var(--rule);vertical-align:top}
+td.num{text-align:right;white-space:nowrap}
+.bar{position:relative;width:110px;height:10px;background:var(--rule);border-radius:5px;display:inline-block;vertical-align:middle}
+.bar b{position:absolute;top:0;bottom:0;border-radius:5px}
+.bar::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--muted)}
+.up{color:var(--rise)} .down{color:var(--fall)} .flat{color:var(--peak)}
+tr.asset{cursor:pointer} tr.drv td{background:var(--card);color:var(--muted);font-size:.88rem}
+.big{font-size:2.6rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.pair{display:flex;gap:36px;flex-wrap:wrap;margin:6px 0 10px}
+.pair div span{display:block;color:var(--muted);font-size:.88rem}
+.empty{color:var(--muted);padding:16px 0;border-top:1px solid var(--rule)}
+.theme{font:inherit;font-size:.85rem;background:none;border:1px solid var(--rule);color:var(--muted);border-radius:99px;padding:2px 10px;cursor:pointer}
+@media (max-width:520px){.bar{width:64px} td,th{padding:8px 5px}}
+@media (prefers-reduced-motion:no-preference){ .dot{transition:r .15s} .dot:hover{r:9} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="mark">Coin</h1>
+    <div class="run"><span id="run">Loading…</span><span class="health" id="healthdots" aria-hidden="true"></span>
+      <button class="theme" id="theme" type="button">Theme</button></div>
+  </header>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-tab="opps">Opportunities</button>
+    <button role="tab" aria-selected="false" data-tab="markets">Markets</button>
+    <button role="tab" aria-selected="false" data-tab="score">Scoreboard</button>
+    <button role="tab" aria-selected="false" data-tab="sources">Sources</button>
+  </nav>
+
+  <section id="opps">
+    <h2>Where each item sits on the curve</h2>
+    <p class="lede">Every tracked item, placed by lifecycle stage. The left slope is where the money is: interest building, sellers still few.</p>
+    <div class="curve" id="curve"></div>
+
+    <h2>Act soon</h2>
+    <p class="lede">Picks need at least two independent signals agreeing. Anything with less is shown as “watch”.</p>
+    <ul class="list" id="now"></ul>
+
+    <h2>Trend map</h2>
+    <p class="lede">Waves contain trends, trends contain items. Position compares an item with its sibling items.</p>
+    <div id="map"></div>
+
+    <h2>Quiet items in rising trends</h2>
+    <p class="lede">The parent trend is climbing but this item hasn’t moved yet. Candidates for getting in first.</p>
+    <ul class="list" id="quiet"></ul>
+
+    <h2>Event calendar</h2>
+    <p class="lede">Buy-by allows for AliExpress/Temu delivery plus a week’s buffer. Unverified dates are marked; check them before spending.</p>
+    <div class="tbl"><table id="cal"></table></div>
+
+    <h2>Forward planning</h2>
+    <p class="lede">Events more than a year out.</p>
+    <ul class="list" id="plan"></ul>
+  </section>
+
+  <section id="markets" hidden>
+    <h2>Watchlist signals</h2>
+    <p class="lede">Composite score from −100 to +100 with a 20-trading-day view. Tap a row to see what’s driving it. For interest only; not advice.</p>
+    <div class="tbl"><table id="mkt"></table></div>
+  </section>
+
+  <section id="score" hidden>
+    <h2>Markets forecasts</h2>
+    <p class="lede">The model has to beat “always say up” to be worth anything.</p>
+    <div id="sb-m"></div>
+    <h2>Opportunity forecasts</h2>
+    <p class="lede">Each pick predicts that interest will be higher in about four weeks.</p>
+    <div id="sb-o"></div>
+    <h2>Recent forecasts</h2>
+    <div class="tbl"><table id="recent"></table></div>
+  </section>
+
+  <section id="sources" hidden>
+    <h2>Data sources, latest run</h2>
+    <p class="lede">A failed source doesn’t stop the run; everything else still updates.</p>
+    <ul class="list" id="health"></ul>
+  </section>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct = v => v == null || v === "" ? "–" : (v >= 0 ? "+" : "") + (100 * v).toFixed(1) + "%";
+const fmtDate = d => d ? new Date(d + "T00:00").toLocaleDateString("en-GB", {day:"numeric", month:"short", year:"numeric"}) : "–";
+const stageCls = s => "s-" + (s && s !== "no data yet" ? s : "no");
+const chip = s => `<span class="chip ${stageCls(s)}">${esc(s)}</span>`;
+const empty = t => `<div class="empty">${t}</div>`;
+
+// tabs
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll("section").forEach(s => s.hidden = s.id !== b.dataset.tab);
+  try { localStorage.setItem("coin-tab", b.dataset.tab); } catch(e) {}
+});
+try { const t = localStorage.getItem("coin-tab"); if (t) document.querySelector(`nav [data-tab="${t}"]`)?.click(); } catch(e) {}
+$("#theme").onclick = () => {
+  const r = document.documentElement, dark = getComputedStyle(r).getPropertyValue("--paper").trim() === "#16201F";
+  r.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("coin-theme", r.dataset.theme); } catch(e) {}
+};
+try { const th = localStorage.getItem("coin-theme"); if (th) document.documentElement.dataset.theme = th; } catch(e) {}
+
+function curve(items) {
+  const W = 760, H = 300, base = 255, x0 = 30, x1 = 700;
+  const g = x => Math.exp(-Math.pow((x - .5) / .17, 2) / 2);
+  const X = t => x0 + t * (x1 - x0), Y = t => base - 200 * g(t);
+  let path = "M" + X(0) + "," + Y(0);
+  for (let i = 1; i <= 100; i++) path += " L" + X(i/100).toFixed(1) + "," + Y(i/100).toFixed(1);
+  const pos = {emerging:.2, rising:.36, peak:.5, saturating:.65, fading:.8};
+  const col = {emerging:"var(--rise)", rising:"var(--rise)", peak:"var(--peak)", saturating:"var(--fall)", fading:"var(--fall)"};
+  const onCurve = items.filter(i => pos[i.stage] != null);
+  const off = items.filter(i => pos[i.stage] == null);
+  const groups = {};
+  onCurve.forEach(i => (groups[i.stage] ||= []).push(i));
+  let dots = "";
+  Object.entries(groups).forEach(([s, arr]) => arr.forEach((it, k) => {
+    const t = pos[s] + (k - (arr.length - 1) / 2) * .024;
+    const cx = X(t), cy = Y(t);
+    const side = t < .47 ? "end" : t > .53 ? "start" : "middle";
+    const lx = side === "end" ? cx - 12 : side === "start" ? cx + 12 : cx;
+    const ly = side === "middle" ? cy - 14 : side === "start" ? (k % 2 ? cy + 20 : cy - 10) : cy + 4;
+    const nm = it.name.length > 26 ? it.name.slice(0, 25) + "…" : it.name;
+    dots += `<g><title>${esc(it.name)}: ${esc(it.stage)}, ${esc(it.trend)}</title>
+      <circle class="dot" cx="${cx}" cy="${cy}" r="6" fill="${col[s]}" stroke="var(--card)" stroke-width="2"/>
+      <text x="${lx}" y="${ly}" text-anchor="${side}" font-size="12" font-weight="500">${esc(nm)}</text></g>`;
+  }));
+  const labels = [["Emerging", .2], ["Rising", .36], ["Peak", .5], ["Saturating", .65], ["Fading", .8]]
+    .map(([l, t]) => `<text class="stage-lbl" x="${X(t)}" y="${base + 26}" text-anchor="middle">${l}</text>`).join("");
+  const offTxt = off.length ? `<text class="stage-lbl" x="${x0}" y="${H - 4}">${off.length} item${off.length > 1 ? "s" : ""} steady or awaiting data</text>` : "";
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Adoption curve with ${onCurve.length} items plotted">
+    <path d="${path} L${X(1)},${base} L${X(0)},${base} Z" fill="var(--rise)" opacity=".07"/>
+    <path d="${path}" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+    <line x1="${X(0)}" x2="${W - 10}" y1="${base}" y2="${base}" stroke="var(--rule)"/>
+    ${labels}${dots}${offTxt}</svg>`;
+}
+
+function render(d) {
+  $("#run").textContent = "Last run " + new Date(d.generated).toLocaleString("en-GB", {dateStyle:"medium", timeStyle:"short"});
+  $("#healthdots").innerHTML = d.health.map(h => `<i class="${h.status === "ok" ? "ok" : h.status === "failed" ? "failed" : ""}"></i>`).join("");
+  const o = d.opportunities, m = d.markets;
+
+  // curve
+  $("#curve").innerHTML = o.items.length ? curve(o.items) : empty("No trend data yet. The first daily runs fill this in.");
+
+  // act soon: picks, events, weather
+  const nowEv = o.events.filter(e => e.bucket === "now");
+  const trig = (o.weather_triggers || []).filter(w => w.triggered);
+  let now = o.now.map(i => `<li><span class="name">${esc(i.name)}</span>${chip(i.stage)}
+    <span class="sub"><span class="${i.pick ? "pick" : "watch"}">${i.pick ? "Pick" : "Watch"}</span>, ${esc(i.timing)}. ${esc(i.trend)}.
+    Evidence: ${esc(i.evidence.join(", ") || "none yet")}.
+    ${i.margins ? "Est. profit/unit on eBay £" + i.margins.ebay_business.profit_per_unit : ""}
+    ${i.flags.length ? `<br><span class="flag">Check: ${esc(i.flags.join("; "))}</span>` : ""}</span></li>`).join("");
+  now += nowEv.map(e => `<li><span class="name">${esc(e.name)}</span><span class="chip s-rising">${esc(e.status)}</span>
+    <span class="sub">Event ${fmtDate(e.date)}. Buy by ${fmtDate(e.buy_by)}, sell from ${fmtDate(e.sell_start)}. Items: ${esc(e.items.join(", "))}.</span></li>`).join("");
+  now += trig.map(w => `<li><span class="name">${esc(w.name)}</span><span class="chip s-rising">triggered</span>
+    <span class="sub">Forecast from ${fmtDate(w.first_date)}. Items: ${esc(w.items.join(", "))}.</span></li>`).join("");
+  $("#now").innerHTML = now || `<li class="sub">Nothing needs action this week.</li>`;
+
+  // trend map
+  $("#map").innerHTML = o.waves.map((w, wi) => `<details class="wave"${wi === 0 ? " open" : ""}><summary>${esc(w.name)}</summary>
+    ${w.trends.map(t => `<div class="trend"><h3>${esc(t.name)} ${chip(t.stage)}</h3><ul class="items">
+      ${t.items.map(i => `<li>${esc(i.name)} ${chip(i.stage)} <span class="pos">${i.position ? esc(i.position) + " vs siblings" : ""}
+        ${i.momentum != null ? ", momentum " + pct(i.momentum) : ""}</span></li>`).join("")}
+    </ul></div>`).join("")}</details>`).join("") || empty("Trend map will appear after the first run.");
+
+  $("#quiet").innerHTML = o.quiet_children.map(i => `<li><span class="name">${esc(i.name)}</span>${chip(i.stage)}
+    <span class="sub">${esc(i.trend)} is rising; this item hasn’t moved yet.</span></li>`).join("") || `<li class="sub">None right now.</li>`;
+
+  const cal = o.events.filter(e => e.bucket !== "planning" && e.status !== "past");
+  $("#cal").innerHTML = cal.length ? `<thead><tr><th>Event</th><th>Date</th><th>Buy by</th><th>Sell from</th><th>Status</th></tr></thead><tbody>` +
+    cal.map(e => `<tr><td><strong>${esc(e.name)}</strong><br><span class="watch">${esc(e.items.join(", "))}${e.verified ? "" : " · date unverified"}</span></td>
+      <td class="num">${fmtDate(e.date)}</td><td class="num">${fmtDate(e.buy_by)}</td><td class="num">${fmtDate(e.sell_start)}</td><td>${esc(e.status)}</td></tr>`).join("") + "</tbody>" : "";
+  $("#plan").innerHTML = o.events.filter(e => e.bucket === "planning").map(e => `<li><span class="name">${esc(e.name)}</span><span class="watch">${fmtDate(e.date)}</span>
+    <span class="sub">${esc(e.note || "")} Items: ${esc(e.items.join(", "))}.</span></li>`).join("") || `<li class="sub">Nothing beyond a year yet.</li>`;
+
+  // markets
+  const A = [...m.assets].sort((a, b) => b.score - a.score);
+  $("#mkt").innerHTML = A.length ? `<thead><tr><th>Asset</th><th class="num">Price</th><th class="num">20 days</th><th>Score</th><th>View</th></tr></thead><tbody>` +
+    A.map((a, i) => {
+      const w = Math.abs(a.score) / 2, left = a.score >= 0 ? 50 : 50 - w;
+      return `<tr class="asset" data-i="${i}" tabindex="0"><td><strong>${esc(a.name)}</strong><br><span class="watch">${esc(a.symbol)}</span></td>
+        <td class="num">${a.price.toLocaleString("en-GB", {maximumFractionDigits: 2})}</td>
+        <td class="num ${a.ret_20d >= 0 ? "up" : "down"}">${pct(a.ret_20d)}</td>
+        <td><span class="bar"><b style="left:${left}%;width:${w}%;background:var(--${a.score >= 0 ? "rise" : "fall"})"></b></span> ${a.score > 0 ? "+" : ""}${a.score.toFixed(0)}</td>
+        <td class="${a.direction}">${a.direction}</td></tr>
+        <tr class="drv" hidden><td colspan="5">${a.drivers.map(x => `${esc(x.factor)} ${x.contribution > 0 ? "+" : ""}${x.contribution}`).join(", ")}. RSI ${a.rsi}, volatility ${(a.vol * 100).toFixed(0)}%.</td></tr>`;
+    }).join("") + "</tbody>" : "";
+  if (!A.length) $("#mkt").outerHTML = empty("No price data yet. The first daily run backfills two years of history.");
+  document.querySelectorAll("tr.asset").forEach(r => {
+    const t = () => { const n = r.nextElementSibling; n.hidden = !n.hidden; };
+    r.onclick = t; r.onkeydown = e => { if (e.key === "Enter") t(); };
+  });
+
+  // scoreboard
+  const sb = (s, label) => s.graded ? `<div class="pair"><div><span>Hit rate</span><span class="big">${(s.hit_rate * 100).toFixed(0)}%</span></div>
+      ${s.baseline_always_up != null ? `<div><span>“Always up” baseline</span><span class="big">${(s.baseline_always_up * 100).toFixed(0)}%</span></div>` : ""}
+      <div><span>Graded / open</span><span class="big">${s.graded} / ${s.open}</span></div></div>`
+    : empty(`${s.open} ${label} open. The first ones are graded about four weeks after issue.`);
+  $("#sb-m").innerHTML = sb(m.scoreboard, "forecasts");
+  $("#sb-o").innerHTML = sb(o.scoreboard, "pick forecasts");
+  const rec = [...m.scoreboard.recent, ...o.scoreboard.recent].sort((a, b) => a.issued < b.issued ? 1 : -1).slice(0, 30);
+  $("#recent").innerHTML = rec.length ? `<thead><tr><th>Issued</th><th>What</th><th>Call</th><th>Due</th><th>Result</th></tr></thead><tbody>` +
+    rec.map(r => `<tr><td class="num">${fmtDate(r.issued)}</td><td>${esc(r.name)}</td><td class="${r.direction}">${esc(r.direction)}</td>
+      <td class="num">${fmtDate(r.due)}</td><td>${r.status === "graded" ? (String(r.correct).toLowerCase() === "true" ? "✓ " : "✗ ") + pct(+r.return) : "open"}</td></tr>`).join("") + "</tbody>" : "";
+
+  $("#health").innerHTML = d.health.map(h => `<li><span class="name">${esc(h.source)}</span>
+    <span class="${h.status === "ok" ? "up" : h.status === "failed" ? "down" : "watch"}">${esc(h.status)}</span>
+    <span class="sub">${esc(h.detail)}</span></li>`).join("");
+}
+
+fetch("data/dashboard.json", {cache: "no-store"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => { $("#run").textContent = "No data yet. Run the daily workflow once from the Actions tab."; });
+</script>
+</body>
+</html>
