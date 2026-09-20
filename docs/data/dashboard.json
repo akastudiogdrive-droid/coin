@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T17:03Z",
+ "generated": "2026-09-20T11:42Z",
  "markets": {
   "assets": [
    {
@@ -1338,7 +1338,7 @@
     "date": "2026-09-18",
     "ret_1d": 0.013358292985728992,
     "ret_20d": 0.02614113191990919,
-    "ret_60d": 0.11818451815052722,
+    "ret_60d": 0.118184518150527,
     "vol": 0.398,
     "rsi": 54.4,
     "score": 59.3,
@@ -2060,20 +2060,20 @@
     "symbol": "JPM"
    },
    {
-    "price": 81775.5234,
-    "date": "2026-09-19",
-    "ret_1d": 0.0108040385163779,
-    "ret_20d": 0.05289148493343365,
-    "ret_60d": 0.22961235600263885,
+    "price": 80440.4922,
+    "date": "2026-09-20",
+    "ret_1d": -0.009764268995955061,
+    "ret_20d": 0.024085198013770404,
+    "ret_60d": 0.21693679940980282,
     "vol": 0.343,
-    "rsi": 65.4,
-    "score": 54.2,
+    "rsi": 61.2,
+    "score": 54.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 35.2
+      "contribution": 34.4
      },
      {
       "factor": "trend",
@@ -2085,11 +2085,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -4.6
+      "contribution": -3.3
      }
     ],
     "spark": [
-     63952.1055,
      62668.0195,
      60995.1328,
      59721.6758,
@@ -2178,27 +2177,28 @@
      76150.3203,
      76403.7734,
      80901.4609,
-     81775.5234
+     81233.6797,
+     80440.4922
     ],
     "name": "Bitcoin",
     "kind": "crypto",
     "symbol": "BTC-USD"
    },
    {
-    "price": 2648.22,
-    "date": "2026-09-19",
-    "ret_1d": 0.014120222384316872,
-    "ret_20d": 0.09523866259647606,
-    "ret_60d": 0.37328470905191513,
-    "vol": 0.506,
-    "rsi": 66.3,
-    "score": 55.1,
+    "price": 2574.55,
+    "date": "2026-09-20",
+    "ret_1d": -0.02181360656198461,
+    "ret_20d": 0.04367149718292462,
+    "ret_60d": 0.33155583907243513,
+    "vol": 0.509,
+    "rsi": 60.2,
+    "score": 55.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 36.3
+      "contribution": 34.8
      },
      {
       "factor": "trend",
@@ -2210,11 +2210,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -4.9
+      "contribution": -3.1
      }
     ],
     "spark": [
-     1726.5109,
      1665.4368,
      1619.9249,
      1564.8167,
@@ -2303,27 +2302,28 @@
      2416.1199,
      2447.1067,
      2611.3472,
-     2648.22
+     2631.9626,
+     2574.55
     ],
     "name": "Ethereum",
     "kind": "crypto",
     "symbol": "ETH-USD"
    },
    {
-    "price": 111.96,
-    "date": "2026-09-19",
-    "ret_1d": -0.005676959306113227,
-    "ret_20d": 0.0989755849953966,
-    "ret_60d": 0.43338880395895574,
-    "vol": 0.506,
-    "rsi": 65.3,
-    "score": 56.8,
+    "price": 108.37,
+    "date": "2026-09-20",
+    "ret_1d": -0.023825042351186654,
+    "ret_20d": 0.05216759098696966,
+    "ret_60d": 0.39103064928858444,
+    "vol": 0.51,
+    "rsi": 59.9,
+    "score": 57.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.7
+      "contribution": 36.7
      },
      {
       "factor": "trend",
@@ -2335,11 +2335,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -4.6
+      "contribution": -3.0
      }
     ],
     "spark": [
-     71.9082,
      69.6437,
      67.9825,
      67.5741,
@@ -2428,27 +2427,28 @@
      98.6419,
      101.6034,
      112.5992,
-     111.96
+     111.0149,
+     108.37
     ],
     "name": "Solana",
     "kind": "crypto",
     "symbol": "SOL-USD"
    },
    {
-    "price": 1.4347,
-    "date": "2026-09-19",
-    "ret_1d": 0.027609466707878783,
-    "ret_20d": 0.05531599670860876,
-    "ret_60d": 0.2557846306219336,
+    "price": 1.3777,
+    "date": "2026-09-20",
+    "ret_1d": -0.023216823242077522,
+    "ret_20d": -0.0009774994461154707,
+    "ret_60d": 0.20680021368860113,
     "vol": 0.644,
-    "rsi": 58.4,
-    "score": 18.1,
+    "rsi": 53.2,
+    "score": 15.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 26.9
+      "contribution": 23.1
      },
      {
       "factor": "crowd",
@@ -2456,7 +2456,7 @@
      },
      {
       "factor": "stretch",
-      "contribution": -2.5
+      "contribution": -1.0
      },
      {
       "factor": "trend",
@@ -2464,7 +2464,6 @@
      }
     ],
     "spark": [
-     1.1286,
      1.1094,
      1.0723,
      1.0416,
@@ -2553,7 +2552,8 @@
      1.2993,
      1.2959,
      1.3962,
-     1.4347
+     1.4104,
+     1.3777
     ],
     "name": "XRP",
     "kind": "crypto",
@@ -2681,24 +2681,24 @@
     "symbol": "GC=F"
    },
    {
-    "price": 66.556,
+    "price": 67.149,
     "date": "2026-09-18",
-    "ret_1d": 0.016587727430999788,
-    "ret_20d": -0.021609402281483447,
-    "ret_60d": 0.14648938693123803,
-    "vol": 0.361,
-    "rsi": 54.7,
-    "score": 30.4,
+    "ret_1d": 0.025645346314141282,
+    "ret_20d": -0.012892113144639339,
+    "ret_60d": 0.15670440688493348,
+    "vol": 0.363,
+    "rsi": 56.2,
+    "score": 31.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 32.1
+      "contribution": 33.4
      },
      {
       "factor": "stretch",
-      "contribution": -1.6
+      "contribution": -2.2
      },
      {
       "factor": "trend",
@@ -2795,27 +2795,27 @@
      63.236,
      64.288,
      65.47,
-     66.556
+     67.149
     ],
     "name": "Silver",
     "kind": "commodity",
     "symbol": "SI=F"
    },
    {
-    "price": 100.3,
+    "price": 96.08,
     "date": "2026-09-18",
-    "ret_1d": -0.015798258782225738,
-    "ret_20d": 0.14197883366426156,
-    "ret_60d": 0.42593130898029874,
-    "vol": 0.503,
-    "rsi": 63.8,
-    "score": 74.6,
+    "ret_1d": -0.05720735572127478,
+    "ret_20d": 0.09393145654111756,
+    "ret_60d": 0.365936975167263,
+    "vol": 0.518,
+    "rsi": 55.8,
+    "score": 75.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 44.2
+      "contribution": 42.1
      },
      {
       "factor": "trend",
@@ -2823,7 +2823,7 @@
      },
      {
       "factor": "stretch",
-      "contribution": -4.9
+      "contribution": -2.1
      }
     ],
     "spark": [
@@ -2916,27 +2916,27 @@
      105.83,
      102.43,
      101.91,
-     100.3
+     96.08
     ],
     "name": "Crude oil",
     "kind": "commodity",
     "symbol": "CL=F"
    },
    {
-    "price": 6.615,
+    "price": 6.6915,
     "date": "2026-09-18",
-    "ret_1d": 0.004326972222761238,
-    "ret_20d": 0.023993766572121045,
-    "ret_60d": 0.1130741964415094,
-    "vol": 0.225,
-    "rsi": 54.4,
-    "score": 70.2,
+    "ret_1d": 0.015941701419224907,
+    "ret_20d": 0.03583593613098457,
+    "ret_60d": 0.12594655347741313,
+    "vol": 0.227,
+    "rsi": 57.4,
+    "score": 71.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 36.4
+      "contribution": 38.3
      },
      {
       "factor": "trend",
@@ -2944,7 +2944,7 @@
      },
      {
       "factor": "stretch",
-      "contribution": -1.5
+      "contribution": -2.6
      }
     ],
     "spark": [
@@ -3037,7 +3037,7 @@
      6.3685,
      6.4315,
      6.5865,
-     6.615
+     6.6915
     ],
     "name": "Copper",
     "kind": "commodity",
@@ -3045,12 +3045,12 @@
    }
   ],
   "fear_greed": {
-   "Date": "2026-09-19",
+   "Date": "2026-09-20",
    "value": 71,
    "label": "Greed"
   },
   "graded": 0,
-  "issued": 25,
+  "issued": 0,
   "scoreboard": {
    "open": 25,
    "graded": 0,
@@ -3469,7 +3469,7 @@
       "name": "Stick-on jewellery",
       "stage": "rising",
       "momentum": 5.288,
-      "wiki_momentum": 0.037,
+      "wiki_momentum": 0.053,
       "items": [
        {
         "id": "face-gems",
@@ -3665,9 +3665,9 @@
      {
       "id": "fidget",
       "name": "Fidget gadgets",
-      "stage": "rising",
-      "momentum": 1.933,
-      "wiki_momentum": 0.147,
+      "stage": "emerging",
+      "momentum": 1.205,
+      "wiki_momentum": 0.16,
       "items": [
        {
         "id": "magnetic-slider",
@@ -3681,9 +3681,10 @@
         "saturation": null,
         "evidence": [
          "search interest rising",
+         "parent topic attention rising",
          "sibling items rising"
         ],
-        "confidence": 2,
+        "confidence": 3,
         "quiet_child": true,
         "flags": [
          "small magnets - keep away from young children"
@@ -3696,7 +3697,7 @@
          "price_band": "5-15"
         },
         "margins": null,
-        "timing": "enough evidence",
+        "timing": "strong evidence, later",
         "pick": true
        },
        {
@@ -3704,16 +3705,17 @@
         "name": "Clicky keycap keychains",
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
-        "stage": "no data yet",
-        "position": null,
-        "level": null,
-        "momentum": null,
+        "stage": "steady",
+        "position": "lagging",
+        "level": 0.0,
+        "momentum": -0.25,
         "saturation": null,
         "evidence": [
+         "parent topic attention rising",
          "sibling items rising"
         ],
-        "confidence": 1,
-        "quiet_child": false,
+        "confidence": 2,
+        "quiet_child": true,
         "flags": [],
         "attributes": {
          "material": "plastic",
@@ -3736,9 +3738,10 @@
         "saturation": null,
         "evidence": [
          "search interest rising",
+         "parent topic attention rising",
          "sibling items rising"
         ],
-        "confidence": 2,
+        "confidence": 3,
         "quiet_child": false,
         "flags": [
          "toy safety marking (UKCA/CE) for under-14s"
@@ -3751,7 +3754,7 @@
          "price_band": "5-15"
         },
         "margins": null,
-        "timing": "enough evidence",
+        "timing": "strong evidence, later",
         "pick": true
        }
       ]
@@ -3767,7 +3770,7 @@
       "name": "Personal heating",
       "stage": "emerging",
       "momentum": 1.429,
-      "wiki_momentum": 0.032,
+      "wiki_momentum": 0.054,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -3804,8 +3807,8 @@
      {
       "id": "ambient-light",
       "name": "Ambient lighting",
-      "stage": "no data yet",
-      "momentum": null,
+      "stage": "rising",
+      "momentum": 3.265,
       "wiki_momentum": null,
       "items": [
        {
@@ -3813,13 +3816,15 @@
         "name": "Sunset projection lamps",
         "wave": "Cosy and warmth",
         "trend": "Ambient lighting",
-        "stage": "no data yet",
+        "stage": "rising",
         "position": null,
-        "level": null,
-        "momentum": null,
+        "level": 39.8,
+        "momentum": 3.265,
         "saturation": null,
-        "evidence": [],
-        "confidence": 0,
+        "evidence": [
+         "search interest rising"
+        ],
+        "confidence": 1,
         "quiet_child": false,
         "flags": [
          "electrical safety",
@@ -3832,7 +3837,9 @@
          "audience": "teens-20s",
          "price_band": "5-15"
         },
-        "margins": null
+        "margins": null,
+        "timing": "thin evidence, early",
+        "pick": false
        }
       ]
      }
@@ -3845,22 +3852,24 @@
      {
       "id": "stargazing",
       "name": "Stargazing kit",
-      "stage": "steady",
-      "momentum": 0.114,
-      "wiki_momentum": 0.114,
+      "stage": "emerging",
+      "momentum": 3.674,
+      "wiki_momentum": 0.126,
       "items": [
        {
         "id": "red-torch",
         "name": "Red-light astronomy torches",
         "wave": "Sky and outdoors",
         "trend": "Stargazing kit",
-        "stage": "no data yet",
-        "position": null,
-        "level": null,
-        "momentum": null,
+        "stage": "rising",
+        "position": "leading",
+        "level": 48.7,
+        "momentum": 7.806,
         "saturation": null,
-        "evidence": [],
-        "confidence": 0,
+        "evidence": [
+         "search interest rising"
+        ],
+        "confidence": 1,
         "quiet_child": false,
         "flags": [
          "battery"
@@ -3872,20 +3881,24 @@
          "audience": "adults",
          "price_band": "under-5"
         },
-        "margins": null
+        "margins": null,
+        "timing": "thin evidence, early",
+        "pick": false
        },
        {
         "id": "eclipse-glasses",
         "name": "Eclipse glasses",
         "wave": "Sky and outdoors",
         "trend": "Stargazing kit",
-        "stage": "no data yet",
-        "position": null,
-        "level": null,
-        "momentum": null,
+        "stage": "fading",
+        "position": "lagging",
+        "level": 0.0,
+        "momentum": -0.458,
         "saturation": null,
-        "evidence": [],
-        "confidence": 0,
+        "evidence": [
+         "sibling items rising"
+        ],
+        "confidence": 1,
         "quiet_child": false,
         "flags": [
          "MUST be ISO 12312-2 certified with verifiable supplier certificate",
@@ -4092,9 +4105,10 @@
     "saturation": null,
     "evidence": [
      "search interest rising",
+     "parent topic attention rising",
      "sibling items rising"
     ],
-    "confidence": 2,
+    "confidence": 3,
     "quiet_child": true,
     "flags": [
      "small magnets - keep away from young children"
@@ -4107,7 +4121,7 @@
      "price_band": "5-15"
     },
     "margins": null,
-    "timing": "enough evidence",
+    "timing": "strong evidence, later",
     "pick": true
    },
    {
@@ -4115,16 +4129,17 @@
     "name": "Clicky keycap keychains",
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
-    "stage": "no data yet",
-    "position": null,
-    "level": null,
-    "momentum": null,
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": -0.25,
     "saturation": null,
     "evidence": [
+     "parent topic attention rising",
      "sibling items rising"
     ],
-    "confidence": 1,
-    "quiet_child": false,
+    "confidence": 2,
+    "quiet_child": true,
     "flags": [],
     "attributes": {
      "material": "plastic",
@@ -4147,9 +4162,10 @@
     "saturation": null,
     "evidence": [
      "search interest rising",
+     "parent topic attention rising",
      "sibling items rising"
     ],
-    "confidence": 2,
+    "confidence": 3,
     "quiet_child": false,
     "flags": [
      "toy safety marking (UKCA/CE) for under-14s"
@@ -4162,7 +4178,7 @@
      "price_band": "5-15"
     },
     "margins": null,
-    "timing": "enough evidence",
+    "timing": "strong evidence, later",
     "pick": true
    },
    {
@@ -4200,13 +4216,15 @@
     "name": "Sunset projection lamps",
     "wave": "Cosy and warmth",
     "trend": "Ambient lighting",
-    "stage": "no data yet",
+    "stage": "rising",
     "position": null,
-    "level": null,
-    "momentum": null,
+    "level": 39.8,
+    "momentum": 3.265,
     "saturation": null,
-    "evidence": [],
-    "confidence": 0,
+    "evidence": [
+     "search interest rising"
+    ],
+    "confidence": 1,
     "quiet_child": false,
     "flags": [
      "electrical safety",
@@ -4219,20 +4237,24 @@
      "audience": "teens-20s",
      "price_band": "5-15"
     },
-    "margins": null
+    "margins": null,
+    "timing": "thin evidence, early",
+    "pick": false
    },
    {
     "id": "red-torch",
     "name": "Red-light astronomy torches",
     "wave": "Sky and outdoors",
     "trend": "Stargazing kit",
-    "stage": "no data yet",
-    "position": null,
-    "level": null,
-    "momentum": null,
+    "stage": "rising",
+    "position": "leading",
+    "level": 48.7,
+    "momentum": 7.806,
     "saturation": null,
-    "evidence": [],
-    "confidence": 0,
+    "evidence": [
+     "search interest rising"
+    ],
+    "confidence": 1,
     "quiet_child": false,
     "flags": [
      "battery"
@@ -4244,20 +4266,24 @@
      "audience": "adults",
      "price_band": "under-5"
     },
-    "margins": null
+    "margins": null,
+    "timing": "thin evidence, early",
+    "pick": false
    },
    {
     "id": "eclipse-glasses",
     "name": "Eclipse glasses",
     "wave": "Sky and outdoors",
     "trend": "Stargazing kit",
-    "stage": "no data yet",
-    "position": null,
-    "level": null,
-    "momentum": null,
+    "stage": "fading",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": -0.458,
     "saturation": null,
-    "evidence": [],
-    "confidence": 0,
+    "evidence": [
+     "sibling items rising"
+    ],
+    "confidence": 1,
     "quiet_child": false,
     "flags": [
      "MUST be ISO 12312-2 certified with verifiable supplier certificate",
@@ -4274,6 +4300,68 @@
    }
   ],
   "now": [
+   {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 19.7,
+    "momentum": 2.862,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "parent topic attention rising",
+     "sibling items rising"
+    ],
+    "confidence": 3,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "strong evidence, later",
+    "pick": true
+   },
+   {
+    "id": "taba-squishy",
+    "name": "Taba / mochi squishies",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 40.3,
+    "momentum": 1.004,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "parent topic attention rising",
+     "sibling items rising"
+    ],
+    "confidence": 3,
+    "quiet_child": false,
+    "flags": [
+     "toy safety marking (UKCA/CE) for under-14s"
+    ],
+    "attributes": {
+     "material": "silicone",
+     "use": "desk",
+     "aesthetic": "cute",
+     "audience": "kids-teens",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "strong evidence, later",
+    "pick": true
+   },
    {
     "id": "nail-charms-3d",
     "name": "3D nail charms",
@@ -4363,66 +4451,6 @@
     "margins": null,
     "timing": "enough evidence",
     "pick": true
-   },
-   {
-    "id": "magnetic-slider",
-    "name": "Magnetic fidget sliders",
-    "wave": "Tactile and calming gadgets",
-    "trend": "Fidget gadgets",
-    "stage": "emerging",
-    "position": "leading",
-    "level": 19.7,
-    "momentum": 2.862,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "small magnets - keep away from young children"
-    ],
-    "attributes": {
-     "material": "metal",
-     "use": "desk",
-     "aesthetic": "premium",
-     "audience": "adults",
-     "price_band": "5-15"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
-    "id": "face-gems",
-    "name": "Face gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 15.1,
-    "momentum": 1.814,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "skin-contact adhesive"
-    ],
-    "attributes": {
-     "material": "acrylic",
-     "use": "festival",
-     "aesthetic": "sparkle",
-     "audience": "teens-20s",
-     "price_band": "under-5"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
    }
   ],
   "quiet_children": [
@@ -4468,9 +4496,10 @@
     "saturation": null,
     "evidence": [
      "search interest rising",
+     "parent topic attention rising",
      "sibling items rising"
     ],
-    "confidence": 2,
+    "confidence": 3,
     "quiet_child": true,
     "flags": [
      "small magnets - keep away from young children"
@@ -4483,8 +4512,34 @@
      "price_band": "5-15"
     },
     "margins": null,
-    "timing": "enough evidence",
+    "timing": "strong evidence, later",
     "pick": true
+   },
+   {
+    "id": "keycap-keychain",
+    "name": "Clicky keycap keychains",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": -0.25,
+    "saturation": null,
+    "evidence": [
+     "parent topic attention rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [],
+    "attributes": {
+     "material": "plastic",
+     "use": "bag",
+     "aesthetic": "techy",
+     "audience": "teens-30s",
+     "price_band": "under-5"
+    },
+    "margins": null
    },
    {
     "id": "rechargeable-hand-warmer",
@@ -4531,7 +4586,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "planning",
-    "days_away": 83,
+    "days_away": 82,
     "bucket": "calendar"
    },
    {
@@ -4546,7 +4601,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "planning",
-    "days_away": 86,
+    "days_away": 85,
     "bucket": "calendar"
    },
    {
@@ -4562,7 +4617,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 140,
+    "days_away": 139,
     "bucket": "calendar"
    },
    {
@@ -4578,7 +4633,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 166,
+    "days_away": 165,
     "bucket": "calendar"
    },
    {
@@ -4594,7 +4649,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 277,
+    "days_away": 276,
     "bucket": "calendar"
    },
    {
@@ -4609,7 +4664,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 317,
+    "days_away": 316,
     "bucket": "calendar"
    },
    {
@@ -4625,15 +4680,15 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 629,
+    "days_away": 628,
     "bucket": "planning"
    }
   ],
   "weather_triggers": [],
   "graded": 0,
-  "issued": 5,
+  "issued": 1,
   "scoreboard": {
-   "open": 5,
+   "open": 6,
    "graded": 0,
    "recent": [
     {
@@ -4715,6 +4770,22 @@
      "exit": "",
      "return": "",
      "correct": ""
+    },
+    {
+     "id": "2026-09-20-taba-squishy",
+     "issued": "2026-09-20",
+     "strand": "opps",
+     "symbol": "taba-squishy",
+     "name": "Taba / mochi squishies",
+     "direction": "up",
+     "score": 3.0,
+     "horizon_days": 20,
+     "due": "2026-10-19",
+     "entry": 40.3,
+     "status": "open",
+     "exit": "",
+     "return": "",
+     "correct": ""
     }
    ]
   }
@@ -4733,17 +4804,12 @@
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "102 days stored"
+   "detail": "103 days stored"
   },
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
-  },
-  {
-   "source": "Google Trends",
-   "status": "failed",
-   "detail": "keycap-keychain: empty"
+   "detail": "refreshed 4 items this run (rotating)"
   },
   {
    "source": "Wikipedia pageviews",

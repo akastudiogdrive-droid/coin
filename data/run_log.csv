@@ -7,3 +7,10 @@ Google Trends,failed,keycap-keychain: empty,2026-09-19
 Wikipedia pageviews,ok,4 trends,2026-09-19
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-09-19
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-09-19
+prices (Yahoo Finance),ok,25/25 assets,2026-09-20
+crypto fear & greed (alternative.me),ok,latest 71 (Greed),2026-09-20
+"weather, London (Open-Meteo)",ok,103 days stored,2026-09-20
+Google Trends,ok,refreshed 4 items this run (rotating),2026-09-20
+Wikipedia pageviews,ok,4 trends,2026-09-20
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-09-20
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-09-20
