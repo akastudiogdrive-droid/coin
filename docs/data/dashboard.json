@@ -1,22 +1,22 @@
 {
- "generated": "2026-09-24T12:03Z",
+ "generated": "2026-09-25T12:04Z",
  "markets": {
   "assets": [
    {
-    "price": 3617.5,
-    "date": "2026-09-24",
-    "ret_1d": 0.010474860335195624,
-    "ret_20d": 0.07312370216552955,
-    "ret_60d": 0.2594655757681261,
-    "vol": 0.205,
-    "rsi": 64.5,
-    "score": 76.7,
+    "price": 3597.0,
+    "date": "2026-09-25",
+    "ret_1d": -0.012084592145015116,
+    "ret_20d": 0.08637873754152814,
+    "ret_60d": 0.24088063011448146,
+    "vol": 0.209,
+    "rsi": 60.6,
+    "score": 77.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 46.5
+      "contribution": 46.2
      },
      {
       "factor": "trend",
@@ -24,11 +24,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -5.1
+      "contribution": -3.7
      }
     ],
     "spark": [
-     3251.4253,
      3238.718,
      3204.7212,
      3194.2219,
@@ -117,31 +116,32 @@
      3488.5,
      3510.0,
      3580.0,
-     3617.5
+     3641.0,
+     3597.0
     ],
     "name": "Shell",
     "kind": "uk_stock",
     "symbol": "SHEL.L"
    },
    {
-    "price": 12362.8711,
-    "date": "2026-09-24",
-    "ret_1d": -0.005400555611423941,
-    "ret_20d": 0.010533847780774819,
-    "ret_60d": -0.10757270827325172,
-    "vol": 0.349,
-    "rsi": 53.7,
-    "score": -27.6,
+    "price": 12460.0,
+    "date": "2026-09-25",
+    "ret_1d": 0.004838709677419395,
+    "ret_20d": 0.02856199438665996,
+    "ret_60d": -0.1428791578946803,
+    "vol": 0.332,
+    "rsi": 56.0,
+    "score": -35.4,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -26.3
+      "contribution": -33.3
      },
      {
       "factor": "stretch",
-      "contribution": -1.3
+      "contribution": -2.1
      },
      {
       "factor": "trend",
@@ -149,7 +149,6 @@
      }
     ],
     "spark": [
-     13949.0791,
      14005.0752,
      13915.0811,
      13959.0781,
@@ -238,31 +237,32 @@
      12560.0,
      12672.0,
      12430.0,
-     12362.8711
+     12400.0,
+     12460.0
     ],
     "name": "AstraZeneca",
     "kind": "uk_stock",
     "symbol": "AZN.L"
    },
    {
-    "price": 1504.6,
-    "date": "2026-09-24",
-    "ret_1d": -0.006602403381217092,
-    "ret_20d": -0.011562196919260193,
-    "ret_60d": 0.0446212908888306,
-    "vol": 0.196,
-    "rsi": 44.7,
-    "score": 22.3,
+    "price": 1520.4,
+    "date": "2026-09-25",
+    "ret_1d": 0.013735147963245709,
+    "ret_20d": 0.01090427155190321,
+    "ret_60d": 0.05208511512473657,
+    "vol": 0.199,
+    "rsi": 48.7,
+    "score": 23.6,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 20.5
+      "contribution": 23.1
      },
      {
       "factor": "stretch",
-      "contribution": 1.9
+      "contribution": 0.5
      },
      {
       "factor": "trend",
@@ -270,7 +270,6 @@
      }
     ],
     "spark": [
-     1359.9344,
      1357.9346,
      1374.1337,
      1385.9332,
@@ -359,39 +358,39 @@
      1533.8,
      1509.4,
      1514.6,
-     1504.6
+     1499.8,
+     1520.4
     ],
     "name": "HSBC",
     "kind": "uk_stock",
     "symbol": "HSBA.L"
    },
    {
-    "price": 4700.0,
-    "date": "2026-09-24",
-    "ret_1d": 0.004917682274962587,
-    "ret_20d": -0.015088013411567514,
-    "ret_60d": 0.03044874556974797,
-    "vol": 0.254,
-    "rsi": 53.0,
-    "score": 45.6,
-    "direction": "up",
+    "price": 4684.5,
+    "date": "2026-09-25",
+    "ret_1d": -0.0050971647021343935,
+    "ret_20d": -0.014204545454545414,
+    "ret_60d": 0.010545901002513736,
+    "vol": 0.252,
+    "rsi": 51.3,
+    "score": 3.6,
+    "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
-      "factor": "trend",
-      "contribution": 35.3
-     },
-     {
       "factor": "momentum",
-      "contribution": 11.3
+      "contribution": 4.0
      },
      {
       "factor": "stretch",
-      "contribution": -1.0
+      "contribution": -0.5
+     },
+     {
+      "factor": "trend",
+      "contribution": 0.0
      }
     ],
     "spark": [
-     4282.6431,
      4269.144,
      4257.145,
      4235.147,
@@ -480,27 +479,28 @@
      4642.5,
      4698.0,
      4677.0,
-     4700.0
+     4708.5,
+     4684.5
     ],
     "name": "Unilever",
     "kind": "uk_stock",
     "symbol": "ULVR.L"
    },
    {
-    "price": 565.33,
-    "date": "2026-09-24",
-    "ret_1d": 0.014590819642322117,
-    "ret_20d": 0.0815573060785153,
-    "ret_60d": 0.2409970484278503,
-    "vol": 0.303,
-    "rsi": 58.3,
-    "score": 76.0,
+    "price": 553.357,
+    "date": "2026-09-25",
+    "ret_1d": -0.03225427344839349,
+    "ret_20d": 0.073645650789395,
+    "ret_60d": 0.1916964025525869,
+    "vol": 0.312,
+    "rsi": 51.6,
+    "score": 74.7,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 43.6
+      "contribution": 40.0
      },
      {
       "factor": "trend",
@@ -508,11 +508,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -2.9
+      "contribution": -0.6
      }
     ],
     "spark": [
-     563.632,
      565.1318,
      551.1335,
      528.9362,
@@ -601,21 +600,22 @@
      542.9,
      542.3,
      557.2,
-     565.33
+     571.8,
+     553.357
     ],
     "name": "BP",
     "kind": "uk_stock",
     "symbol": "BP.L"
    },
    {
-    "price": 1484.1023,
-    "date": "2026-09-24",
-    "ret_1d": -0.01270466795525882,
-    "ret_20d": -0.03817090413358715,
-    "ret_60d": 0.015851447875197655,
+    "price": 1495.8,
+    "date": "2026-09-25",
+    "ret_1d": 0.007951515382833563,
+    "ret_20d": -0.022225126758261715,
+    "ret_60d": 0.014003039958372598,
     "vol": 0.31,
-    "rsi": 51.3,
-    "score": 39.8,
+    "rsi": 53.1,
+    "score": 38.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -625,15 +625,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": 4.9
+      "contribution": 4.3
      },
      {
       "factor": "stretch",
-      "contribution": -0.4
+      "contribution": -1.1
      }
     ],
     "spark": [
-     1224.5532,
      1208.1538,
      1248.7523,
      1261.1517,
@@ -722,21 +721,22 @@
      1504.8,
      1481.8,
      1503.2,
-     1484.1023
+     1484.0,
+     1495.8
     ],
     "name": "Rolls-Royce",
     "kind": "uk_stock",
     "symbol": "RR.L"
    },
    {
-    "price": 1876.0,
-    "date": "2026-09-24",
-    "ret_1d": -0.005302226935312793,
-    "ret_20d": -0.012371676757041317,
-    "ret_60d": -0.027890859467084916,
-    "vol": 0.248,
-    "rsi": 50.7,
-    "score": -46.2,
+    "price": 1868.5,
+    "date": "2026-09-25",
+    "ret_1d": -0.0045285029302077895,
+    "ret_20d": 0.008909287257019338,
+    "ret_60d": -0.06752996827649849,
+    "vol": 0.235,
+    "rsi": 49.3,
+    "score": -60.0,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
@@ -746,15 +746,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": -10.6
+      "contribution": -24.9
      },
      {
       "factor": "stretch",
-      "contribution": -0.2
+      "contribution": 0.2
      }
     ],
     "spark": [
-     1898.3273,
      1914.3258,
      1914.8258,
      1924.825,
@@ -843,31 +842,32 @@
      1911.0,
      1906.0,
      1886.0,
-     1876.0
+     1877.0,
+     1868.5
     ],
     "name": "GSK",
     "kind": "uk_stock",
     "symbol": "GSK.L"
    },
    {
-    "price": 107.025,
-    "date": "2026-09-24",
-    "ret_1d": -0.004881464537255686,
-    "ret_20d": -0.04185313831771653,
-    "ret_60d": -0.04556890749401554,
-    "vol": 0.219,
-    "rsi": 39.5,
-    "score": -15.2,
+    "price": 109.2,
+    "date": "2026-09-25",
+    "ret_1d": 0.02056071914245039,
+    "ret_20d": -0.0009149688995729877,
+    "ret_60d": -0.04740746272123464,
+    "vol": 0.218,
+    "rsi": 46.6,
+    "score": -18.5,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -19.0
+      "contribution": -19.7
      },
      {
       "factor": "stretch",
-      "contribution": 3.7
+      "contribution": 1.2
      },
      {
       "factor": "trend",
@@ -875,7 +875,6 @@
      }
     ],
     "spark": [
-     99.8465,
      98.5067,
      99.5866,
      101.4863,
@@ -964,21 +963,22 @@
      110.0,
      108.3,
      107.55,
-     107.025
+     107.0,
+     109.2
     ],
     "name": "Lloyds",
     "kind": "uk_stock",
     "symbol": "LLOY.L"
    },
    {
-    "price": 476.7,
-    "date": "2026-09-24",
-    "ret_1d": 0.011887085610194692,
-    "ret_20d": 0.035404036765065205,
-    "ret_60d": 0.03788379028197508,
-    "vol": 0.221,
-    "rsi": 53.2,
-    "score": 50.0,
+    "price": 474.3,
+    "date": "2026-09-25",
+    "ret_1d": -0.005660402949750898,
+    "ret_20d": 0.042417555588942335,
+    "ret_60d": 0.0014780018590205835,
+    "vol": 0.213,
+    "rsi": 51.4,
+    "score": 35.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -988,15 +988,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": 15.9
+      "contribution": 0.7
      },
      {
       "factor": "stretch",
-      "contribution": -1.1
+      "contribution": -0.5
      }
     ],
     "spark": [
-     460.2,
      464.7,
      462.8,
      454.3,
@@ -1085,27 +1084,28 @@
      483.5,
      482.0,
      471.1,
-     476.7
+     477.0,
+     474.3
     ],
     "name": "Tesco",
     "kind": "uk_stock",
     "symbol": "TSCO.L"
    },
    {
-    "price": 337.02,
-    "date": "2026-09-23",
-    "ret_1d": -0.008035352424806796,
-    "ret_20d": 0.08751208664510779,
-    "ret_60d": 0.19724090185048926,
-    "vol": 0.287,
-    "rsi": 62.9,
-    "score": 72.5,
+    "price": 335.92,
+    "date": "2026-09-24",
+    "ret_1d": -0.0032638289175568325,
+    "ret_20d": 0.07168607543668526,
+    "ret_60d": 0.16190809850301546,
+    "vol": 0.283,
+    "rsi": 61.4,
+    "score": 70.1,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 41.7
+      "contribution": 38.8
      },
      {
       "factor": "trend",
@@ -1113,11 +1113,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -4.6
+      "contribution": -4.0
      }
     ],
     "spark": [
-     299.9713,
      297.5833,
      298.7124,
      301.9896,
@@ -1206,27 +1205,28 @@
      336.13,
      338.98,
      339.75,
-     337.02
+     337.02,
+     335.92
     ],
     "name": "Apple",
     "kind": "us_stock",
     "symbol": "AAPL"
    },
    {
-    "price": 500.59,
-    "date": "2026-09-23",
-    "ret_1d": 0.005200795859218177,
-    "ret_20d": 0.018059435515098254,
-    "ret_60d": 0.3607519746181731,
+    "price": 497.93,
+    "date": "2026-09-24",
+    "ret_1d": -0.005313737153296749,
+    "ret_20d": 0.0031428119627285866,
+    "ret_60d": 0.33737432123796496,
     "vol": 0.401,
-    "rsi": 56.3,
-    "score": 77.8,
+    "rsi": 54.5,
+    "score": 77.9,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 44.8
+      "contribution": 44.1
      },
      {
       "factor": "trend",
@@ -1234,11 +1234,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -2.2
+      "contribution": -1.6
      }
     ],
     "spark": [
-     420.2171,
      421.8306,
      415.7353,
      419.3605,
@@ -1327,21 +1326,22 @@
      493.78,
      501.61,
      498.0,
-     500.59
+     500.59,
+     497.93
     ],
     "name": "Microsoft",
     "kind": "us_stock",
     "symbol": "MSFT"
    },
    {
-    "price": 225.51,
-    "date": "2026-09-23",
-    "ret_1d": -0.014680826154739646,
-    "ret_20d": 0.05966828755963993,
-    "ret_60d": 0.15793371793690536,
-    "vol": 0.397,
-    "rsi": 55.9,
-    "score": 64.9,
+    "price": 224.58,
+    "date": "2026-09-24",
+    "ret_1d": -0.004123953254555612,
+    "ret_20d": 0.07236144181532578,
+    "ret_60d": 0.1236508986069409,
+    "vol": 0.394,
+    "rsi": 54.8,
+    "score": 60.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -1351,15 +1351,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": 31.6
+      "contribution": 26.7
      },
      {
       "factor": "stretch",
-      "contribution": -2.1
+      "contribution": -1.7
      }
     ],
     "spark": [
-     224.8062,
      221.813,
      220.1069,
      222.9604,
@@ -1448,31 +1447,32 @@
      222.27,
      227.38,
      228.87,
-     225.51
+     225.51,
+     224.58
     ],
     "name": "Nvidia",
     "kind": "us_stock",
     "symbol": "NVDA"
    },
    {
-    "price": 249.27,
-    "date": "2026-09-23",
-    "ret_1d": -0.022393880111205244,
-    "ret_20d": -0.04516200642148005,
-    "ret_60d": 0.03801950906145479,
-    "vol": 0.421,
-    "rsi": 44.1,
-    "score": 10.7,
+    "price": 249.38,
+    "date": "2026-09-24",
+    "ret_1d": 0.00044129100359535656,
+    "ret_20d": -0.04187795430922436,
+    "ret_60d": 0.046320419210171604,
+    "vol": 0.42,
+    "rsi": 44.2,
+    "score": 12.5,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 8.6
+      "contribution": 10.5
      },
      {
       "factor": "stretch",
-      "contribution": 2.1
+      "contribution": 2.0
      },
      {
       "factor": "trend",
@@ -1480,7 +1480,6 @@
      }
     ],
     "spark": [
-     264.14,
      264.86,
      259.34,
      265.01,
@@ -1569,31 +1568,32 @@
      253.71,
      258.45,
      254.98,
-     249.27
+     249.27,
+     249.38
     ],
     "name": "Amazon",
     "kind": "us_stock",
     "symbol": "AMZN"
    },
    {
-    "price": 337.83,
-    "date": "2026-09-23",
-    "ret_1d": -0.03795995258808027,
-    "ret_20d": -0.02568843788379427,
-    "ret_60d": -0.04411948958631151,
+    "price": 342.36,
+    "date": "2026-09-24",
+    "ret_1d": 0.013409108010984161,
+    "ret_20d": 0.0016960643716923407,
+    "ret_60d": -0.041385558198232975,
     "vol": 0.348,
-    "rsi": 45.1,
-    "score": -10.2,
+    "rsi": 48.6,
+    "score": -10.7,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -12.0
+      "contribution": -11.2
      },
      {
       "factor": "stretch",
-      "contribution": 1.7
+      "contribution": 0.5
      },
      {
       "factor": "trend",
@@ -1601,7 +1601,6 @@
      }
     ],
     "spark": [
-     396.2884,
      396.4482,
      387.1797,
      388.4282,
@@ -1690,39 +1689,39 @@
      349.54,
      354.97,
      351.16,
-     337.83
+     337.83,
+     342.36
     ],
     "name": "Alphabet",
     "kind": "us_stock",
     "symbol": "GOOGL"
    },
    {
-    "price": 507.17,
-    "date": "2026-09-23",
-    "ret_1d": 0.01027868680251709,
-    "ret_20d": 0.005651185878261966,
-    "ret_60d": 0.01706575563134871,
+    "price": 505.18,
+    "date": "2026-09-24",
+    "ret_1d": -0.003923774472594288,
+    "ret_20d": 0.0017052374267785275,
+    "ret_60d": 0.018508049749559108,
     "vol": 0.147,
-    "rsi": 49.6,
-    "score": 46.4,
-    "direction": "up",
+    "rsi": 47.5,
+    "score": 12.7,
+    "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
-      "factor": "trend",
-      "contribution": 35.3
-     },
-     {
       "factor": "momentum",
-      "contribution": 11.0
+      "contribution": 11.9
      },
      {
       "factor": "stretch",
-      "contribution": 0.1
+      "contribution": 0.9
+     },
+     {
+      "factor": "trend",
+      "contribution": 0.0
      }
     ],
     "spark": [
-     484.06,
      482.7,
      488.38,
      480.46,
@@ -1811,20 +1810,21 @@
      509.2,
      509.77,
      502.01,
-     507.17
+     507.17,
+     505.18
     ],
     "name": "Berkshire Hathaway",
     "kind": "us_stock",
     "symbol": "BRK-B"
    },
    {
-    "price": 88.09,
-    "date": "2026-09-23",
-    "ret_1d": 0.011133994039579598,
-    "ret_20d": -0.036681764542551676,
-    "ret_60d": 0.07243915816439084,
+    "price": 88.1,
+    "date": "2026-09-24",
+    "ret_1d": 0.00011354451863176962,
+    "ret_20d": -0.0328927791679009,
+    "ret_60d": 0.07230127436171885,
     "vol": 0.217,
-    "rsi": 52.0,
+    "rsi": 52.1,
     "score": 62.5,
     "direction": "up",
     "horizon_days": 20,
@@ -1843,7 +1843,6 @@
      }
     ],
     "spark": [
-     79.4598,
      79.8252,
      80.2005,
      80.9117,
@@ -1932,31 +1931,32 @@
      88.06,
      88.25,
      87.12,
-     88.09
+     88.09,
+     88.1
     ],
     "name": "Coca-Cola",
     "kind": "us_stock",
     "symbol": "KO"
    },
    {
-    "price": 337.53,
-    "date": "2026-09-23",
-    "ret_1d": -0.007264709472656228,
-    "ret_20d": -0.05371612192931252,
-    "ret_60d": 0.029328585470923096,
-    "vol": 0.191,
-    "rsi": 33.4,
-    "score": 20.2,
+    "price": 338.56,
+    "date": "2026-09-24",
+    "ret_1d": 0.0030515769947023763,
+    "ret_20d": -0.050322587493425774,
+    "ret_60d": 0.038967409719151025,
+    "vol": 0.19,
+    "rsi": 35.1,
+    "score": 23.9,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 14.4
+      "contribution": 18.7
      },
      {
       "factor": "stretch",
-      "contribution": 5.8
+      "contribution": 5.3
      },
      {
       "factor": "trend",
@@ -1964,7 +1964,6 @@
      }
     ],
     "spark": [
-     296.4744,
      299.3813,
      294.3739,
      300.6257,
@@ -2053,27 +2052,28 @@
      349.67,
      352.04,
      340.0,
-     337.53
+     337.53,
+     338.56
     ],
     "name": "JPMorgan",
     "kind": "us_stock",
     "symbol": "JPM"
    },
    {
-    "price": 83380.8828,
-    "date": "2026-09-24",
-    "ret_1d": -0.011875909925215478,
-    "ret_20d": 0.046552308430309663,
-    "ret_60d": 0.2761019128400908,
-    "vol": 0.366,
-    "rsi": 62.0,
-    "score": 56.6,
+    "price": 84635.3594,
+    "date": "2026-09-25",
+    "ret_1d": 0.003037446345175887,
+    "ret_20d": 0.0602763604048171,
+    "ret_60d": 0.3281364341130888,
+    "vol": 0.36,
+    "rsi": 66.0,
+    "score": 57.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 36.5
+      "contribution": 38.1
      },
      {
       "factor": "trend",
@@ -2085,11 +2085,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -3.6
+      "contribution": -4.8
      }
     ],
     "spark": [
-     59940.0977,
      59532.3398,
      60138.3789,
      58558.8594,
@@ -2178,27 +2177,28 @@
      86602.9141,
      86172.2812,
      84383.0078,
-     83380.8828
+     84379.0625,
+     84635.3594
     ],
     "name": "Bitcoin",
     "kind": "crypto",
     "symbol": "BTC-USD"
    },
    {
-    "price": 2643.1201,
-    "date": "2026-09-24",
-    "ret_1d": -0.015484747962487666,
-    "ret_20d": 0.0761547404716616,
-    "ret_60d": 0.35307918933131366,
-    "vol": 0.509,
-    "rsi": 59.7,
-    "score": 56.4,
+    "price": 2719.8401,
+    "date": "2026-09-25",
+    "ret_1d": 0.012108270714397795,
+    "ret_20d": 0.09638451296528827,
+    "ret_60d": 0.43860183552250387,
+    "vol": 0.501,
+    "rsi": 65.2,
+    "score": 57.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 35.6
+      "contribution": 37.8
      },
      {
       "factor": "trend",
@@ -2210,11 +2210,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -2.9
+      "contribution": -4.6
      }
     ],
     "spark": [
-     1571.5883,
      1570.3612,
      1610.2058,
      1569.5839,
@@ -2303,27 +2302,28 @@
      2776.4683,
      2752.6326,
      2684.6919,
-     2643.1201
+     2687.3015,
+     2719.8401
     ],
     "name": "Ethereum",
     "kind": "crypto",
     "symbol": "ETH-USD"
    },
    {
-    "price": 113.17,
-    "date": "2026-09-24",
-    "ret_1d": -0.015702072368842135,
-    "ret_20d": 0.1100595290346138,
-    "ret_60d": 0.4773733593654994,
-    "vol": 0.519,
-    "rsi": 61.0,
-    "score": 58.6,
+    "price": 121.03,
+    "date": "2026-09-25",
+    "ret_1d": 0.034363832080590795,
+    "ret_20d": 0.1729118997259076,
+    "ret_60d": 0.6324114625351926,
+    "vol": 0.514,
+    "rsi": 68.9,
+    "score": 57.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 38.2
+      "contribution": 39.5
      },
      {
       "factor": "trend",
@@ -2335,11 +2335,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -3.3
+      "contribution": -5.7
      }
     ],
     "spark": [
-     70.4107,
      71.3129,
      74.9468,
      73.5233,
@@ -2428,27 +2427,28 @@
      118.7501,
      118.5074,
      114.9753,
-     113.17
+     117.0091,
+     121.03
     ],
     "name": "Solana",
     "kind": "crypto",
     "symbol": "SOL-USD"
    },
    {
-    "price": 1.4669,
-    "date": "2026-09-24",
-    "ret_1d": -0.02242964178034479,
-    "ret_20d": 0.04856536068597683,
-    "ret_60d": 0.31955218275572683,
-    "vol": 0.671,
-    "rsi": 56.7,
-    "score": 51.8,
+    "price": 1.6095,
+    "date": "2026-09-25",
+    "ret_1d": 0.049824146321208795,
+    "ret_20d": 0.13949087333089016,
+    "ret_60d": 0.5108916191654718,
+    "vol": 0.667,
+    "rsi": 66.5,
+    "score": 55.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 30.1
+      "contribution": 36.7
      },
      {
       "factor": "trend",
@@ -2460,11 +2460,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -2.0
+      "contribution": -4.9
      }
     ],
     "spark": [
-     1.0464,
      1.0476,
      1.0573,
      1.0384,
@@ -2553,21 +2552,22 @@
      1.533,
      1.5718,
      1.5006,
-     1.4669
+     1.5331,
+     1.6095
     ],
     "name": "XRP",
     "kind": "crypto",
     "symbol": "XRP-USD"
    },
    {
-    "price": 4294.2002,
-    "date": "2026-09-24",
-    "ret_1d": -0.005603859665269995,
-    "ret_20d": -0.0771709592004498,
-    "ret_60d": 0.06331563583323008,
-    "vol": 0.216,
-    "rsi": 40.0,
-    "score": -6.4,
+    "price": 4339.8999,
+    "date": "2026-09-25",
+    "ret_1d": 0.009748697613715773,
+    "ret_20d": -0.06948972934310682,
+    "ret_60d": 0.06307564328819582,
+    "vol": 0.215,
+    "rsi": 44.7,
+    "score": -8.1,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
@@ -2581,11 +2581,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": 3.5
+      "contribution": 1.9
      }
     ],
     "spark": [
-     4558.0,
      4511.2002,
      4535.2998,
      4542.5,
@@ -2674,31 +2673,32 @@
      4383.8999,
      4376.3999,
      4318.3999,
-     4294.2002
+     4298.0,
+     4339.8999
     ],
     "name": "Gold",
     "kind": "commodity",
     "symbol": "GC=F"
    },
    {
-    "price": 63.935,
-    "date": "2026-09-24",
-    "ret_1d": -0.006942971399074627,
-    "ret_20d": -0.059641073950369106,
-    "ret_60d": 0.07495334488789074,
-    "vol": 0.36,
-    "rsi": 45.9,
-    "score": 20.4,
+    "price": 65.23,
+    "date": "2026-09-25",
+    "ret_1d": 0.027940221000798626,
+    "ret_20d": -0.06047901375332709,
+    "ret_60d": 0.08562876509705264,
+    "vol": 0.365,
+    "rsi": 50.6,
+    "score": 20.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 18.9
+      "contribution": 21.0
      },
      {
       "factor": "stretch",
-      "contribution": 1.5
+      "contribution": -0.2
      },
      {
       "factor": "trend",
@@ -2706,7 +2706,6 @@
      }
     ],
     "spark": [
-     77.073,
      74.828,
      75.851,
      76.414,
@@ -2795,27 +2794,28 @@
      65.825,
      65.932,
      64.382,
-     63.935
+     63.457,
+     65.23
     ],
     "name": "Silver",
     "kind": "commodity",
     "symbol": "SI=F"
    },
    {
-    "price": 93.61,
-    "date": "2026-09-24",
-    "ret_1d": 0.015733473205560955,
-    "ret_20d": 0.13839227518964226,
-    "ret_60d": 0.3469064836021807,
-    "vol": 0.508,
-    "rsi": 51.0,
-    "score": 76.6,
+    "price": 92.34,
+    "date": "2026-09-25",
+    "ret_1d": -0.02399328039125459,
+    "ret_20d": 0.10547106054522448,
+    "ret_60d": 0.34645660356452246,
+    "vol": 0.511,
+    "rsi": 48.8,
+    "score": 77.3,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 41.7
+      "contribution": 41.5
      },
      {
       "factor": "trend",
@@ -2823,11 +2823,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -0.4
+      "contribution": 0.4
      }
     ],
     "spark": [
-     108.66,
      107.77,
      98.26,
      96.35,
@@ -2916,39 +2915,39 @@
      95.78,
      94.59,
      92.16,
-     93.61
+     94.61,
+     92.34
     ],
     "name": "Crude oil",
     "kind": "commodity",
     "symbol": "CL=F"
    },
    {
-    "price": 6.774,
-    "date": "2026-09-24",
-    "ret_1d": 0.014375590735763666,
-    "ret_20d": 0.02721966809183929,
-    "ret_60d": 0.09390392291631988,
-    "vol": 0.223,
-    "rsi": 59.7,
-    "score": 64.7,
+    "price": 6.775,
+    "date": "2026-09-25",
+    "ret_1d": 0.008409608823910952,
+    "ret_20d": 0.028541096891980144,
+    "ret_60d": 0.10639344147404861,
+    "vol": 0.22,
+    "rsi": 59.9,
+    "score": 67.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
+     {
+      "factor": "momentum",
+      "contribution": 35.6
+     },
      {
       "factor": "trend",
       "contribution": 35.3
      },
      {
-      "factor": "momentum",
-      "contribution": 32.9
-     },
-     {
       "factor": "stretch",
-      "contribution": -3.4
+      "contribution": -3.5
      }
     ],
     "spark": [
-     6.272,
      6.165,
      6.2905,
      6.257,
@@ -3037,7 +3036,8 @@
      6.6865,
      6.7595,
      6.678,
-     6.774
+     6.7185,
+     6.775
     ],
     "name": "Copper",
     "kind": "commodity",
@@ -3045,7 +3045,7 @@
    }
   ],
   "fear_greed": {
-   "Date": "2026-09-24",
+   "Date": "2026-09-25",
    "value": 71,
    "label": "Greed"
   },
@@ -3467,26 +3467,26 @@
      {
       "id": "stick-on-jewellery",
       "name": "Stick-on jewellery",
-      "stage": "emerging",
-      "momentum": 2.738,
-      "wiki_momentum": 0.075,
+      "stage": "rising",
+      "momentum": 5.39,
+      "wiki_momentum": 0.062,
       "items": [
        {
         "id": "face-gems",
         "name": "Face gems",
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
-        "stage": "emerging",
-        "position": "lagging",
-        "level": 16.8,
-        "momentum": 2.173,
+        "stage": "rising",
+        "position": "leading",
+        "level": 54.6,
+        "momentum": 8.417,
         "saturation": null,
         "evidence": [
          "search interest rising",
          "sibling items rising"
         ],
         "confidence": 2,
-        "quiet_child": true,
+        "quiet_child": false,
         "flags": [
          "skin-contact adhesive"
         ],
@@ -3508,8 +3508,8 @@
         "trend": "Stick-on jewellery",
         "stage": "emerging",
         "position": "lagging",
-        "level": 3.9,
-        "momentum": 0.771,
+        "level": 21.8,
+        "momentum": 3.885,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3536,8 +3536,8 @@
         "trend": "Stick-on jewellery",
         "stage": "rising",
         "position": "leading",
-        "level": 25.8,
-        "momentum": 3.798,
+        "level": 44.6,
+        "momentum": 6.889,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3565,17 +3565,17 @@
         "name": "DIY tooth gems",
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
-        "stage": "rising",
-        "position": "leading",
-        "level": 32.4,
-        "momentum": 4.21,
+        "stage": "emerging",
+        "position": "lagging",
+        "level": 18.9,
+        "momentum": 2.368,
         "saturation": null,
         "evidence": [
          "search interest rising",
          "sibling items rising"
         ],
         "confidence": 2,
-        "quiet_child": false,
+        "quiet_child": true,
         "flags": [
          "cosmetic/dental safety",
          "marketplace restrictions likely"
@@ -3596,8 +3596,8 @@
      {
       "id": "phone-bag-charms",
       "name": "Phone and bag charms",
-      "stage": "steady",
-      "momentum": 0.16,
+      "stage": "peak",
+      "momentum": 0.214,
       "wiki_momentum": null,
       "items": [
        {
@@ -3607,8 +3607,8 @@
         "trend": "Phone and bag charms",
         "stage": "rising",
         "position": "leading",
-        "level": 44.1,
-        "momentum": 0.465,
+        "level": 47.9,
+        "momentum": 0.573,
         "saturation": null,
         "evidence": [
          "search interest rising"
@@ -3634,8 +3634,8 @@
         "trend": "Phone and bag charms",
         "stage": "peak",
         "position": "lagging",
-        "level": 53.0,
-        "momentum": -0.146,
+        "level": 54.6,
+        "momentum": -0.145,
         "saturation": null,
         "evidence": [
          "sibling items rising"
@@ -3666,18 +3666,18 @@
       "id": "fidget",
       "name": "Fidget gadgets",
       "stage": "emerging",
-      "momentum": 2.628,
-      "wiki_momentum": 0.227,
+      "momentum": 1.188,
+      "wiki_momentum": 0.241,
       "items": [
        {
         "id": "magnetic-slider",
         "name": "Magnetic fidget sliders",
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
-        "stage": "rising",
+        "stage": "emerging",
         "position": "leading",
-        "level": 34.1,
-        "momentum": 6.191,
+        "level": 16.3,
+        "momentum": 2.07,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3685,7 +3685,7 @@
          "sibling items rising"
         ],
         "confidence": 3,
-        "quiet_child": false,
+        "quiet_child": true,
         "flags": [
          "small magnets - keep away from young children"
         ],
@@ -3732,9 +3732,9 @@
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
         "stage": "rising",
-        "position": "lagging",
-        "level": 31.8,
-        "momentum": 1.943,
+        "position": "leading",
+        "level": 35.2,
+        "momentum": 1.745,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3770,7 +3770,7 @@
       "name": "Personal heating",
       "stage": "steady",
       "momentum": -0.164,
-      "wiki_momentum": 0.175,
+      "wiki_momentum": 0.185,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -3852,7 +3852,7 @@
       "name": "Stargazing kit",
       "stage": "emerging",
       "momentum": 3.635,
-      "wiki_momentum": 0.095,
+      "wiki_momentum": 0.079,
       "items": [
        {
         "id": "red-torch",
@@ -3922,17 +3922,17 @@
     "name": "Face gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 16.8,
-    "momentum": 2.173,
+    "stage": "rising",
+    "position": "leading",
+    "level": 54.6,
+    "momentum": 8.417,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": true,
+    "quiet_child": false,
     "flags": [
      "skin-contact adhesive"
     ],
@@ -3954,8 +3954,8 @@
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 3.9,
-    "momentum": 0.771,
+    "level": 21.8,
+    "momentum": 3.885,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -3982,8 +3982,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 25.8,
-    "momentum": 3.798,
+    "level": 44.6,
+    "momentum": 6.889,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4011,17 +4011,17 @@
     "name": "DIY tooth gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "rising",
-    "position": "leading",
-    "level": 32.4,
-    "momentum": 4.21,
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 18.9,
+    "momentum": 2.368,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
      "cosmetic/dental safety",
      "marketplace restrictions likely"
@@ -4044,8 +4044,8 @@
     "trend": "Phone and bag charms",
     "stage": "rising",
     "position": "leading",
-    "level": 44.1,
-    "momentum": 0.465,
+    "level": 47.9,
+    "momentum": 0.573,
     "saturation": null,
     "evidence": [
      "search interest rising"
@@ -4071,8 +4071,8 @@
     "trend": "Phone and bag charms",
     "stage": "peak",
     "position": "lagging",
-    "level": 53.0,
-    "momentum": -0.146,
+    "level": 54.6,
+    "momentum": -0.145,
     "saturation": null,
     "evidence": [
      "sibling items rising"
@@ -4096,10 +4096,10 @@
     "name": "Magnetic fidget sliders",
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
-    "stage": "rising",
+    "stage": "emerging",
     "position": "leading",
-    "level": 34.1,
-    "momentum": 6.191,
+    "level": 16.3,
+    "momentum": 2.07,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4107,7 +4107,7 @@
      "sibling items rising"
     ],
     "confidence": 3,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
      "small magnets - keep away from young children"
     ],
@@ -4154,9 +4154,9 @@
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
     "stage": "rising",
-    "position": "lagging",
-    "level": 31.8,
-    "momentum": 1.943,
+    "position": "leading",
+    "level": 35.2,
+    "momentum": 1.745,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4301,10 +4301,10 @@
     "name": "Magnetic fidget sliders",
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
-    "stage": "rising",
+    "stage": "emerging",
     "position": "leading",
-    "level": 34.1,
-    "momentum": 6.191,
+    "level": 16.3,
+    "momentum": 2.07,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4312,7 +4312,7 @@
      "sibling items rising"
     ],
     "confidence": 3,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
      "small magnets - keep away from young children"
     ],
@@ -4333,9 +4333,9 @@
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
     "stage": "rising",
-    "position": "lagging",
-    "level": 31.8,
-    "momentum": 1.943,
+    "position": "leading",
+    "level": 35.2,
+    "momentum": 1.745,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4359,14 +4359,14 @@
     "pick": true
    },
    {
-    "id": "tooth-gems",
-    "name": "DIY tooth gems",
+    "id": "face-gems",
+    "name": "Face gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 32.4,
-    "momentum": 4.21,
+    "level": 54.6,
+    "momentum": 8.417,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4375,15 +4375,14 @@
     "confidence": 2,
     "quiet_child": false,
     "flags": [
-     "cosmetic/dental safety",
-     "marketplace restrictions likely"
+     "skin-contact adhesive"
     ],
     "attributes": {
-     "material": "crystal",
-     "use": "everyday",
+     "material": "acrylic",
+     "use": "festival",
      "aesthetic": "sparkle",
-     "audience": "20s",
-     "price_band": "5-15"
+     "audience": "teens-20s",
+     "price_band": "under-5"
     },
     "margins": null,
     "timing": "enough evidence",
@@ -4396,8 +4395,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 25.8,
-    "momentum": 3.798,
+    "level": 44.6,
+    "momentum": 6.889,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4421,76 +4420,14 @@
     "pick": true
    },
    {
-    "id": "face-gems",
-    "name": "Face gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 16.8,
-    "momentum": 2.173,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "skin-contact adhesive"
-    ],
-    "attributes": {
-     "material": "acrylic",
-     "use": "festival",
-     "aesthetic": "sparkle",
-     "audience": "teens-20s",
-     "price_band": "under-5"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   }
-  ],
-  "quiet_children": [
-   {
-    "id": "face-gems",
-    "name": "Face gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 16.8,
-    "momentum": 2.173,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "skin-contact adhesive"
-    ],
-    "attributes": {
-     "material": "acrylic",
-     "use": "festival",
-     "aesthetic": "sparkle",
-     "audience": "teens-20s",
-     "price_band": "under-5"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
     "id": "nail-charms-3d",
     "name": "3D nail charms",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 3.9,
-    "momentum": 0.771,
+    "level": 21.8,
+    "momentum": 3.885,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4508,6 +4445,98 @@
     },
     "margins": null,
     "timing": "enough evidence",
+    "pick": true
+   }
+  ],
+  "quiet_children": [
+   {
+    "id": "nail-charms-3d",
+    "name": "3D nail charms",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 21.8,
+    "momentum": 3.885,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [],
+    "attributes": {
+     "material": "resin",
+     "use": "everyday",
+     "aesthetic": "cute",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "tooth-gems",
+    "name": "DIY tooth gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 18.9,
+    "momentum": 2.368,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "cosmetic/dental safety",
+     "marketplace restrictions likely"
+    ],
+    "attributes": {
+     "material": "crystal",
+     "use": "everyday",
+     "aesthetic": "sparkle",
+     "audience": "20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 16.3,
+    "momentum": 2.07,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "parent topic attention rising",
+     "sibling items rising"
+    ],
+    "confidence": 3,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "strong evidence, later",
     "pick": true
    },
    {
@@ -4550,9 +4579,9 @@
     "date": "2026-12-11",
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
-    "status": "planning",
-    "days_away": 78,
-    "bucket": "calendar"
+    "status": "buy now",
+    "days_away": 77,
+    "bucket": "now"
    },
    {
     "id": "geminids-2026",
@@ -4566,7 +4595,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "planning",
-    "days_away": 81,
+    "days_away": 80,
     "bucket": "calendar"
    },
    {
@@ -4582,7 +4611,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 135,
+    "days_away": 134,
     "bucket": "calendar"
    },
    {
@@ -4598,7 +4627,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 161,
+    "days_away": 160,
     "bucket": "calendar"
    },
    {
@@ -4614,7 +4643,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 272,
+    "days_away": 271,
     "bucket": "calendar"
    },
    {
@@ -4629,7 +4658,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 312,
+    "days_away": 311,
     "bucket": "calendar"
    },
    {
@@ -4645,21 +4674,11 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 624,
+    "days_away": 623,
     "bucket": "planning"
    }
   ],
-  "weather_triggers": [
-   {
-    "id": "first-cold-snap",
-    "name": "First cold snap (London min below 3\u00b0C in forecast)",
-    "items": [
-     "rechargeable-hand-warmer"
-    ],
-    "triggered": false,
-    "first_date": null
-   }
-  ],
+  "weather_triggers": [],
   "graded": 0,
   "issued": 0,
   "scoreboard": {
@@ -4779,17 +4798,17 @@
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "107 days stored"
+   "detail": "108 days stored"
   },
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 3 items this run (rotating)"
+   "detail": "refreshed 8 items this run (rotating)"
   },
   {
    "source": "Google Trends",
    "status": "failed",
-   "detail": "keycap-keychain: empty"
+   "detail": "keycap-keychain: empty; rechargeable-hand-warmer: empty"
   },
   {
    "source": "Wikipedia pageviews",
@@ -4800,6 +4819,11 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
+  },
+  {
+   "source": "weather trigger",
+   "status": "failed",
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   }
  ]
 }

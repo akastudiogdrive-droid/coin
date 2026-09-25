@@ -44,3 +44,11 @@ Google Trends,ok,refreshed 3 items this run (rotating),2026-09-24
 Google Trends,failed,keycap-keychain: empty,2026-09-24
 Wikipedia pageviews,ok,4 trends,2026-09-24
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-09-24
+prices (Yahoo Finance),ok,25/25 assets,2026-09-25
+crypto fear & greed (alternative.me),ok,latest 71 (Greed),2026-09-25
+"weather, London (Open-Meteo)",ok,108 days stored,2026-09-25
+Google Trends,ok,refreshed 8 items this run (rotating),2026-09-25
+Google Trends,failed,keycap-keychain: empty; rechargeable-hand-warmer: empty,2026-09-25
+Wikipedia pageviews,ok,4 trends,2026-09-25
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-09-25
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-09-25
