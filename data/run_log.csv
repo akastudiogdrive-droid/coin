@@ -90,3 +90,9 @@ Google Trends,failed,tooth-gems: The request failed: Google returned a response 
 Wikipedia pageviews,ok,4 trends,2026-09-30
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-09-30
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-09-30
+prices (Yahoo Finance),ok,25/25 assets,2026-10-01
+crypto fear & greed (alternative.me),ok,latest 74 (Greed),2026-10-01
+"weather, London (Open-Meteo)",ok,114 days stored,2026-10-01
+Google Trends,failed,tooth-gems: The request failed: Google returned a response with code 429,2026-10-01
+Wikipedia pageviews,ok,4 trends,2026-10-01
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-01
