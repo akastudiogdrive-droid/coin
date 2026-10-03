@@ -104,3 +104,10 @@ Google Trends,failed,rechargeable-hand-warmer: empty,2026-10-02
 Wikipedia pageviews,ok,4 trends,2026-10-02
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-02
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-02
+prices (Yahoo Finance),ok,25/25 assets,2026-10-03
+crypto fear & greed (alternative.me),ok,latest 67 (Greed),2026-10-03
+"weather, London (Open-Meteo)",ok,116 days stored,2026-10-03
+Google Trends,ok,refreshed 4 items this run (rotating),2026-10-03
+Wikipedia pageviews,ok,4 trends,2026-10-03
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-03
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-03
