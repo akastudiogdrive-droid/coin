@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T11:54Z",
+ "generated": "2026-10-04T12:42Z",
  "markets": {
   "assets": [
    {
@@ -2060,36 +2060,35 @@
     "symbol": "JPM"
    },
    {
-    "price": 84675.7812,
-    "date": "2026-10-03",
-    "ret_1d": 0.0021133278899829744,
-    "ret_20d": 0.1020017317242694,
-    "ret_60d": 0.32190338476054015,
+    "price": 85237.9375,
+    "date": "2026-10-04",
+    "ret_1d": 0.005596264167853748,
+    "ret_20d": 0.09050983251928324,
+    "ret_60d": 0.3195237818801038,
     "vol": 0.355,
-    "rsi": 63.5,
+    "rsi": 65.2,
     "score": 59.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 38.1
+      "contribution": 38.0
      },
      {
       "factor": "trend",
       "contribution": 30.0
      },
      {
-      "factor": "crowd",
-      "contribution": -5.1
+      "factor": "stretch",
+      "contribution": -4.6
      },
      {
-      "factor": "stretch",
-      "contribution": -4.0
+      "factor": "crowd",
+      "contribution": -4.5
      }
     ],
     "spark": [
-     63995.0156,
      63297.3945,
      62257.5742,
      63193.1484,
@@ -2178,27 +2177,28 @@
      83553.8516,
      84853.1016,
      84497.2109,
-     84675.7812
+     84763.5781,
+     85237.9375
     ],
     "name": "Bitcoin",
     "kind": "crypto",
     "symbol": "BTC-USD"
    },
    {
-    "price": 2685.0701,
-    "date": "2026-10-03",
-    "ret_1d": 0.006341074598945395,
-    "ret_20d": 0.08399175349750454,
-    "ret_60d": 0.43710682023703806,
-    "vol": 0.494,
-    "rsi": 60.4,
-    "score": 59.7,
+    "price": 2700.9299,
+    "date": "2026-10-04",
+    "ret_1d": 0.005088671770450137,
+    "ret_20d": 0.07418168598907204,
+    "ret_60d": 0.41667615876056874,
+    "vol": 0.493,
+    "rsi": 61.8,
+    "score": 59.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.9
+      "contribution": 37.6
      },
      {
       "factor": "trend",
@@ -2206,15 +2206,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -5.1
+      "contribution": -4.5
      },
      {
       "factor": "stretch",
-      "contribution": -3.1
+      "contribution": -3.5
      }
     ],
     "spark": [
-     1797.5737,
      1768.5115,
      1742.6776,
      1744.4846,
@@ -2303,43 +2302,43 @@
      2683.6794,
      2705.5371,
      2668.1511,
-     2685.0701
+     2687.2554,
+     2700.9299
     ],
     "name": "Ethereum",
     "kind": "crypto",
     "symbol": "ETH-USD"
    },
    {
-    "price": 119.39,
-    "date": "2026-10-03",
-    "ret_1d": 0.006532526530308669,
-    "ret_20d": 0.20297313831386066,
-    "ret_60d": 0.6195554821433413,
+    "price": 121.47,
+    "date": "2026-10-04",
+    "ret_1d": 0.015252978918598892,
+    "ret_20d": 0.18513034463004652,
+    "ret_60d": 0.6423436286976238,
     "vol": 0.515,
-    "rsi": 63.4,
-    "score": 60.3,
+    "rsi": 66.0,
+    "score": 60.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 39.4
+      "contribution": 39.5
      },
      {
       "factor": "trend",
       "contribution": 30.0
      },
      {
-      "factor": "crowd",
-      "contribution": -5.1
+      "factor": "stretch",
+      "contribution": -4.8
      },
      {
-      "factor": "stretch",
-      "contribution": -4.0
+      "factor": "crowd",
+      "contribution": -4.5
      }
     ],
     "spark": [
-     81.9152,
      80.6487,
      77.787,
      78.0455,
@@ -2428,27 +2427,28 @@
      117.9948,
      118.3978,
      118.6151,
-     119.39
+     119.6451,
+     121.47
     ],
     "name": "Solana",
     "kind": "crypto",
     "symbol": "SOL-USD"
    },
    {
-    "price": 1.4857,
-    "date": "2026-10-03",
-    "ret_1d": 0.0004794901365356985,
-    "ret_20d": 0.10822437414174102,
-    "ret_60d": 0.38435285741102976,
-    "vol": 0.664,
-    "rsi": 55.2,
-    "score": 56.5,
+    "price": 1.5,
+    "date": "2026-10-04",
+    "ret_1d": 0.009080343100943411,
+    "ret_20d": 0.0555849964107511,
+    "ret_60d": 0.41374187384858097,
+    "vol": 0.663,
+    "rsi": 56.8,
+    "score": 57.7,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 33.2
+      "contribution": 34.2
      },
      {
       "factor": "trend",
@@ -2456,15 +2456,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -5.1
+      "contribution": -4.5
      },
      {
       "factor": "stretch",
-      "contribution": -1.6
+      "contribution": -2.0
      }
     ],
     "spark": [
-     1.1438,
      1.1118,
      1.09,
      1.0933,
@@ -2553,7 +2552,8 @@
      1.4884,
      1.494,
      1.485,
-     1.4857
+     1.4865,
+     1.5
     ],
     "name": "XRP",
     "kind": "crypto",
@@ -3045,8 +3045,8 @@
    }
   ],
   "fear_greed": {
-   "Date": "2026-10-03",
-   "value": 67,
+   "Date": "2026-10-04",
+   "value": 65,
    "label": "Greed"
   },
   "graded": 0,
@@ -3468,7 +3468,7 @@
       "id": "stick-on-jewellery",
       "name": "Stick-on jewellery",
       "stage": "emerging",
-      "momentum": 3.44,
+      "momentum": 2.999,
       "wiki_momentum": 0.019,
       "items": [
        {
@@ -3564,8 +3564,8 @@
         "trend": "Stick-on jewellery",
         "stage": "rising",
         "position": "leading",
-        "level": 28.7,
-        "momentum": 5.056,
+        "level": 32.1,
+        "momentum": 3.294,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3593,8 +3593,8 @@
      {
       "id": "phone-bag-charms",
       "name": "Phone and bag charms",
-      "stage": "peak",
-      "momentum": 0.053,
+      "stage": "steady",
+      "momentum": -0.133,
       "wiki_momentum": null,
       "items": [
        {
@@ -3602,15 +3602,13 @@
         "name": "Beaded phone straps",
         "wave": "Temporary self-adornment",
         "trend": "Phone and bag charms",
-        "stage": "rising",
-        "position": "leading",
-        "level": 43.7,
-        "momentum": 0.26,
+        "stage": "steady",
+        "position": "in step",
+        "level": 26.3,
+        "momentum": -0.067,
         "saturation": null,
-        "evidence": [
-         "search interest rising"
-        ],
-        "confidence": 1,
+        "evidence": [],
+        "confidence": 0,
         "quiet_child": false,
         "flags": [],
         "attributes": {
@@ -3620,9 +3618,7 @@
          "audience": "teens-20s",
          "price_band": "under-5"
         },
-        "margins": null,
-        "timing": "thin evidence, early",
-        "pick": false
+        "margins": null
        },
        {
         "id": "plush-bag-charm",
@@ -3630,14 +3626,12 @@
         "wave": "Temporary self-adornment",
         "trend": "Phone and bag charms",
         "stage": "peak",
-        "position": "lagging",
-        "level": 58.5,
-        "momentum": -0.155,
+        "position": "in step",
+        "level": 54.4,
+        "momentum": -0.199,
         "saturation": null,
-        "evidence": [
-         "sibling items rising"
-        ],
-        "confidence": 1,
+        "evidence": [],
+        "confidence": 0,
         "quiet_child": false,
         "flags": [
          "branded look-alikes are common - avoid"
@@ -3664,7 +3658,7 @@
       "name": "Fidget gadgets",
       "stage": "emerging",
       "momentum": 0.651,
-      "wiki_momentum": 0.135,
+      "wiki_momentum": 0.12,
       "items": [
        {
         "id": "magnetic-slider",
@@ -3764,7 +3758,7 @@
       "name": "Personal heating",
       "stage": "emerging",
       "momentum": 2.557,
-      "wiki_momentum": 0.307,
+      "wiki_momentum": 0.316,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -3849,7 +3843,7 @@
       "name": "Stargazing kit",
       "stage": "emerging",
       "momentum": 3.755,
-      "wiki_momentum": 0.025,
+      "wiki_momentum": 0.023,
       "items": [
        {
         "id": "red-torch",
@@ -4007,8 +4001,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 28.7,
-    "momentum": 5.056,
+    "level": 32.1,
+    "momentum": 3.294,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4036,15 +4030,13 @@
     "name": "Beaded phone straps",
     "wave": "Temporary self-adornment",
     "trend": "Phone and bag charms",
-    "stage": "rising",
-    "position": "leading",
-    "level": 43.7,
-    "momentum": 0.26,
+    "stage": "steady",
+    "position": "in step",
+    "level": 26.3,
+    "momentum": -0.067,
     "saturation": null,
-    "evidence": [
-     "search interest rising"
-    ],
-    "confidence": 1,
+    "evidence": [],
+    "confidence": 0,
     "quiet_child": false,
     "flags": [],
     "attributes": {
@@ -4054,9 +4046,7 @@
      "audience": "teens-20s",
      "price_band": "under-5"
     },
-    "margins": null,
-    "timing": "thin evidence, early",
-    "pick": false
+    "margins": null
    },
    {
     "id": "plush-bag-charm",
@@ -4064,14 +4054,12 @@
     "wave": "Temporary self-adornment",
     "trend": "Phone and bag charms",
     "stage": "peak",
-    "position": "lagging",
-    "level": 58.5,
-    "momentum": -0.155,
+    "position": "in step",
+    "level": 54.4,
+    "momentum": -0.199,
     "saturation": null,
-    "evidence": [
-     "sibling items rising"
-    ],
-    "confidence": 1,
+    "evidence": [],
+    "confidence": 0,
     "quiet_child": false,
     "flags": [
      "branded look-alikes are common - avoid"
@@ -4325,8 +4313,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 28.7,
-    "momentum": 5.056,
+    "level": 32.1,
+    "momentum": 3.294,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4601,7 +4589,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "buy now",
-    "days_away": 69,
+    "days_away": 68,
     "bucket": "now"
    },
    {
@@ -4616,7 +4604,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "planning",
-    "days_away": 72,
+    "days_away": 71,
     "bucket": "calendar"
    },
    {
@@ -4632,7 +4620,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 126,
+    "days_away": 125,
     "bucket": "calendar"
    },
    {
@@ -4648,7 +4636,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 152,
+    "days_away": 151,
     "bucket": "calendar"
    },
    {
@@ -4664,7 +4652,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 263,
+    "days_away": 262,
     "bucket": "calendar"
    },
    {
@@ -4679,7 +4667,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 303,
+    "days_away": 302,
     "bucket": "calendar"
    },
    {
@@ -4695,7 +4683,7 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 615,
+    "days_away": 614,
     "bucket": "planning"
    }
   ],
@@ -4830,17 +4818,22 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 67 (Greed)"
+   "detail": "latest 65 (Greed)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "116 days stored"
+   "detail": "117 days stored"
   },
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 4 items this run (rotating)"
+   "detail": "refreshed 3 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
+   "status": "failed",
+   "detail": "magnetic-slider: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
