@@ -119,3 +119,9 @@ Google Trends,failed,magnetic-slider: The request failed: Google returned a resp
 Wikipedia pageviews,ok,4 trends,2026-10-04
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-04
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-04
+prices (Yahoo Finance),ok,25/25 assets,2026-10-05
+crypto fear & greed (alternative.me),ok,latest 70 (Greed),2026-10-05
+"weather, London (Open-Meteo)",ok,118 days stored,2026-10-05
+Google Trends,failed,magnetic-slider: The request failed: Google returned a response with code 429,2026-10-05
+Wikipedia pageviews,ok,4 trends,2026-10-05
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-05
