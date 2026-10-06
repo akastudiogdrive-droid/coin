@@ -1,22 +1,22 @@
 {
- "generated": "2026-10-05T15:05Z",
+ "generated": "2026-10-06T13:31Z",
  "markets": {
   "assets": [
    {
-    "price": 3603.0,
-    "date": "2026-10-05",
-    "ret_1d": 0.0018073126650910432,
-    "ret_20d": 0.034601579325197473,
-    "ret_60d": 0.18588565188809003,
-    "vol": 0.197,
-    "rsi": 58.4,
-    "score": 77.4,
+    "price": 3611.0,
+    "date": "2026-10-06",
+    "ret_1d": -0.005645050254715733,
+    "ret_20d": 0.031566919011569716,
+    "ret_60d": 0.16156777521966714,
+    "vol": 0.194,
+    "rsi": 58.2,
+    "score": 76.5,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 45.1
+      "contribution": 44.1
      },
      {
       "factor": "trend",
@@ -24,11 +24,10 @@
      },
      {
       "factor": "stretch",
-      "contribution": -3.0
+      "contribution": -2.9
      }
     ],
     "spark": [
-     3195.7219,
      3214.7202,
      3268.2156,
      3229.219,
@@ -117,21 +116,22 @@
      3569.5,
      3589.0,
      3596.5,
-     3603.0
+     3631.5,
+     3611.0
     ],
     "name": "Shell",
     "kind": "uk_stock",
     "symbol": "SHEL.L"
    },
    {
-    "price": 11754.0,
-    "date": "2026-10-05",
-    "ret_1d": -0.009772535804549287,
-    "ret_20d": -0.02391629297458897,
-    "ret_60d": -0.0840909789616554,
-    "vol": 0.297,
-    "rsi": 38.0,
-    "score": -55.7,
+    "price": 12066.0,
+    "date": "2026-10-06",
+    "ret_1d": 0.025671540292417472,
+    "ret_20d": 0.015998652745031983,
+    "ret_60d": -0.04307715113330168,
+    "vol": 0.3,
+    "rsi": 46.9,
+    "score": -47.7,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
@@ -141,15 +141,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": -24.6
+      "contribution": -13.5
      },
      {
       "factor": "stretch",
-      "contribution": 4.3
+      "contribution": 1.1
      }
     ],
     "spark": [
-     13433.1123,
      13213.127,
      13209.1279,
      13553.1045,
@@ -238,31 +237,32 @@
      12280.0,
      12032.0,
      11870.0,
-     11754.0
+     11764.0,
+     12066.0
     ],
     "name": "AstraZeneca",
     "kind": "uk_stock",
     "symbol": "AZN.L"
    },
    {
-    "price": 1459.2,
-    "date": "2026-10-05",
-    "ret_1d": 0.011787547202582127,
-    "ret_20d": -0.07587083522997151,
-    "ret_60d": -0.007973957520304609,
-    "vol": 0.214,
-    "rsi": 39.2,
-    "score": 0.2,
+    "price": 1470.2,
+    "date": "2026-10-06",
+    "ret_1d": 0.007676457280243243,
+    "ret_20d": -0.06642119279465819,
+    "ret_60d": 0.005657255109039472,
+    "vol": 0.215,
+    "rsi": 42.1,
+    "score": 5.3,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "stretch",
-      "contribution": 3.8
+      "contribution": 2.8
      },
      {
       "factor": "momentum",
-      "contribution": -3.6
+      "contribution": 2.5
      },
      {
       "factor": "trend",
@@ -270,7 +270,6 @@
      }
     ],
     "spark": [
-     1382.5333,
      1409.7321,
      1391.9329,
      1366.9341,
@@ -359,31 +358,32 @@
      1497.6,
      1437.0,
      1442.2,
-     1459.2
+     1459.0,
+     1470.2
     ],
     "name": "HSBC",
     "kind": "uk_stock",
     "symbol": "HSBA.L"
    },
    {
-    "price": 4517.0,
-    "date": "2026-10-05",
-    "ret_1d": 0.0074718411954946,
-    "ret_20d": -0.03760519867902423,
-    "ret_60d": -0.017748097864432988,
+    "price": 4526.0,
+    "date": "2026-10-06",
+    "ret_1d": 0.005666037106988098,
+    "ret_20d": -0.03609839207752108,
+    "ret_60d": -0.012462624750631868,
     "vol": 0.246,
-    "rsi": 39.1,
-    "score": -3.1,
+    "rsi": 40.3,
+    "score": -1.4,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -6.9
+      "contribution": -4.9
      },
      {
       "factor": "stretch",
-      "contribution": 3.9
+      "contribution": 3.4
      },
      {
       "factor": "trend",
@@ -391,7 +391,6 @@
      }
     ],
     "spark": [
-     4132.1553,
      4104.6577,
      4119.6562,
      4077.6599,
@@ -480,39 +479,39 @@
      4603.5,
      4494.0,
      4483.5,
-     4517.0
+     4500.5,
+     4526.0
     ],
     "name": "Unilever",
     "kind": "uk_stock",
     "symbol": "ULVR.L"
    },
    {
-    "price": 560.3,
-    "date": "2026-10-05",
-    "ret_1d": 0.004481893249750124,
-    "ret_20d": 0.025439170493837482,
-    "ret_60d": 0.16102275729585602,
-    "vol": 0.303,
-    "rsi": 54.3,
-    "score": 71.3,
+    "price": 554.2,
+    "date": "2026-10-06",
+    "ret_1d": -0.01598011329000404,
+    "ret_20d": 0.007453257231518018,
+    "ret_60d": 0.09755822051496565,
+    "vol": 0.291,
+    "rsi": 50.8,
+    "score": 63.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
-     {
-      "factor": "momentum",
-      "contribution": 37.5
-     },
      {
       "factor": "trend",
       "contribution": 35.3
      },
      {
+      "factor": "momentum",
+      "contribution": 28.0
+     },
+     {
       "factor": "stretch",
-      "contribution": -1.5
+      "contribution": -0.3
      }
     ],
     "spark": [
-     535.8353,
      536.5352,
      545.4341,
      544.6343,
@@ -601,31 +600,32 @@
      549.4,
      557.1,
      557.8,
-     560.3
+     563.2,
+     554.2
     ],
     "name": "BP",
     "kind": "uk_stock",
     "symbol": "BP.L"
    },
    {
-    "price": 1483.0,
-    "date": "2026-10-05",
-    "ret_1d": 0.003926380327540446,
-    "ret_20d": -0.005232122734538658,
-    "ret_60d": 0.03104603161711239,
-    "vol": 0.285,
-    "rsi": 51.5,
-    "score": 9.8,
+    "price": 1452.6,
+    "date": "2026-10-06",
+    "ret_1d": -0.017185402174602515,
+    "ret_20d": -0.0191762487603393,
+    "ret_60d": 0.02632149997835187,
+    "vol": 0.286,
+    "rsi": 45.2,
+    "score": 10.5,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 10.3
+      "contribution": 8.8
      },
      {
       "factor": "stretch",
-      "contribution": -0.5
+      "contribution": 1.7
      },
      {
       "factor": "trend",
@@ -633,7 +633,6 @@
      }
     ],
     "spark": [
-     1272.7515,
      1280.551,
      1258.1519,
      1263.1517,
@@ -722,21 +721,22 @@
      1461.6,
      1471.8,
      1477.2,
-     1483.0
+     1478.0,
+     1452.6
     ],
     "name": "Rolls-Royce",
     "kind": "uk_stock",
     "symbol": "RR.L"
    },
    {
-    "price": 1760.5,
-    "date": "2026-10-05",
-    "ret_1d": -0.010677156504636187,
-    "ret_20d": -0.04190476190476189,
-    "ret_60d": -0.10239092866897459,
-    "vol": 0.237,
-    "rsi": 33.3,
-    "score": -62.7,
+    "price": 1775.0,
+    "date": "2026-10-06",
+    "ret_1d": 0.009096077316657292,
+    "ret_20d": -0.011967715001391599,
+    "ret_60d": -0.09129177953026746,
+    "vol": 0.238,
+    "rsi": 36.9,
+    "score": -61.5,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
@@ -746,15 +746,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": -33.4
+      "contribution": -30.9
      },
      {
       "factor": "stretch",
-      "contribution": 5.9
+      "contribution": 4.6
      }
     ],
     "spark": [
-     1842.3324,
      1820.3345,
      1851.3315,
      1901.827,
@@ -843,31 +842,32 @@
      1832.0,
      1795.0,
      1779.5,
-     1760.5
+     1759.0,
+     1775.0
     ],
     "name": "GSK",
     "kind": "uk_stock",
     "symbol": "GSK.L"
    },
    {
-    "price": 104.15,
-    "date": "2026-10-05",
-    "ret_1d": 0.00144232236422015,
-    "ret_20d": -0.08116450879655401,
-    "ret_60d": -0.07120767742471446,
-    "vol": 0.228,
-    "rsi": 37.7,
-    "score": -22.2,
+    "price": 105.3,
+    "date": "2026-10-06",
+    "ret_1d": 0.012500029343824881,
+    "ret_20d": -0.06066008487888708,
+    "ret_60d": -0.04951070938290125,
+    "vol": 0.229,
+    "rsi": 41.5,
+    "score": -16.6,
     "direction": "down",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -26.5
+      "contribution": -19.6
      },
      {
       "factor": "stretch",
-      "contribution": 4.3
+      "contribution": 3.0
      },
      {
       "factor": "trend",
@@ -875,7 +875,6 @@
      }
     ],
     "spark": [
-     100.0865,
      100.0865,
      98.8867,
      100.4864,
@@ -964,31 +963,32 @@
      106.9,
      102.1,
      104.0,
-     104.15
+     104.0,
+     105.3
     ],
     "name": "Lloyds",
     "kind": "uk_stock",
     "symbol": "LLOY.L"
    },
    {
-    "price": 469.3,
-    "date": "2026-10-05",
-    "ret_1d": 0.0006396328208289059,
-    "ret_20d": -0.01095892983568214,
-    "ret_60d": -0.005298855584322415,
-    "vol": 0.208,
-    "rsi": 47.7,
-    "score": -1.7,
+    "price": 469.7,
+    "date": "2026-10-06",
+    "ret_1d": -0.0010633772586544632,
+    "ret_20d": -0.011157869037828783,
+    "ret_60d": 0.004061617066358991,
+    "vol": 0.207,
+    "rsi": 48.0,
+    "score": 2.6,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -2.5
+      "contribution": 1.9
      },
      {
       "factor": "stretch",
-      "contribution": 0.8
+      "contribution": 0.7
      },
      {
       "factor": "trend",
@@ -996,7 +996,6 @@
      }
     ],
     "spark": [
-     435.9,
      430.5,
      443.6,
      448.2,
@@ -1085,21 +1084,22 @@
      468.8,
      474.8,
      469.0,
-     469.3
+     470.2,
+     469.7
     ],
     "name": "Tesco",
     "kind": "uk_stock",
     "symbol": "TSCO.L"
    },
    {
-    "price": 333.565,
+    "price": 332.89,
     "date": "2026-10-05",
-    "ret_1d": -0.00037459917613791305,
-    "ret_20d": 0.04248836193654859,
-    "ret_60d": 0.058774138972013557,
-    "vol": 0.272,
-    "rsi": 54.6,
-    "score": 53.2,
+    "ret_1d": -0.002397398145331686,
+    "ret_20d": 0.040378827322698374,
+    "ret_60d": 0.056631649160173714,
+    "vol": 0.273,
+    "rsi": 53.8,
+    "score": 52.9,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -1109,11 +1109,11 @@
      },
      {
       "factor": "momentum",
-      "contribution": 19.5
+      "contribution": 18.9
      },
      {
       "factor": "stretch",
-      "contribution": -1.6
+      "contribution": -1.3
      }
     ],
     "spark": [
@@ -1206,21 +1206,21 @@
      333.02,
      330.32,
      333.69,
-     333.565
+     332.89
     ],
     "name": "Apple",
     "kind": "us_stock",
     "symbol": "AAPL"
    },
    {
-    "price": 525.995,
+    "price": 525.18,
     "date": "2026-10-05",
-    "ret_1d": 0.016356472747703465,
-    "ret_20d": 0.052621537458081624,
-    "ret_60d": 0.3684372659335118,
+    "ret_1d": 0.014781680184432267,
+    "ret_20d": 0.05099055402502839,
+    "ret_60d": 0.36631694212244836,
     "vol": 0.402,
-    "rsi": 66.6,
-    "score": 74.3,
+    "rsi": 66.2,
+    "score": 74.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -1234,7 +1234,7 @@
      },
      {
       "factor": "stretch",
-      "contribution": -5.9
+      "contribution": -5.7
      }
     ],
     "spark": [
@@ -1327,21 +1327,21 @@
      512.9,
      512.8,
      517.53,
-     525.995
+     525.18
     ],
     "name": "Microsoft",
     "kind": "us_stock",
     "symbol": "MSFT"
    },
    {
-    "price": 237.265,
+    "price": 238.9,
     "date": "2026-10-05",
-    "ret_1d": 0.014169704999567267,
-    "ret_20d": 0.03112732301905341,
-    "ret_60d": 0.12595034243971504,
-    "vol": 0.38,
-    "rsi": 65.8,
-    "score": 57.5,
+    "ret_1d": 0.021158354403985502,
+    "ret_20d": 0.03823282746902068,
+    "ret_60d": 0.13370927287443846,
+    "vol": 0.382,
+    "rsi": 67.0,
+    "score": 58.3,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -1351,11 +1351,11 @@
      },
      {
       "factor": "momentum",
-      "contribution": 27.8
+      "contribution": 29.0
      },
      {
       "factor": "stretch",
-      "contribution": -5.6
+      "contribution": -6.0
      }
     ],
     "spark": [
@@ -1448,31 +1448,31 @@
      228.38,
      230.86,
      233.95,
-     237.265
+     238.9
     ],
     "name": "Nvidia",
     "kind": "us_stock",
     "symbol": "NVDA"
    },
    {
-    "price": 251.715,
+    "price": 251.4,
     "date": "2026-10-05",
-    "ret_1d": 0.0007752546998947007,
-    "ret_20d": -0.026285301036872655,
-    "ret_60d": 0.02598434863926613,
+    "ret_1d": -0.00047714048162350586,
+    "ret_20d": -0.02750383196220063,
+    "ret_60d": 0.024700406167153188,
     "vol": 0.42,
-    "rsi": 48.8,
-    "score": 6.4,
+    "rsi": 48.4,
+    "score": 6.2,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 5.9
+      "contribution": 5.6
      },
      {
       "factor": "stretch",
-      "contribution": 0.4
+      "contribution": 0.6
      },
      {
       "factor": "trend",
@@ -1569,21 +1569,21 @@
      249.15,
      248.23,
      251.52,
-     251.715
+     251.4
     ],
     "name": "Amazon",
     "kind": "us_stock",
     "symbol": "AMZN"
    },
    {
-    "price": 344.83,
+    "price": 346.47,
     "date": "2026-10-05",
-    "ret_1d": 0.0038718677504094856,
-    "ret_20d": 0.01882052614195895,
-    "ret_60d": -0.033955892657633546,
+    "ret_1d": 0.008646291763327874,
+    "ret_20d": 0.023666046114310557,
+    "ret_60d": -0.02936137782779824,
     "vol": 0.348,
-    "rsi": 51.1,
-    "score": 25.6,
+    "rsi": 52.4,
+    "score": 26.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -1593,11 +1593,11 @@
      },
      {
       "factor": "momentum",
-      "contribution": -9.3
+      "contribution": -8.0
      },
      {
       "factor": "stretch",
-      "contribution": -0.4
+      "contribution": -0.9
      }
     ],
     "spark": [
@@ -1690,31 +1690,31 @@
      344.08,
      338.24,
      343.5,
-     344.83
+     346.47
     ],
     "name": "Alphabet",
     "kind": "us_stock",
     "symbol": "GOOGL"
    },
    {
-    "price": 503.51,
+    "price": 504.26,
     "date": "2026-10-05",
-    "ret_1d": 0.0017109636518124471,
-    "ret_20d": -0.004979920201867216,
-    "ret_60d": 0.019849746774749155,
+    "ret_1d": 0.0032030555827922136,
+    "ret_20d": -0.0034977946326140152,
+    "ret_60d": 0.021368857209985714,
     "vol": 0.138,
-    "rsi": 47.7,
-    "score": 14.3,
+    "rsi": 48.7,
+    "score": 14.9,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 13.5
+      "contribution": 14.5
      },
      {
       "factor": "stretch",
-      "contribution": 0.8
+      "contribution": 0.4
      },
      {
       "factor": "trend",
@@ -1811,31 +1811,31 @@
      497.95,
      500.5,
      502.65,
-     503.51
+     504.26
     ],
     "name": "Berkshire Hathaway",
     "kind": "us_stock",
     "symbol": "BRK-B"
    },
    {
-    "price": 86.195,
+    "price": 86.51,
     "date": "2026-10-05",
-    "ret_1d": 0.0063630841708817165,
-    "ret_20d": -0.015449796331829191,
-    "ret_60d": 0.03855955656261756,
-    "vol": 0.2,
-    "rsi": 42.7,
-    "score": 20.2,
+    "ret_1d": 0.010040870928551104,
+    "ret_20d": -0.011851725458338347,
+    "ret_60d": 0.04235500638013945,
+    "vol": 0.201,
+    "rsi": 44.9,
+    "score": 21.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 17.7
+      "contribution": 19.1
      },
      {
       "factor": "stretch",
-      "contribution": 2.6
+      "contribution": 1.8
      },
      {
       "factor": "trend",
@@ -1932,31 +1932,31 @@
      86.08,
      86.1,
      85.65,
-     86.195
+     86.51
     ],
     "name": "Coca-Cola",
     "kind": "us_stock",
     "symbol": "KO"
    },
    {
-    "price": 331.96,
+    "price": 332.38,
     "date": "2026-10-05",
-    "ret_1d": -0.0012636543160364777,
-    "ret_20d": -0.0743922097469043,
-    "ret_60d": -0.013403898562317051,
+    "ret_1d": 0.0,
+    "ret_20d": -0.07322108156661433,
+    "ret_60d": -0.012155604728660063,
     "vol": 0.182,
-    "rsi": 34.1,
-    "score": -1.5,
+    "rsi": 34.5,
+    "score": -0.9,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": -7.1
+      "contribution": -6.4
      },
      {
       "factor": "stretch",
-      "contribution": 5.6
+      "contribution": 5.5
      },
      {
       "factor": "trend",
@@ -2053,27 +2053,27 @@
      330.83,
      333.18,
      332.38,
-     331.96
+     332.38
     ],
     "name": "JPMorgan",
     "kind": "us_stock",
     "symbol": "JPM"
    },
    {
-    "price": 85613.8906,
-    "date": "2026-10-05",
-    "ret_1d": -0.010018628699688614,
-    "ret_20d": 0.13227153948260661,
-    "ret_60d": 0.3322607404817466,
+    "price": 86003.3203,
+    "date": "2026-10-06",
+    "ret_1d": 0.0025263453533495017,
+    "ret_20d": 0.12938881884627662,
+    "ret_60d": 0.325571309954785,
     "vol": 0.357,
-    "rsi": 63.9,
-    "score": 58.1,
+    "rsi": 65.4,
+    "score": 56.6,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 38.3
+      "contribution": 38.1
      },
      {
       "factor": "trend",
@@ -2081,15 +2081,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -6.0
+      "contribution": -6.9
      },
      {
       "factor": "stretch",
-      "contribution": -4.2
+      "contribution": -4.6
      }
     ],
     "spark": [
-     62257.5742,
      63193.1484,
      64127.1406,
      63802.0273,
@@ -2178,27 +2177,28 @@
      84497.2109,
      84763.5781,
      86480.3047,
-     85613.8906
+     85786.5938,
+     86003.3203
     ],
     "name": "Bitcoin",
     "kind": "crypto",
     "symbol": "BTC-USD"
    },
    {
-    "price": 2704.72,
-    "date": "2026-10-05",
-    "ret_1d": -0.007991560722761304,
-    "ret_20d": 0.127395574895234,
-    "ret_60d": 0.4219969573193605,
+    "price": 2709.8999,
+    "date": "2026-10-06",
+    "ret_1d": -0.00041740267470913306,
+    "ret_20d": 0.12159166131372467,
+    "ret_60d": 0.4163639014303364,
     "vol": 0.494,
-    "rsi": 60.8,
-    "score": 58.4,
+    "rsi": 61.5,
+    "score": 57.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.7
+      "contribution": 37.6
      },
      {
       "factor": "trend",
@@ -2206,15 +2206,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -6.0
+      "contribution": -6.9
      },
      {
       "factor": "stretch",
-      "contribution": -3.2
+      "contribution": -3.5
      }
     ],
     "spark": [
-     1742.6776,
      1744.4846,
      1795.6932,
      1788.0996,
@@ -2303,21 +2302,22 @@
      2668.1511,
      2687.2554,
      2726.509,
-     2704.72
+     2711.0315,
+     2709.8999
     ],
     "name": "Ethereum",
     "kind": "crypto",
     "symbol": "ETH-USD"
    },
    {
-    "price": 119.66,
-    "date": "2026-10-05",
-    "ret_1d": -0.0153757336620588,
-    "ret_20d": 0.23502962985827924,
-    "ret_60d": 0.6487425823237234,
-    "vol": 0.515,
-    "rsi": 61.8,
-    "score": 60.0,
+    "price": 120.34,
+    "date": "2026-10-06",
+    "ret_1d": -0.0034011426272286815,
+    "ret_20d": 0.21996883639851728,
+    "ret_60d": 0.6341072614423844,
+    "vol": 0.514,
+    "rsi": 63.2,
+    "score": 58.6,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -2331,15 +2331,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -6.0
+      "contribution": -6.9
      },
      {
       "factor": "stretch",
-      "contribution": -3.5
+      "contribution": -4.0
      }
     ],
     "spark": [
-     77.787,
      78.0455,
      78.0666,
      76.8242,
@@ -2428,27 +2427,28 @@
      118.6151,
      119.6451,
      121.5286,
-     119.66
+     120.7507,
+     120.34
     ],
     "name": "Solana",
     "kind": "crypto",
     "symbol": "SOL-USD"
    },
    {
-    "price": 1.5014,
-    "date": "2026-10-05",
-    "ret_1d": -0.01235642900989542,
-    "ret_20d": 0.1686847404669558,
-    "ret_60d": 0.452500104082346,
-    "vol": 0.662,
-    "rsi": 56.2,
-    "score": 57.6,
+    "price": 1.5082,
+    "date": "2026-10-06",
+    "ret_1d": 0.0005028729951113142,
+    "ret_20d": 0.1607423239362833,
+    "ret_60d": 0.47683645047945244,
+    "vol": 0.66,
+    "rsi": 57.1,
+    "score": 57.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 35.4
+      "contribution": 36.1
      },
      {
       "factor": "trend",
@@ -2456,15 +2456,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -6.0
+      "contribution": -6.9
      },
      {
       "factor": "stretch",
-      "contribution": -1.9
+      "contribution": -2.1
      }
     ],
     "spark": [
-     1.09,
      1.0933,
      1.1039,
      1.0976,
@@ -2553,22 +2552,23 @@
      1.485,
      1.4865,
      1.5202,
-     1.5014
+     1.5074,
+     1.5082
     ],
     "name": "XRP",
     "kind": "crypto",
     "symbol": "XRP-USD"
    },
    {
-    "price": 4171.7998,
-    "date": "2026-10-05",
-    "ret_1d": 0.0022823920538594944,
-    "ret_20d": -0.06808745170879349,
-    "ret_60d": 0.014123442792745022,
-    "vol": 0.221,
-    "rsi": 35.3,
-    "score": -24.0,
-    "direction": "down",
+    "price": 4192.7998,
+    "date": "2026-10-06",
+    "ret_1d": 0.008660508490065721,
+    "ret_20d": -0.055462986103289036,
+    "ret_60d": 0.046708404472703524,
+    "vol": 0.215,
+    "rsi": 38.3,
+    "score": -11.5,
+    "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
@@ -2577,15 +2577,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": 6.1
+      "contribution": 19.7
      },
      {
       "factor": "stretch",
-      "contribution": 5.2
+      "contribution": 4.1
      }
     ],
     "spark": [
-     4499.2998,
      4593.0,
      4506.2998,
      4519.8999,
@@ -2674,22 +2673,23 @@
      4186.7002,
      4202.2998,
      4162.2998,
-     4171.7998
+     4156.7998,
+     4192.7998
     ],
     "name": "Gold",
     "kind": "commodity",
     "symbol": "GC=F"
    },
    {
-    "price": 61.555,
-    "date": "2026-10-05",
-    "ret_1d": 0.02631007025487042,
-    "ret_20d": -0.06801212718807814,
-    "ret_60d": 0.02919296849138653,
-    "vol": 0.356,
-    "rsi": 43.4,
-    "score": -25.1,
-    "direction": "down",
+    "price": 61.65,
+    "date": "2026-10-06",
+    "ret_1d": 0.012830867129973722,
+    "ret_20d": -0.07009360528811193,
+    "ret_60d": 0.0696811384549012,
+    "vol": 0.345,
+    "rsi": 44.0,
+    "score": -14.7,
+    "direction": "flat",
     "horizon_days": 20,
     "drivers": [
      {
@@ -2698,15 +2698,14 @@
      },
      {
       "factor": "momentum",
-      "contribution": 7.8
+      "contribution": 18.4
      },
      {
       "factor": "stretch",
-      "contribution": 2.3
+      "contribution": 2.1
      }
     ],
     "spark": [
-     75.645,
      75.616,
      75.007,
      75.311,
@@ -2795,39 +2794,39 @@
      60.098,
      60.725,
      59.977,
-     61.555
+     60.869,
+     61.65
     ],
     "name": "Silver",
     "kind": "commodity",
     "symbol": "SI=F"
    },
    {
-    "price": 90.44,
-    "date": "2026-10-05",
-    "ret_1d": -0.007353728069991905,
-    "ret_20d": -0.0113686147503681,
-    "ret_60d": 0.26648925645405486,
-    "vol": 0.511,
-    "rsi": 46.3,
-    "score": 73.7,
+    "price": 88.06,
+    "date": "2026-10-06",
+    "ret_1d": -0.015319274761343649,
+    "ret_20d": -0.0534236406096692,
+    "ret_60d": 0.12695160284656293,
+    "vol": 0.478,
+    "rsi": 42.5,
+    "score": 26.0,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.1
-     },
-     {
-      "factor": "trend",
-      "contribution": 35.3
+      "contribution": 23.3
      },
      {
       "factor": "stretch",
-      "contribution": 1.3
+      "contribution": 2.6
+     },
+     {
+      "factor": "trend",
+      "contribution": 0.0
      }
     ],
     "spark": [
-     88.9,
      87.36,
      92.16,
      93.76,
@@ -2916,21 +2915,22 @@
      90.42,
      92.87,
      91.11,
-     90.44
+     89.43,
+     88.06
     ],
     "name": "Crude oil",
     "kind": "commodity",
     "symbol": "CL=F"
    },
    {
-    "price": 6.64,
-    "date": "2026-10-05",
-    "ret_1d": 0.022797252178176963,
-    "ret_20d": 0.0065180754311990885,
-    "ret_60d": 0.0652121380319457,
-    "vol": 0.22,
-    "rsi": 53.8,
-    "score": 59.5,
+    "price": 6.6315,
+    "date": "2026-10-06",
+    "ret_1d": 0.0069850437273917265,
+    "ret_20d": -0.015951933341574298,
+    "ret_60d": 0.06393389673510752,
+    "vol": 0.217,
+    "rsi": 53.6,
+    "score": 59.4,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -2940,7 +2940,7 @@
      },
      {
       "factor": "momentum",
-      "contribution": 25.6
+      "contribution": 25.4
      },
      {
       "factor": "stretch",
@@ -2948,7 +2948,6 @@
      }
     ],
     "spark": [
-     6.396,
      6.3595,
      6.524,
      6.6495,
@@ -3037,7 +3036,8 @@
      6.559,
      6.482,
      6.492,
-     6.64
+     6.5855,
+     6.6315
     ],
     "name": "Copper",
     "kind": "commodity",
@@ -3045,8 +3045,8 @@
    }
   ],
   "fear_greed": {
-   "Date": "2026-10-05",
-   "value": 70,
+   "Date": "2026-10-06",
+   "value": 73,
    "label": "Greed"
   },
   "graded": 0,
@@ -3468,8 +3468,8 @@
       "id": "stick-on-jewellery",
       "name": "Stick-on jewellery",
       "stage": "emerging",
-      "momentum": 2.999,
-      "wiki_momentum": 0.019,
+      "momentum": 2.988,
+      "wiki_momentum": 0.01,
       "items": [
        {
         "id": "face-gems",
@@ -3478,8 +3478,8 @@
         "trend": "Stick-on jewellery",
         "stage": "emerging",
         "position": "lagging",
-        "level": 18.2,
-        "momentum": 2.59,
+        "level": 19.6,
+        "momentum": 2.546,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3657,8 +3657,8 @@
       "id": "fidget",
       "name": "Fidget gadgets",
       "stage": "emerging",
-      "momentum": 0.651,
-      "wiki_momentum": 0.115,
+      "momentum": 1.096,
+      "wiki_momentum": 0.081,
       "items": [
        {
         "id": "magnetic-slider",
@@ -3667,8 +3667,8 @@
         "trend": "Fidget gadgets",
         "stage": "emerging",
         "position": "leading",
-        "level": 12.1,
-        "momentum": 1.095,
+        "level": 19.6,
+        "momentum": 2.606,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3721,9 +3721,9 @@
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
         "stage": "rising",
-        "position": "leading",
-        "level": 37.5,
-        "momentum": 1.109,
+        "position": "lagging",
+        "level": 34.6,
+        "momentum": 0.933,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3758,7 +3758,7 @@
       "name": "Personal heating",
       "stage": "emerging",
       "momentum": 2.557,
-      "wiki_momentum": 0.288,
+      "wiki_momentum": 0.324,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -3797,7 +3797,7 @@
       "id": "ambient-light",
       "name": "Ambient lighting",
       "stage": "rising",
-      "momentum": 2.55,
+      "momentum": 1.65,
       "wiki_momentum": null,
       "items": [
        {
@@ -3807,8 +3807,8 @@
         "trend": "Ambient lighting",
         "stage": "rising",
         "position": null,
-        "level": 34.6,
-        "momentum": 2.55,
+        "level": 36.4,
+        "momentum": 1.65,
         "saturation": null,
         "evidence": [
          "search interest rising"
@@ -3841,9 +3841,9 @@
      {
       "id": "stargazing",
       "name": "Stargazing kit",
-      "stage": "emerging",
-      "momentum": 3.755,
-      "wiki_momentum": 0.03,
+      "stage": "rising",
+      "momentum": 5.0,
+      "wiki_momentum": 0.043,
       "items": [
        {
         "id": "red-torch",
@@ -3852,8 +3852,8 @@
         "trend": "Stargazing kit",
         "stage": "rising",
         "position": "leading",
-        "level": 47.1,
-        "momentum": 7.964,
+        "level": 63.4,
+        "momentum": 10.457,
         "saturation": null,
         "evidence": [
          "search interest rising"
@@ -3882,7 +3882,7 @@
         "stage": "fading",
         "position": "lagging",
         "level": 0.0,
-        "momentum": -0.455,
+        "momentum": -0.458,
         "saturation": null,
         "evidence": [
          "sibling items rising"
@@ -3915,8 +3915,8 @@
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 18.2,
-    "momentum": 2.59,
+    "level": 19.6,
+    "momentum": 2.546,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4080,8 +4080,8 @@
     "trend": "Fidget gadgets",
     "stage": "emerging",
     "position": "leading",
-    "level": 12.1,
-    "momentum": 1.095,
+    "level": 19.6,
+    "momentum": 2.606,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4134,9 +4134,9 @@
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
     "stage": "rising",
-    "position": "leading",
-    "level": 37.5,
-    "momentum": 1.109,
+    "position": "lagging",
+    "level": 34.6,
+    "momentum": 0.933,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4196,8 +4196,8 @@
     "trend": "Ambient lighting",
     "stage": "rising",
     "position": null,
-    "level": 34.6,
-    "momentum": 2.55,
+    "level": 36.4,
+    "momentum": 1.65,
     "saturation": null,
     "evidence": [
      "search interest rising"
@@ -4226,8 +4226,8 @@
     "trend": "Stargazing kit",
     "stage": "rising",
     "position": "leading",
-    "level": 47.1,
-    "momentum": 7.964,
+    "level": 63.4,
+    "momentum": 10.457,
     "saturation": null,
     "evidence": [
      "search interest rising"
@@ -4256,7 +4256,7 @@
     "stage": "fading",
     "position": "lagging",
     "level": 0.0,
-    "momentum": -0.455,
+    "momentum": -0.458,
     "saturation": null,
     "evidence": [
      "sibling items rising"
@@ -4338,14 +4338,14 @@
     "pick": true
    },
    {
-    "id": "face-gems",
-    "name": "Face gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
     "stage": "emerging",
-    "position": "lagging",
-    "level": 18.2,
-    "momentum": 2.59,
+    "position": "leading",
+    "level": 19.6,
+    "momentum": 2.606,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4354,14 +4354,14 @@
     "confidence": 2,
     "quiet_child": true,
     "flags": [
-     "skin-contact adhesive"
+     "small magnets - keep away from young children"
     ],
     "attributes": {
-     "material": "acrylic",
-     "use": "festival",
-     "aesthetic": "sparkle",
-     "audience": "teens-20s",
-     "price_band": "under-5"
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
     },
     "margins": null,
     "timing": "enough evidence",
@@ -4399,30 +4399,30 @@
     "pick": true
    },
    {
-    "id": "taba-squishy",
-    "name": "Taba / mochi squishies",
-    "wave": "Tactile and calming gadgets",
-    "trend": "Fidget gadgets",
-    "stage": "rising",
-    "position": "leading",
-    "level": 37.5,
-    "momentum": 1.109,
+    "id": "face-gems",
+    "name": "Face gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 19.6,
+    "momentum": 2.546,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
-     "toy safety marking (UKCA/CE) for under-14s"
+     "skin-contact adhesive"
     ],
     "attributes": {
-     "material": "silicone",
-     "use": "desk",
-     "aesthetic": "cute",
-     "audience": "kids-teens",
-     "price_band": "5-15"
+     "material": "acrylic",
+     "use": "festival",
+     "aesthetic": "sparkle",
+     "audience": "teens-20s",
+     "price_band": "under-5"
     },
     "margins": null,
     "timing": "enough evidence",
@@ -4437,8 +4437,8 @@
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 18.2,
-    "momentum": 2.59,
+    "level": 19.6,
+    "momentum": 2.546,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4495,8 +4495,8 @@
     "trend": "Fidget gadgets",
     "stage": "emerging",
     "position": "leading",
-    "level": 12.1,
-    "momentum": 1.095,
+    "level": 19.6,
+    "momentum": 2.606,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4589,7 +4589,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "buy now",
-    "days_away": 67,
+    "days_away": 66,
     "bucket": "now"
    },
    {
@@ -4604,7 +4604,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "buy now",
-    "days_away": 70,
+    "days_away": 69,
     "bucket": "now"
    },
    {
@@ -4620,7 +4620,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 124,
+    "days_away": 123,
     "bucket": "calendar"
    },
    {
@@ -4636,7 +4636,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 150,
+    "days_away": 149,
     "bucket": "calendar"
    },
    {
@@ -4652,7 +4652,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 261,
+    "days_away": 260,
     "bucket": "calendar"
    },
    {
@@ -4667,7 +4667,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 301,
+    "days_away": 300,
     "bucket": "calendar"
    },
    {
@@ -4683,21 +4683,11 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 613,
+    "days_away": 612,
     "bucket": "planning"
    }
   ],
-  "weather_triggers": [
-   {
-    "id": "first-cold-snap",
-    "name": "First cold snap (London min below 3\u00b0C in forecast)",
-    "items": [
-     "rechargeable-hand-warmer"
-    ],
-    "triggered": false,
-    "first_date": null
-   }
-  ],
+  "weather_triggers": [],
   "graded": 0,
   "issued": 0,
   "scoreboard": {
@@ -4828,17 +4818,22 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 70 (Greed)"
+   "detail": "latest 73 (Greed)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "118 days stored"
+   "detail": "119 days stored"
+  },
+  {
+   "source": "Google Trends",
+   "status": "ok",
+   "detail": "refreshed 6 items this run (rotating)"
   },
   {
    "source": "Google Trends",
    "status": "failed",
-   "detail": "magnetic-slider: The request failed: Google returned a response with code 429"
+   "detail": "keycap-keychain: empty; nail-charms-3d: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
@@ -4849,6 +4844,11 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
+  },
+  {
+   "source": "weather trigger",
+   "status": "failed",
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   }
  ]
 }
