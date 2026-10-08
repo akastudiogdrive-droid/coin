@@ -140,3 +140,11 @@ Google Trends,ok,refreshed 7 items this run (rotating),2026-10-07
 Wikipedia pageviews,ok,4 trends,2026-10-07
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-07
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-07
+prices (Yahoo Finance),ok,25/25 assets,2026-10-08
+crypto fear & greed (alternative.me),ok,latest 64 (Greed),2026-10-08
+"weather, London (Open-Meteo)",ok,121 days stored,2026-10-08
+Google Trends,ok,refreshed 5 items this run (rotating),2026-10-08
+Google Trends,failed,eclipse-glasses: The request failed: Google returned a response with code 429,2026-10-08
+Wikipedia pageviews,ok,4 trends,2026-10-08
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-08
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-08
