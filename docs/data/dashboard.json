@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T12:51Z",
+ "generated": "2026-10-11T13:15Z",
  "markets": {
   "assets": [
    {
@@ -2060,20 +2060,20 @@
     "symbol": "JPM"
    },
    {
-    "price": 82741.2031,
-    "date": "2026-10-10",
-    "ret_1d": 0.0023608903675200743,
-    "ret_20d": 0.019701039470053416,
-    "ret_60d": 0.30194747401237176,
+    "price": 83009.5938,
+    "date": "2026-10-11",
+    "ret_1d": 0.0011743405229456272,
+    "ret_20d": -0.04149190995936647,
+    "ret_60d": 0.3092493307415065,
     "vol": 0.363,
-    "rsi": 50.9,
-    "score": 63.0,
+    "rsi": 51.9,
+    "score": 63.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.4
+      "contribution": 37.6
      },
      {
       "factor": "trend",
@@ -2081,15 +2081,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -4.2
+      "contribution": -3.3
      },
      {
       "factor": "stretch",
-      "contribution": -0.3
+      "contribution": -0.6
      }
     ],
     "spark": [
-     62239.1211,
      64956.1133,
      64712.375,
      63789.2812,
@@ -2178,35 +2177,36 @@
      83275.9297,
      81676.3359,
      82546.3203,
-     82741.2031
+     82912.2266,
+     83009.5938
     ],
     "name": "Bitcoin",
     "kind": "crypto",
     "symbol": "BTC-USD"
    },
    {
-    "price": 2494.26,
-    "date": "2026-10-10",
-    "ret_1d": 0.003508871532849289,
-    "ret_20d": -0.05627608256560901,
-    "ret_60d": 0.3257654384717781,
+    "price": 2502.95,
+    "date": "2026-10-11",
+    "ret_1d": -0.00043045881742476144,
+    "ret_20d": -0.0985130333805998,
+    "ret_60d": 0.3326783954068464,
     "vol": 0.511,
-    "rsi": 40.0,
-    "score": 33.3,
+    "rsi": 41.0,
+    "score": 34.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 34.5
+      "contribution": 34.8
      },
      {
       "factor": "crowd",
-      "contribution": -4.2
+      "contribution": -3.3
      },
      {
       "factor": "stretch",
-      "contribution": 3.0
+      "contribution": 2.7
      },
      {
       "factor": "trend",
@@ -2214,7 +2214,6 @@
      }
     ],
     "spark": [
-     1773.5007,
      1889.4799,
      1916.9437,
      1863.1934,
@@ -2303,27 +2302,28 @@
      2573.5273,
      2471.9126,
      2485.5386,
-     2494.26
+     2504.0278,
+     2502.95
     ],
     "name": "Ethereum",
     "kind": "crypto",
     "symbol": "ETH-USD"
    },
    {
-    "price": 109.64,
-    "date": "2026-10-10",
-    "ret_1d": 0.004586328005778961,
-    "ret_20d": -0.013433574895892364,
-    "ret_60d": 0.4389384080707004,
+    "price": 109.33,
+    "date": "2026-10-11",
+    "ret_1d": -0.006398319389842921,
+    "ret_20d": -0.07932730593620241,
+    "ret_60d": 0.44759076849753754,
     "vol": 0.537,
-    "rsi": 43.7,
-    "score": 65.0,
+    "rsi": 43.3,
+    "score": 66.2,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 37.3
+      "contribution": 37.5
      },
      {
       "factor": "trend",
@@ -2331,15 +2331,14 @@
      },
      {
       "factor": "crowd",
-      "contribution": -4.2
+      "contribution": -3.3
      },
      {
       "factor": "stretch",
-      "contribution": 1.9
+      "contribution": 2.0
      }
     ],
     "spark": [
-     74.8614,
      77.7624,
      77.2641,
      75.272,
@@ -2428,35 +2427,36 @@
      116.2226,
      109.4423,
      109.1395,
-     109.64
+     110.034,
+     109.33
     ],
     "name": "Solana",
     "kind": "crypto",
     "symbol": "SOL-USD"
    },
    {
-    "price": 1.4028,
-    "date": "2026-10-10",
-    "ret_1d": 0.0053434457121464,
-    "ret_20d": -0.00500198872111024,
-    "ret_60d": 0.3727611264734896,
-    "vol": 0.673,
-    "rsi": 44.5,
-    "score": 30.0,
+    "price": 1.3938,
+    "date": "2026-10-11",
+    "ret_1d": -0.005656562392232667,
+    "ret_20d": -0.09082785300919582,
+    "ret_60d": 0.38773005115544845,
+    "vol": 0.671,
+    "rsi": 43.4,
+    "score": 31.8,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
      {
       "factor": "momentum",
-      "contribution": 32.5
+      "contribution": 33.1
      },
      {
       "factor": "crowd",
-      "contribution": -4.2
+      "contribution": -3.3
      },
      {
       "factor": "stretch",
-      "contribution": 1.7
+      "contribution": 2.0
      },
      {
       "factor": "trend",
@@ -2464,7 +2464,6 @@
      }
     ],
     "spark": [
-     1.0655,
      1.1111,
      1.1128,
      1.0863,
@@ -2553,7 +2552,8 @@
      1.4213,
      1.379,
      1.3953,
-     1.4028
+     1.4017,
+     1.3938
     ],
     "name": "XRP",
     "kind": "crypto",
@@ -2681,14 +2681,14 @@
     "symbol": "GC=F"
    },
    {
-    "price": 60.67,
+    "price": 61.048,
     "date": "2026-10-09",
-    "ret_1d": 0.027190827159089714,
-    "ret_20d": -0.06016672296271153,
-    "ret_60d": 0.08536977102466503,
-    "vol": 0.342,
-    "rsi": 43.0,
-    "score": -10.7,
+    "ret_1d": 0.03359070139756626,
+    "ret_20d": -0.05431112669068372,
+    "ret_60d": 0.09213212700871654,
+    "vol": 0.345,
+    "rsi": 44.4,
+    "score": -9.9,
     "direction": "flat",
     "horizon_days": 20,
     "drivers": [
@@ -2698,11 +2698,11 @@
      },
      {
       "factor": "momentum",
-      "contribution": 22.1
+      "contribution": 23.5
      },
      {
       "factor": "stretch",
-      "contribution": 2.5
+      "contribution": 2.0
      }
     ],
     "spark": [
@@ -2795,7 +2795,7 @@
      61.168,
      59.899,
      59.064,
-     60.67
+     61.048
     ],
     "name": "Silver",
     "kind": "commodity",
@@ -2923,14 +2923,14 @@
     "symbol": "CL=F"
    },
    {
-    "price": 6.6425,
+    "price": 6.692,
     "date": "2026-10-09",
-    "ret_1d": 0.018944603357653245,
-    "ret_20d": 0.026740838878129836,
-    "ret_60d": 0.05503493006375737,
-    "vol": 0.219,
-    "rsi": 54.2,
-    "score": 56.1,
+    "ret_1d": 0.026537790679387996,
+    "ret_20d": 0.03439212383983081,
+    "ret_60d": 0.0628970629300083,
+    "vol": 0.222,
+    "rsi": 56.7,
+    "score": 57.6,
     "direction": "up",
     "horizon_days": 20,
     "drivers": [
@@ -2940,11 +2940,11 @@
      },
      {
       "factor": "momentum",
-      "contribution": 22.3
+      "contribution": 24.6
      },
      {
       "factor": "stretch",
-      "contribution": -1.5
+      "contribution": -2.4
      }
     ],
     "spark": [
@@ -3037,7 +3037,7 @@
      6.5945,
      6.5965,
      6.519,
-     6.6425
+     6.692
     ],
     "name": "Copper",
     "kind": "commodity",
@@ -3045,8 +3045,8 @@
    }
   ],
   "fear_greed": {
-   "Date": "2026-10-10",
-   "value": 64,
+   "Date": "2026-10-11",
+   "value": 61,
    "label": "Greed"
   },
   "graded": 0,
@@ -3468,7 +3468,7 @@
       "id": "stick-on-jewellery",
       "name": "Stick-on jewellery",
       "stage": "rising",
-      "momentum": 5.53,
+      "momentum": 6.469,
       "wiki_momentum": -0.002,
       "items": [
        {
@@ -3506,17 +3506,17 @@
         "name": "3D nail charms",
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
-        "stage": "emerging",
+        "stage": "rising",
         "position": "lagging",
-        "level": 5.5,
-        "momentum": 1.1,
+        "level": 40.3,
+        "momentum": 5.793,
         "saturation": null,
         "evidence": [
          "search interest rising",
          "sibling items rising"
         ],
         "confidence": 2,
-        "quiet_child": true,
+        "quiet_child": false,
         "flags": [],
         "attributes": {
          "material": "resin",
@@ -3536,8 +3536,8 @@
         "trend": "Stick-on jewellery",
         "stage": "rising",
         "position": "leading",
-        "level": 52.6,
-        "momentum": 7.712,
+        "level": 56.0,
+        "momentum": 8.581,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3567,8 +3567,8 @@
         "trend": "Stick-on jewellery",
         "stage": "emerging",
         "position": "lagging",
-        "level": 21.9,
-        "momentum": 2.325,
+        "level": 6.6,
+        "momentum": 0.519,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -3596,8 +3596,8 @@
      {
       "id": "phone-bag-charms",
       "name": "Phone and bag charms",
-      "stage": "steady",
-      "momentum": -0.245,
+      "stage": "fading",
+      "momentum": -0.304,
       "wiki_momentum": null,
       "items": [
        {
@@ -3607,8 +3607,8 @@
         "trend": "Phone and bag charms",
         "stage": "fading",
         "position": "in step",
-        "level": 14.4,
-        "momentum": -0.299,
+        "level": 12.9,
+        "momentum": -0.38,
         "saturation": null,
         "evidence": [],
         "confidence": 0,
@@ -3630,8 +3630,8 @@
         "trend": "Phone and bag charms",
         "stage": "steady",
         "position": "in step",
-        "level": 45.8,
-        "momentum": -0.191,
+        "level": 41.9,
+        "momentum": -0.228,
         "saturation": null,
         "evidence": [],
         "confidence": 0,
@@ -3661,7 +3661,7 @@
       "name": "Fidget gadgets",
       "stage": "rising",
       "momentum": 4.25,
-      "wiki_momentum": 0.0,
+      "wiki_momentum": -0.01,
       "items": [
        {
         "id": "magnetic-slider",
@@ -3761,7 +3761,7 @@
       "name": "Personal heating",
       "stage": "emerging",
       "momentum": 2.814,
-      "wiki_momentum": 0.235,
+      "wiki_momentum": 0.223,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -3845,8 +3845,8 @@
       "id": "stargazing",
       "name": "Stargazing kit",
       "stage": "emerging",
-      "momentum": 0.633,
-      "wiki_momentum": 0.06,
+      "momentum": 0.636,
+      "wiki_momentum": 0.091,
       "items": [
        {
         "id": "red-torch",
@@ -3885,7 +3885,7 @@
         "stage": "fading",
         "position": "lagging",
         "level": 0.0,
-        "momentum": -0.457,
+        "momentum": -0.451,
         "saturation": null,
         "evidence": [
          "sibling items rising"
@@ -3946,17 +3946,17 @@
     "name": "3D nail charms",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "emerging",
+    "stage": "rising",
     "position": "lagging",
-    "level": 5.5,
-    "momentum": 1.1,
+    "level": 40.3,
+    "momentum": 5.793,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": true,
+    "quiet_child": false,
     "flags": [],
     "attributes": {
      "material": "resin",
@@ -3976,8 +3976,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 52.6,
-    "momentum": 7.712,
+    "level": 56.0,
+    "momentum": 8.581,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4007,8 +4007,8 @@
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 21.9,
-    "momentum": 2.325,
+    "level": 6.6,
+    "momentum": 0.519,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4038,8 +4038,8 @@
     "trend": "Phone and bag charms",
     "stage": "fading",
     "position": "in step",
-    "level": 14.4,
-    "momentum": -0.299,
+    "level": 12.9,
+    "momentum": -0.38,
     "saturation": null,
     "evidence": [],
     "confidence": 0,
@@ -4061,8 +4061,8 @@
     "trend": "Phone and bag charms",
     "stage": "steady",
     "position": "in step",
-    "level": 45.8,
-    "momentum": -0.191,
+    "level": 41.9,
+    "momentum": -0.228,
     "saturation": null,
     "evidence": [],
     "confidence": 0,
@@ -4262,7 +4262,7 @@
     "stage": "fading",
     "position": "lagging",
     "level": 0.0,
-    "momentum": -0.457,
+    "momentum": -0.451,
     "saturation": null,
     "evidence": [
      "sibling items rising"
@@ -4351,8 +4351,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 52.6,
-    "momentum": 7.712,
+    "level": 56.0,
+    "momentum": 8.581,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4368,6 +4368,34 @@
      "material": "metal",
      "use": "everyday",
      "aesthetic": "edgy",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "nail-charms-3d",
+    "name": "3D nail charms",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 40.3,
+    "momentum": 5.793,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [],
+    "attributes": {
+     "material": "resin",
+     "use": "everyday",
+     "aesthetic": "cute",
      "audience": "teens-20s",
      "price_band": "under-5"
     },
@@ -4405,77 +4433,18 @@
     "margins": null,
     "timing": "enough evidence",
     "pick": true
-   },
-   {
-    "id": "tooth-gems",
-    "name": "DIY tooth gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 21.9,
-    "momentum": 2.325,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "cosmetic/dental safety",
-     "marketplace restrictions likely"
-    ],
-    "attributes": {
-     "material": "crystal",
-     "use": "everyday",
-     "aesthetic": "sparkle",
-     "audience": "20s",
-     "price_band": "5-15"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
    }
   ],
   "quiet_children": [
    {
-    "id": "nail-charms-3d",
-    "name": "3D nail charms",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "emerging",
-    "position": "lagging",
-    "level": 5.5,
-    "momentum": 1.1,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [],
-    "attributes": {
-     "material": "resin",
-     "use": "everyday",
-     "aesthetic": "cute",
-     "audience": "teens-20s",
-     "price_band": "under-5"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
     "id": "tooth-gems",
     "name": "DIY tooth gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
     "stage": "emerging",
     "position": "lagging",
-    "level": 21.9,
-    "momentum": 2.325,
+    "level": 6.6,
+    "momentum": 0.519,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -4598,7 +4567,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "buy now",
-    "days_away": 62,
+    "days_away": 61,
     "bucket": "now"
    },
    {
@@ -4613,7 +4582,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "buy now",
-    "days_away": 65,
+    "days_away": 64,
     "bucket": "now"
    },
    {
@@ -4629,7 +4598,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 119,
+    "days_away": 118,
     "bucket": "calendar"
    },
    {
@@ -4645,7 +4614,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 145,
+    "days_away": 144,
     "bucket": "calendar"
    },
    {
@@ -4661,7 +4630,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 256,
+    "days_away": 255,
     "bucket": "calendar"
    },
    {
@@ -4676,7 +4645,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 296,
+    "days_away": 295,
     "bucket": "calendar"
    },
    {
@@ -4692,7 +4661,7 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 608,
+    "days_away": 607,
     "bucket": "planning"
    }
   ],
@@ -4843,17 +4812,22 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 64 (Greed)"
+   "detail": "latest 61 (Greed)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "123 days stored"
+   "detail": "124 days stored"
   },
   {
    "source": "Google Trends",
    "status": "ok",
    "detail": "refreshed 6 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
+   "status": "failed",
+   "detail": "keycap-keychain: empty"
   },
   {
    "source": "Wikipedia pageviews",
