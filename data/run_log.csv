@@ -191,3 +191,11 @@ Google Trends,failed,rechargeable-hand-warmer: The request failed: Google return
 Wikipedia pageviews,ok,4 trends,2026-10-14
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-14
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-14
+prices (Yahoo Finance),ok,25/25 assets,2026-10-15
+crypto fear & greed (alternative.me),ok,latest 53 (Neutral),2026-10-15
+"weather, London (Open-Meteo)",ok,128 days stored,2026-10-15
+Google Trends,ok,refreshed 3 items this run (rotating),2026-10-15
+Google Trends,failed,nail-charms-3d: The request failed: Google returned a response with code 429,2026-10-15
+Wikipedia pageviews,ok,4 trends,2026-10-15
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-15
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-15
