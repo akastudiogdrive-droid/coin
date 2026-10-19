@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T11:32Z",
+ "generated": "2026-10-19T13:46Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -423,7 +423,7 @@
       "name": "Stick-on jewellery",
       "stage": "rising",
       "momentum": 5.055,
-      "wiki_momentum": -0.075,
+      "wiki_momentum": -0.02,
       "items": [
        {
         "id": "face-gems",
@@ -615,7 +615,7 @@
       "name": "Fidget gadgets",
       "stage": "rising",
       "momentum": 4.152,
-      "wiki_momentum": -0.043,
+      "wiki_momentum": -0.101,
       "items": [
        {
         "id": "magnetic-slider",
@@ -715,7 +715,7 @@
       "name": "Personal heating",
       "stage": "emerging",
       "momentum": 0.8,
-      "wiki_momentum": 0.268,
+      "wiki_momentum": 0.47,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -800,7 +800,7 @@
       "name": "Stargazing kit",
       "stage": "emerging",
       "momentum": 0.5,
-      "wiki_momentum": 0.018,
+      "wiki_momentum": -0.048,
       "items": [
        {
         "id": "red-torch",
@@ -1581,7 +1581,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "too late to source",
-    "days_away": 54,
+    "days_away": 53,
     "bucket": "calendar"
    },
    {
@@ -1596,7 +1596,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "buy now",
-    "days_away": 57,
+    "days_away": 56,
     "bucket": "now"
    },
    {
@@ -1612,7 +1612,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 111,
+    "days_away": 110,
     "bucket": "calendar"
    },
    {
@@ -1628,7 +1628,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 137,
+    "days_away": 136,
     "bucket": "calendar"
    },
    {
@@ -1644,7 +1644,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 248,
+    "days_away": 247,
     "bucket": "calendar"
    },
    {
@@ -1659,7 +1659,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 288,
+    "days_away": 287,
     "bucket": "calendar"
    },
    {
@@ -1675,11 +1675,21 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 600,
+    "days_away": 599,
     "bucket": "planning"
    }
   ],
-  "weather_triggers": [],
+  "weather_triggers": [
+   {
+    "id": "first-cold-snap",
+    "name": "First cold snap (London min below 3\u00b0C in forecast)",
+    "items": [
+     "rechargeable-hand-warmer"
+    ],
+    "triggered": false,
+    "first_date": null
+   }
+  ],
   "graded": 0,
   "issued": 0,
   "scoreboard": {
@@ -1826,12 +1836,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 53 (Neutral)"
+   "detail": "latest 59 (Greed)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "131 days stored"
+   "detail": "132 days stored"
   },
   {
    "source": "markets strand",
@@ -1840,13 +1850,8 @@
   },
   {
    "source": "Google Trends",
-   "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
-  },
-  {
-   "source": "Google Trends",
    "status": "failed",
-   "detail": "keycap-keychain: empty"
+   "detail": "keycap-keychain: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
@@ -1857,11 +1862,6 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
-  },
-  {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   }
  ]
 }
