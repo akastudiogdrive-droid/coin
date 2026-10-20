@@ -229,3 +229,12 @@ markets strand,failed,Invalid value 'True' for dtype 'float64',2026-10-19
 Google Trends,failed,keycap-keychain: The request failed: Google returned a response with code 429,2026-10-19
 Wikipedia pageviews,ok,4 trends,2026-10-19
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-19
+prices (Yahoo Finance),ok,25/25 assets,2026-10-20
+crypto fear & greed (alternative.me),ok,latest 55 (Greed),2026-10-20
+"weather, London (Open-Meteo)",ok,133 days stored,2026-10-20
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-10-20
+Google Trends,ok,refreshed 5 items this run (rotating),2026-10-20
+Google Trends,failed,nail-charms-3d: The request failed: Google returned a response with code 429,2026-10-20
+Wikipedia pageviews,ok,4 trends,2026-10-20
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-20
+opportunities strand,failed,Invalid value 'True' for dtype 'float64',2026-10-20
