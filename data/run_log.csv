@@ -246,3 +246,12 @@ Google Trends,failed,nail-charms-3d: The request failed: Google returned a respo
 Wikipedia pageviews,ok,4 trends,2026-10-21
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-21
 opportunities strand,failed,Invalid value 'True' for dtype 'float64',2026-10-21
+prices (Yahoo Finance),ok,25/25 assets,2026-10-22
+crypto fear & greed (alternative.me),ok,latest 68 (Greed),2026-10-22
+"weather, London (Open-Meteo)",ok,135 days stored,2026-10-22
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-10-22
+Google Trends,ok,refreshed 3 items this run (rotating),2026-10-22
+Google Trends,failed,beaded-phone-charm: The request failed: Google returned a response with code 429,2026-10-22
+Wikipedia pageviews,ok,4 trends,2026-10-22
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-22
+opportunities strand,failed,Invalid value 'True' for dtype 'float64',2026-10-22

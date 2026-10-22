@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T12:09Z",
+ "generated": "2026-10-22T12:13Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,12 +565,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 63 (Greed)"
+   "detail": "latest 68 (Greed)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "134 days stored"
+   "detail": "135 days stored"
   },
   {
    "source": "markets strand",
@@ -579,8 +579,13 @@
   },
   {
    "source": "Google Trends",
+   "status": "ok",
+   "detail": "refreshed 3 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
    "status": "failed",
-   "detail": "nail-charms-3d: The request failed: Google returned a response with code 429"
+   "detail": "beaded-phone-charm: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
