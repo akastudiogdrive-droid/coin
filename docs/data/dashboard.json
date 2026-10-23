@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T12:13Z",
+ "generated": "2026-10-23T11:55Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,12 +565,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 68 (Greed)"
+   "detail": "latest 50 (Neutral)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "135 days stored"
+   "detail": "136 days stored"
   },
   {
    "source": "markets strand",
@@ -580,12 +580,12 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 3 items this run (rotating)"
+   "detail": "refreshed 9 items this run (rotating)"
   },
   {
    "source": "Google Trends",
    "status": "failed",
-   "detail": "beaded-phone-charm: The request failed: Google returned a response with code 429"
+   "detail": "keycap-keychain: empty"
   },
   {
    "source": "Wikipedia pageviews",
@@ -596,6 +596,11 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
+  },
+  {
+   "source": "weather trigger",
+   "status": "failed",
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "opportunities strand",
