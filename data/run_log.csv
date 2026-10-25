@@ -274,3 +274,11 @@ Wikipedia pageviews,ok,4 trends,2026-10-24
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-24
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-24
 opportunities strand,failed,Invalid value 'True' for dtype 'float64',2026-10-24
+prices (Yahoo Finance),ok,25/25 assets,2026-10-25
+crypto fear & greed (alternative.me),ok,latest 54 (Neutral),2026-10-25
+"weather, London (Open-Meteo)",ok,138 days stored,2026-10-25
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-10-25
+Google Trends,ok,refreshed 9 items this run (rotating),2026-10-25
+Wikipedia pageviews,ok,4 trends,2026-10-25
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-25
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-10-25
