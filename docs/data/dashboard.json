@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T13:18Z",
+ "generated": "2026-10-31T12:55Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -570,7 +570,7 @@
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "143 days stored"
+   "detail": "144 days stored"
   },
   {
    "source": "markets strand",
@@ -580,7 +580,12 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 10 items this run (rotating)"
+   "detail": "refreshed 2 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
+   "status": "failed",
+   "detail": "keycap-keychain: empty"
   },
   {
    "source": "Wikipedia pageviews",
@@ -591,11 +596,6 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
-  },
-  {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "opportunities strand",
