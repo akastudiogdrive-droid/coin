@@ -330,3 +330,12 @@ Google Trends,failed,keycap-keychain: empty,2026-10-31
 Wikipedia pageviews,ok,4 trends,2026-10-31
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-10-31
 opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-10-31
+prices (Yahoo Finance),ok,25/25 assets,2026-11-01
+crypto fear & greed (alternative.me),ok,latest 34 (Fear),2026-11-01
+"weather, London (Open-Meteo)",ok,145 days stored,2026-11-01
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-01
+Google Trends,ok,refreshed 9 items this run (rotating),2026-11-01
+Google Trends,failed,keycap-keychain: empty,2026-11-01
+Wikipedia pageviews,ok,4 trends,2026-11-01
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-01
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-01
