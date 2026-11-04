@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T14:32Z",
+ "generated": "2026-11-04T14:46Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,22 +565,17 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 26 (Fear)"
+   "detail": "latest 34 (Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "147 days stored"
+   "detail": "148 days stored"
   },
   {
    "source": "markets strand",
    "status": "failed",
    "detail": "Invalid value 'True' for dtype 'float64'"
-  },
-  {
-   "source": "Google Trends",
-   "status": "ok",
-   "detail": "refreshed 7 items this run (rotating)"
   },
   {
    "source": "Google Trends",

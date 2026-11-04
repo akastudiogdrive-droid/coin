@@ -359,3 +359,12 @@ Wikipedia pageviews,ok,4 trends,2026-11-03
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-03
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-03
 opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-03
+prices (Yahoo Finance),ok,25/25 assets,2026-11-04
+crypto fear & greed (alternative.me),ok,latest 34 (Fear),2026-11-04
+"weather, London (Open-Meteo)",ok,148 days stored,2026-11-04
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-04
+Google Trends,failed,keycap-keychain: empty; sunset-lamp: The request failed: Google returned a response with code 429,2026-11-04
+Wikipedia pageviews,ok,4 trends,2026-11-04
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-04
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-04
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-04
