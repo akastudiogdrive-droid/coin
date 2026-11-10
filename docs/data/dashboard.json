@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:44Z",
+ "generated": "2026-11-10T15:07Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -413,11 +413,1180 @@
   }
  },
  "opportunities": {
-  "waves": [],
-  "items": [],
-  "now": [],
-  "quiet_children": [],
-  "events": [],
+  "waves": [
+   {
+    "id": "self-adornment",
+    "name": "Temporary self-adornment",
+    "trends": [
+     {
+      "id": "stick-on-jewellery",
+      "name": "Stick-on jewellery",
+      "stage": "rising",
+      "momentum": 9.059,
+      "wiki_momentum": -0.027,
+      "items": [
+       {
+        "id": "face-gems",
+        "name": "Face gems",
+        "wave": "Temporary self-adornment",
+        "trend": "Stick-on jewellery",
+        "stage": "rising",
+        "position": "lagging",
+        "level": 30.9,
+        "momentum": 5.23,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [
+         "skin-contact adhesive"
+        ],
+        "attributes": {
+         "material": "acrylic",
+         "use": "festival",
+         "aesthetic": "sparkle",
+         "audience": "teens-20s",
+         "price_band": "under-5"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       },
+       {
+        "id": "nail-charms-3d",
+        "name": "3D nail charms",
+        "wave": "Temporary self-adornment",
+        "trend": "Stick-on jewellery",
+        "stage": "rising",
+        "position": "lagging",
+        "level": 56.2,
+        "momentum": 8.322,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [],
+        "attributes": {
+         "material": "resin",
+         "use": "everyday",
+         "aesthetic": "cute",
+         "audience": "teens-20s",
+         "price_band": "under-5"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       },
+       {
+        "id": "fake-piercings",
+        "name": "Magnetic / clip-on fake piercings",
+        "wave": "Temporary self-adornment",
+        "trend": "Stick-on jewellery",
+        "stage": "rising",
+        "position": "leading",
+        "level": 55.3,
+        "momentum": 11.057,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [
+         "nickel content",
+         "possible child appeal"
+        ],
+        "attributes": {
+         "material": "metal",
+         "use": "everyday",
+         "aesthetic": "edgy",
+         "audience": "teens-20s",
+         "price_band": "under-5"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       },
+       {
+        "id": "tooth-gems",
+        "name": "DIY tooth gems",
+        "wave": "Temporary self-adornment",
+        "trend": "Stick-on jewellery",
+        "stage": "rising",
+        "position": "leading",
+        "level": 73.9,
+        "momentum": 11.629,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [
+         "cosmetic/dental safety",
+         "marketplace restrictions likely"
+        ],
+        "attributes": {
+         "material": "crystal",
+         "use": "everyday",
+         "aesthetic": "sparkle",
+         "audience": "20s",
+         "price_band": "5-15"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       }
+      ]
+     },
+     {
+      "id": "phone-bag-charms",
+      "name": "Phone and bag charms",
+      "stage": "steady",
+      "momentum": -0.153,
+      "wiki_momentum": null,
+      "items": [
+       {
+        "id": "beaded-phone-charm",
+        "name": "Beaded phone straps",
+        "wave": "Temporary self-adornment",
+        "trend": "Phone and bag charms",
+        "stage": "fading",
+        "position": "lagging",
+        "level": 13.0,
+        "momentum": -0.303,
+        "saturation": null,
+        "evidence": [],
+        "confidence": 0,
+        "quiet_child": false,
+        "flags": [],
+        "attributes": {
+         "material": "beads",
+         "use": "everyday",
+         "aesthetic": "cute",
+         "audience": "teens-20s",
+         "price_band": "under-5"
+        },
+        "margins": null
+       },
+       {
+        "id": "plush-bag-charm",
+        "name": "Plush bag charms (unbranded)",
+        "wave": "Temporary self-adornment",
+        "trend": "Phone and bag charms",
+        "stage": "peak",
+        "position": "leading",
+        "level": 50.4,
+        "momentum": -0.003,
+        "saturation": null,
+        "evidence": [],
+        "confidence": 0,
+        "quiet_child": false,
+        "flags": [
+         "branded look-alikes are common - avoid"
+        ],
+        "attributes": {
+         "material": "plush",
+         "use": "everyday",
+         "aesthetic": "cute",
+         "audience": "teens-30s",
+         "price_band": "5-15"
+        },
+        "margins": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "tactile-calm",
+    "name": "Tactile and calming gadgets",
+    "trends": [
+     {
+      "id": "fidget",
+      "name": "Fidget gadgets",
+      "stage": "emerging",
+      "momentum": 0.99,
+      "wiki_momentum": -0.063,
+      "items": [
+       {
+        "id": "magnetic-slider",
+        "name": "Magnetic fidget sliders",
+        "wave": "Tactile and calming gadgets",
+        "trend": "Fidget gadgets",
+        "stage": "emerging",
+        "position": "leading",
+        "level": 17.4,
+        "momentum": 2.196,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": true,
+        "flags": [
+         "small magnets - keep away from young children"
+        ],
+        "attributes": {
+         "material": "metal",
+         "use": "desk",
+         "aesthetic": "premium",
+         "audience": "adults",
+         "price_band": "5-15"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       },
+       {
+        "id": "keycap-keychain",
+        "name": "Clicky keycap keychains",
+        "wave": "Tactile and calming gadgets",
+        "trend": "Fidget gadgets",
+        "stage": "steady",
+        "position": "lagging",
+        "level": 0.0,
+        "momentum": -0.25,
+        "saturation": null,
+        "evidence": [
+         "sibling items rising"
+        ],
+        "confidence": 1,
+        "quiet_child": true,
+        "flags": [],
+        "attributes": {
+         "material": "plastic",
+         "use": "bag",
+         "aesthetic": "techy",
+         "audience": "teens-30s",
+         "price_band": "under-5"
+        },
+        "margins": null
+       },
+       {
+        "id": "taba-squishy",
+        "name": "Taba / mochi squishies",
+        "wave": "Tactile and calming gadgets",
+        "trend": "Fidget gadgets",
+        "stage": "rising",
+        "position": "in step",
+        "level": 26.3,
+        "momentum": 1.025,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "sibling items rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [
+         "toy safety marking (UKCA/CE) for under-14s"
+        ],
+        "attributes": {
+         "material": "silicone",
+         "use": "desk",
+         "aesthetic": "cute",
+         "audience": "kids-teens",
+         "price_band": "5-15"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "cosy-warmth",
+    "name": "Cosy and warmth",
+    "trends": [
+     {
+      "id": "personal-heat",
+      "name": "Personal heating",
+      "stage": "rising",
+      "momentum": 8.543,
+      "wiki_momentum": 0.622,
+      "items": [
+       {
+        "id": "rechargeable-hand-warmer",
+        "name": "Rechargeable hand warmers",
+        "wave": "Cosy and warmth",
+        "trend": "Personal heating",
+        "stage": "rising",
+        "position": null,
+        "level": 47.6,
+        "momentum": 8.543,
+        "saturation": null,
+        "evidence": [
+         "search interest rising",
+         "parent topic attention rising"
+        ],
+        "confidence": 2,
+        "quiet_child": false,
+        "flags": [
+         "lithium battery - postage restrictions",
+         "electrical safety"
+        ],
+        "attributes": {
+         "material": "electronic",
+         "use": "outdoor",
+         "aesthetic": "practical",
+         "audience": "adults",
+         "price_band": "5-15"
+        },
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
+       }
+      ]
+     },
+     {
+      "id": "ambient-light",
+      "name": "Ambient lighting",
+      "stage": "rising",
+      "momentum": 2.413,
+      "wiki_momentum": null,
+      "items": [
+       {
+        "id": "sunset-lamp",
+        "name": "Sunset projection lamps",
+        "wave": "Cosy and warmth",
+        "trend": "Ambient lighting",
+        "stage": "rising",
+        "position": null,
+        "level": 26.9,
+        "momentum": 2.413,
+        "saturation": null,
+        "evidence": [
+         "search interest rising"
+        ],
+        "confidence": 1,
+        "quiet_child": false,
+        "flags": [
+         "electrical safety",
+         "UK plug/USB only"
+        ],
+        "attributes": {
+         "material": "electronic",
+         "use": "home",
+         "aesthetic": "moody",
+         "audience": "teens-20s",
+         "price_band": "5-15"
+        },
+        "margins": null,
+        "timing": "thin evidence, early",
+        "pick": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "sky-outdoors",
+    "name": "Sky and outdoors",
+    "trends": [
+     {
+      "id": "stargazing",
+      "name": "Stargazing kit",
+      "stage": "rising",
+      "momentum": 5.646,
+      "wiki_momentum": -0.184,
+      "items": [
+       {
+        "id": "red-torch",
+        "name": "Red-light astronomy torches",
+        "wave": "Sky and outdoors",
+        "trend": "Stargazing kit",
+        "stage": "rising",
+        "position": "leading",
+        "level": 66.3,
+        "momentum": 11.291,
+        "saturation": null,
+        "evidence": [
+         "search interest rising"
+        ],
+        "confidence": 1,
+        "quiet_child": false,
+        "flags": [
+         "battery"
+        ],
+        "attributes": {
+         "material": "electronic",
+         "use": "outdoor",
+         "aesthetic": "practical",
+         "audience": "adults",
+         "price_band": "under-5"
+        },
+        "margins": null,
+        "timing": "thin evidence, early",
+        "pick": false
+       },
+       {
+        "id": "eclipse-glasses",
+        "name": "Eclipse glasses",
+        "wave": "Sky and outdoors",
+        "trend": "Stargazing kit",
+        "stage": "steady",
+        "position": "lagging",
+        "level": 0.0,
+        "momentum": 0.0,
+        "saturation": null,
+        "evidence": [
+         "sibling items rising"
+        ],
+        "confidence": 1,
+        "quiet_child": true,
+        "flags": [
+         "MUST be ISO 12312-2 certified with verifiable supplier certificate",
+         "eye-safety liability"
+        ],
+        "attributes": {
+         "material": "card-film",
+         "use": "event",
+         "aesthetic": "practical",
+         "audience": "all",
+         "price_band": "under-5"
+        },
+        "margins": null
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   {
+    "id": "face-gems",
+    "name": "Face gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 30.9,
+    "momentum": 5.23,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "skin-contact adhesive"
+    ],
+    "attributes": {
+     "material": "acrylic",
+     "use": "festival",
+     "aesthetic": "sparkle",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "nail-charms-3d",
+    "name": "3D nail charms",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 56.2,
+    "momentum": 8.322,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [],
+    "attributes": {
+     "material": "resin",
+     "use": "everyday",
+     "aesthetic": "cute",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "fake-piercings",
+    "name": "Magnetic / clip-on fake piercings",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "leading",
+    "level": 55.3,
+    "momentum": 11.057,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "nickel content",
+     "possible child appeal"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "everyday",
+     "aesthetic": "edgy",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "tooth-gems",
+    "name": "DIY tooth gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "leading",
+    "level": 73.9,
+    "momentum": 11.629,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "cosmetic/dental safety",
+     "marketplace restrictions likely"
+    ],
+    "attributes": {
+     "material": "crystal",
+     "use": "everyday",
+     "aesthetic": "sparkle",
+     "audience": "20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "beaded-phone-charm",
+    "name": "Beaded phone straps",
+    "wave": "Temporary self-adornment",
+    "trend": "Phone and bag charms",
+    "stage": "fading",
+    "position": "lagging",
+    "level": 13.0,
+    "momentum": -0.303,
+    "saturation": null,
+    "evidence": [],
+    "confidence": 0,
+    "quiet_child": false,
+    "flags": [],
+    "attributes": {
+     "material": "beads",
+     "use": "everyday",
+     "aesthetic": "cute",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null
+   },
+   {
+    "id": "plush-bag-charm",
+    "name": "Plush bag charms (unbranded)",
+    "wave": "Temporary self-adornment",
+    "trend": "Phone and bag charms",
+    "stage": "peak",
+    "position": "leading",
+    "level": 50.4,
+    "momentum": -0.003,
+    "saturation": null,
+    "evidence": [],
+    "confidence": 0,
+    "quiet_child": false,
+    "flags": [
+     "branded look-alikes are common - avoid"
+    ],
+    "attributes": {
+     "material": "plush",
+     "use": "everyday",
+     "aesthetic": "cute",
+     "audience": "teens-30s",
+     "price_band": "5-15"
+    },
+    "margins": null
+   },
+   {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 17.4,
+    "momentum": 2.196,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "keycap-keychain",
+    "name": "Clicky keycap keychains",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": -0.25,
+    "saturation": null,
+    "evidence": [
+     "sibling items rising"
+    ],
+    "confidence": 1,
+    "quiet_child": true,
+    "flags": [],
+    "attributes": {
+     "material": "plastic",
+     "use": "bag",
+     "aesthetic": "techy",
+     "audience": "teens-30s",
+     "price_band": "under-5"
+    },
+    "margins": null
+   },
+   {
+    "id": "taba-squishy",
+    "name": "Taba / mochi squishies",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "rising",
+    "position": "in step",
+    "level": 26.3,
+    "momentum": 1.025,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "toy safety marking (UKCA/CE) for under-14s"
+    ],
+    "attributes": {
+     "material": "silicone",
+     "use": "desk",
+     "aesthetic": "cute",
+     "audience": "kids-teens",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "rechargeable-hand-warmer",
+    "name": "Rechargeable hand warmers",
+    "wave": "Cosy and warmth",
+    "trend": "Personal heating",
+    "stage": "rising",
+    "position": null,
+    "level": 47.6,
+    "momentum": 8.543,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "parent topic attention rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "lithium battery - postage restrictions",
+     "electrical safety"
+    ],
+    "attributes": {
+     "material": "electronic",
+     "use": "outdoor",
+     "aesthetic": "practical",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "sunset-lamp",
+    "name": "Sunset projection lamps",
+    "wave": "Cosy and warmth",
+    "trend": "Ambient lighting",
+    "stage": "rising",
+    "position": null,
+    "level": 26.9,
+    "momentum": 2.413,
+    "saturation": null,
+    "evidence": [
+     "search interest rising"
+    ],
+    "confidence": 1,
+    "quiet_child": false,
+    "flags": [
+     "electrical safety",
+     "UK plug/USB only"
+    ],
+    "attributes": {
+     "material": "electronic",
+     "use": "home",
+     "aesthetic": "moody",
+     "audience": "teens-20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "thin evidence, early",
+    "pick": false
+   },
+   {
+    "id": "red-torch",
+    "name": "Red-light astronomy torches",
+    "wave": "Sky and outdoors",
+    "trend": "Stargazing kit",
+    "stage": "rising",
+    "position": "leading",
+    "level": 66.3,
+    "momentum": 11.291,
+    "saturation": null,
+    "evidence": [
+     "search interest rising"
+    ],
+    "confidence": 1,
+    "quiet_child": false,
+    "flags": [
+     "battery"
+    ],
+    "attributes": {
+     "material": "electronic",
+     "use": "outdoor",
+     "aesthetic": "practical",
+     "audience": "adults",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "thin evidence, early",
+    "pick": false
+   },
+   {
+    "id": "eclipse-glasses",
+    "name": "Eclipse glasses",
+    "wave": "Sky and outdoors",
+    "trend": "Stargazing kit",
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": 0.0,
+    "saturation": null,
+    "evidence": [
+     "sibling items rising"
+    ],
+    "confidence": 1,
+    "quiet_child": true,
+    "flags": [
+     "MUST be ISO 12312-2 certified with verifiable supplier certificate",
+     "eye-safety liability"
+    ],
+    "attributes": {
+     "material": "card-film",
+     "use": "event",
+     "aesthetic": "practical",
+     "audience": "all",
+     "price_band": "under-5"
+    },
+    "margins": null
+   }
+  ],
+  "now": [
+   {
+    "id": "tooth-gems",
+    "name": "DIY tooth gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "leading",
+    "level": 73.9,
+    "momentum": 11.629,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "cosmetic/dental safety",
+     "marketplace restrictions likely"
+    ],
+    "attributes": {
+     "material": "crystal",
+     "use": "everyday",
+     "aesthetic": "sparkle",
+     "audience": "20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "fake-piercings",
+    "name": "Magnetic / clip-on fake piercings",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "leading",
+    "level": 55.3,
+    "momentum": 11.057,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "nickel content",
+     "possible child appeal"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "everyday",
+     "aesthetic": "edgy",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "rechargeable-hand-warmer",
+    "name": "Rechargeable hand warmers",
+    "wave": "Cosy and warmth",
+    "trend": "Personal heating",
+    "stage": "rising",
+    "position": null,
+    "level": 47.6,
+    "momentum": 8.543,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "parent topic attention rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "lithium battery - postage restrictions",
+     "electrical safety"
+    ],
+    "attributes": {
+     "material": "electronic",
+     "use": "outdoor",
+     "aesthetic": "practical",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "nail-charms-3d",
+    "name": "3D nail charms",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 56.2,
+    "momentum": 8.322,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [],
+    "attributes": {
+     "material": "resin",
+     "use": "everyday",
+     "aesthetic": "cute",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "face-gems",
+    "name": "Face gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "lagging",
+    "level": 30.9,
+    "momentum": 5.23,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "skin-contact adhesive"
+    ],
+    "attributes": {
+     "material": "acrylic",
+     "use": "festival",
+     "aesthetic": "sparkle",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   }
+  ],
+  "quiet_children": [
+   {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 17.4,
+    "momentum": 2.196,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "keycap-keychain",
+    "name": "Clicky keycap keychains",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": -0.25,
+    "saturation": null,
+    "evidence": [
+     "sibling items rising"
+    ],
+    "confidence": 1,
+    "quiet_child": true,
+    "flags": [],
+    "attributes": {
+     "material": "plastic",
+     "use": "bag",
+     "aesthetic": "techy",
+     "audience": "teens-30s",
+     "price_band": "under-5"
+    },
+    "margins": null
+   },
+   {
+    "id": "eclipse-glasses",
+    "name": "Eclipse glasses",
+    "wave": "Sky and outdoors",
+    "trend": "Stargazing kit",
+    "stage": "steady",
+    "position": "lagging",
+    "level": 0.0,
+    "momentum": 0.0,
+    "saturation": null,
+    "evidence": [
+     "sibling items rising"
+    ],
+    "confidence": 1,
+    "quiet_child": true,
+    "flags": [
+     "MUST be ISO 12312-2 certified with verifiable supplier certificate",
+     "eye-safety liability"
+    ],
+    "attributes": {
+     "material": "card-film",
+     "use": "event",
+     "aesthetic": "practical",
+     "audience": "all",
+     "price_band": "under-5"
+    },
+    "margins": null
+   }
+  ],
+  "events": [
+   {
+    "id": "secret-santa-2026",
+    "name": "Office Secret Santa (\u00a35\u2013\u00a310 gifts)",
+    "items": [
+     "keycap-keychain",
+     "magnetic-slider"
+    ],
+    "note": "Peak for small novelty desk gifts; exact peak week to be confirmed from data.",
+    "verified": false,
+    "date": "2026-12-11",
+    "sell_start": "2026-11-13",
+    "buy_by": "2026-10-16",
+    "status": "too late to source",
+    "days_away": 31,
+    "bucket": "calendar"
+   },
+   {
+    "id": "geminids-2026",
+    "name": "Geminid meteor shower peak",
+    "items": [
+     "red-torch"
+    ],
+    "note": "Niche; test of the calendar logic more than a big earner.",
+    "verified": false,
+    "date": "2026-12-14",
+    "sell_start": "2026-11-23",
+    "buy_by": "2026-10-26",
+    "status": "too late to source",
+    "days_away": 34,
+    "bucket": "calendar"
+   },
+   {
+    "id": "cny-2027",
+    "name": "Chinese New Year (Year of the Goat)",
+    "items": [
+     "goat-year charms",
+     "red envelope sets"
+    ],
+    "note": null,
+    "verified": false,
+    "date": "2027-02-06",
+    "sell_start": "2027-01-16",
+    "buy_by": "2026-12-19",
+    "status": "planning",
+    "days_away": 88,
+    "bucket": "calendar"
+   },
+   {
+    "id": "world-book-day-2027",
+    "name": "World Book Day (costume accessories)",
+    "items": [
+     "round wire costume glasses",
+     "felt character hats (unbranded)"
+    ],
+    "note": "Avoid licensed-character items.",
+    "verified": false,
+    "date": "2027-03-04",
+    "sell_start": "2027-02-11",
+    "buy_by": "2027-01-14",
+    "status": "planning",
+    "days_away": 114,
+    "bucket": "calendar"
+   },
+   {
+    "id": "glastonbury-2027",
+    "name": "Glastonbury and festival season opener",
+    "items": [
+     "face-gems",
+     "festival glitter gel"
+    ],
+    "note": null,
+    "verified": false,
+    "date": "2027-06-23",
+    "sell_start": "2027-05-12",
+    "buy_by": "2027-04-14",
+    "status": "planning",
+    "days_away": 225,
+    "bucket": "calendar"
+   },
+   {
+    "id": "eclipse-2027",
+    "name": "Total solar eclipse (totality in Spain/N Africa, partial in UK)",
+    "items": [
+     "eclipse-glasses"
+    ],
+    "note": "UK travellers heading to Spain. Certified glasses only.",
+    "verified": false,
+    "date": "2027-08-02",
+    "sell_start": "2027-06-18",
+    "buy_by": "2027-05-21",
+    "status": "planning",
+    "days_away": 265,
+    "bucket": "calendar"
+   },
+   {
+    "id": "euro-2028",
+    "name": "UEFA Euro 2028 (hosted in UK and Ireland)",
+    "items": [
+     "unbranded flag face gems",
+     "home-nation colour bag charms"
+    ],
+    "note": "Long-range planning. No official UEFA or team crests.",
+    "verified": false,
+    "date": "2028-06-09",
+    "sell_start": "2028-04-10",
+    "buy_by": "2028-03-13",
+    "status": "planning",
+    "days_away": 577,
+    "bucket": "planning"
+   }
+  ],
   "weather_triggers": [],
   "graded": 0,
   "issued": 0,
@@ -565,12 +1734,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 29 (Fear)"
+   "detail": "latest 32 (Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "153 days stored"
+   "detail": "154 days stored"
   },
   {
    "source": "markets strand",
@@ -580,7 +1749,7 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
+   "detail": "refreshed 4 items this run (rotating)"
   },
   {
    "source": "Wikipedia pageviews",
@@ -593,9 +1762,9 @@
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
   },
   {
-   "source": "opportunities strand",
+   "source": "weather trigger",
    "status": "failed",
-   "detail": "Invalid value 'False' for dtype 'float64'"
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   }
  ]
 }
