@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:07Z",
+ "generated": "2026-11-11T14:39Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -422,25 +422,25 @@
       "id": "stick-on-jewellery",
       "name": "Stick-on jewellery",
       "stage": "rising",
-      "momentum": 9.059,
-      "wiki_momentum": -0.027,
+      "momentum": 5.126,
+      "wiki_momentum": -0.034,
       "items": [
        {
         "id": "face-gems",
         "name": "Face gems",
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
-        "stage": "rising",
+        "stage": "emerging",
         "position": "lagging",
-        "level": 30.9,
-        "momentum": 5.23,
+        "level": 23.9,
+        "momentum": 1.862,
         "saturation": null,
         "evidence": [
          "search interest rising",
          "sibling items rising"
         ],
         "confidence": 2,
-        "quiet_child": false,
+        "quiet_child": true,
         "flags": [
          "skin-contact adhesive"
         ],
@@ -461,9 +461,9 @@
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
         "stage": "rising",
-        "position": "lagging",
-        "level": 56.2,
-        "momentum": 8.322,
+        "position": "leading",
+        "level": 54.4,
+        "momentum": 7.994,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -490,8 +490,8 @@
         "trend": "Stick-on jewellery",
         "stage": "rising",
         "position": "leading",
-        "level": 55.3,
-        "momentum": 11.057,
+        "level": 52.3,
+        "momentum": 8.141,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -519,17 +519,17 @@
         "name": "DIY tooth gems",
         "wave": "Temporary self-adornment",
         "trend": "Stick-on jewellery",
-        "stage": "rising",
-        "position": "leading",
-        "level": 73.9,
-        "momentum": 11.629,
+        "stage": "emerging",
+        "position": "lagging",
+        "level": 20.1,
+        "momentum": 2.506,
         "saturation": null,
         "evidence": [
          "search interest rising",
          "sibling items rising"
         ],
         "confidence": 2,
-        "quiet_child": false,
+        "quiet_child": true,
         "flags": [
          "cosmetic/dental safety",
          "marketplace restrictions likely"
@@ -551,7 +551,7 @@
       "id": "phone-bag-charms",
       "name": "Phone and bag charms",
       "stage": "steady",
-      "momentum": -0.153,
+      "momentum": -0.133,
       "wiki_momentum": null,
       "items": [
        {
@@ -559,10 +559,10 @@
         "name": "Beaded phone straps",
         "wave": "Temporary self-adornment",
         "trend": "Phone and bag charms",
-        "stage": "fading",
-        "position": "lagging",
-        "level": 13.0,
-        "momentum": -0.303,
+        "stage": "steady",
+        "position": "in step",
+        "level": 12.1,
+        "momentum": -0.23,
         "saturation": null,
         "evidence": [],
         "confidence": 0,
@@ -582,10 +582,10 @@
         "name": "Plush bag charms (unbranded)",
         "wave": "Temporary self-adornment",
         "trend": "Phone and bag charms",
-        "stage": "peak",
-        "position": "leading",
-        "level": 50.4,
-        "momentum": -0.003,
+        "stage": "steady",
+        "position": "in step",
+        "level": 48.8,
+        "momentum": -0.035,
         "saturation": null,
         "evidence": [],
         "confidence": 0,
@@ -615,7 +615,7 @@
       "name": "Fidget gadgets",
       "stage": "emerging",
       "momentum": 0.99,
-      "wiki_momentum": -0.063,
+      "wiki_momentum": -0.043,
       "items": [
        {
         "id": "magnetic-slider",
@@ -715,7 +715,7 @@
       "name": "Personal heating",
       "stage": "rising",
       "momentum": 8.543,
-      "wiki_momentum": 0.622,
+      "wiki_momentum": 0.623,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -754,7 +754,7 @@
       "id": "ambient-light",
       "name": "Ambient lighting",
       "stage": "rising",
-      "momentum": 2.413,
+      "momentum": 2.546,
       "wiki_momentum": null,
       "items": [
        {
@@ -764,8 +764,8 @@
         "trend": "Ambient lighting",
         "stage": "rising",
         "position": null,
-        "level": 26.9,
-        "momentum": 2.413,
+        "level": 29.9,
+        "momentum": 2.546,
         "saturation": null,
         "evidence": [
          "search interest rising"
@@ -799,8 +799,8 @@
       "id": "stargazing",
       "name": "Stargazing kit",
       "stage": "rising",
-      "momentum": 5.646,
-      "wiki_momentum": -0.184,
+      "momentum": 5.556,
+      "wiki_momentum": -0.178,
       "items": [
        {
         "id": "red-torch",
@@ -809,8 +809,8 @@
         "trend": "Stargazing kit",
         "stage": "rising",
         "position": "leading",
-        "level": 66.3,
-        "momentum": 11.291,
+        "level": 64.6,
+        "momentum": 11.112,
         "saturation": null,
         "evidence": [
          "search interest rising"
@@ -870,17 +870,17 @@
     "name": "Face gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "rising",
+    "stage": "emerging",
     "position": "lagging",
-    "level": 30.9,
-    "momentum": 5.23,
+    "level": 23.9,
+    "momentum": 1.862,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
      "skin-contact adhesive"
     ],
@@ -901,9 +901,9 @@
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
     "stage": "rising",
-    "position": "lagging",
-    "level": 56.2,
-    "momentum": 8.322,
+    "position": "leading",
+    "level": 54.4,
+    "momentum": 7.994,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -930,8 +930,8 @@
     "trend": "Stick-on jewellery",
     "stage": "rising",
     "position": "leading",
-    "level": 55.3,
-    "momentum": 11.057,
+    "level": 52.3,
+    "momentum": 8.141,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -959,17 +959,17 @@
     "name": "DIY tooth gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "rising",
-    "position": "leading",
-    "level": 73.9,
-    "momentum": 11.629,
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 20.1,
+    "momentum": 2.506,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": false,
+    "quiet_child": true,
     "flags": [
      "cosmetic/dental safety",
      "marketplace restrictions likely"
@@ -990,10 +990,10 @@
     "name": "Beaded phone straps",
     "wave": "Temporary self-adornment",
     "trend": "Phone and bag charms",
-    "stage": "fading",
-    "position": "lagging",
-    "level": 13.0,
-    "momentum": -0.303,
+    "stage": "steady",
+    "position": "in step",
+    "level": 12.1,
+    "momentum": -0.23,
     "saturation": null,
     "evidence": [],
     "confidence": 0,
@@ -1013,10 +1013,10 @@
     "name": "Plush bag charms (unbranded)",
     "wave": "Temporary self-adornment",
     "trend": "Phone and bag charms",
-    "stage": "peak",
-    "position": "leading",
-    "level": 50.4,
-    "momentum": -0.003,
+    "stage": "steady",
+    "position": "in step",
+    "level": 48.8,
+    "momentum": -0.035,
     "saturation": null,
     "evidence": [],
     "confidence": 0,
@@ -1156,8 +1156,8 @@
     "trend": "Ambient lighting",
     "stage": "rising",
     "position": null,
-    "level": 26.9,
-    "momentum": 2.413,
+    "level": 29.9,
+    "momentum": 2.546,
     "saturation": null,
     "evidence": [
      "search interest rising"
@@ -1186,8 +1186,8 @@
     "trend": "Stargazing kit",
     "stage": "rising",
     "position": "leading",
-    "level": 66.3,
-    "momentum": 11.291,
+    "level": 64.6,
+    "momentum": 11.112,
     "saturation": null,
     "evidence": [
      "search interest rising"
@@ -1239,68 +1239,6 @@
   ],
   "now": [
    {
-    "id": "tooth-gems",
-    "name": "DIY tooth gems",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "rising",
-    "position": "leading",
-    "level": 73.9,
-    "momentum": 11.629,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": false,
-    "flags": [
-     "cosmetic/dental safety",
-     "marketplace restrictions likely"
-    ],
-    "attributes": {
-     "material": "crystal",
-     "use": "everyday",
-     "aesthetic": "sparkle",
-     "audience": "20s",
-     "price_band": "5-15"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
-    "id": "fake-piercings",
-    "name": "Magnetic / clip-on fake piercings",
-    "wave": "Temporary self-adornment",
-    "trend": "Stick-on jewellery",
-    "stage": "rising",
-    "position": "leading",
-    "level": 55.3,
-    "momentum": 11.057,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": false,
-    "flags": [
-     "nickel content",
-     "possible child appeal"
-    ],
-    "attributes": {
-     "material": "metal",
-     "use": "everyday",
-     "aesthetic": "edgy",
-     "audience": "teens-20s",
-     "price_band": "under-5"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
     "id": "rechargeable-hand-warmer",
     "name": "Rechargeable hand warmers",
     "wave": "Cosy and warmth",
@@ -1332,14 +1270,45 @@
     "pick": true
    },
    {
+    "id": "fake-piercings",
+    "name": "Magnetic / clip-on fake piercings",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "rising",
+    "position": "leading",
+    "level": 52.3,
+    "momentum": 8.141,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": false,
+    "flags": [
+     "nickel content",
+     "possible child appeal"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "everyday",
+     "aesthetic": "edgy",
+     "audience": "teens-20s",
+     "price_band": "under-5"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
     "id": "nail-charms-3d",
     "name": "3D nail charms",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
     "stage": "rising",
-    "position": "lagging",
-    "level": 56.2,
-    "momentum": 8.322,
+    "position": "leading",
+    "level": 54.4,
+    "momentum": 7.994,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1360,21 +1329,84 @@
     "pick": true
    },
    {
-    "id": "face-gems",
-    "name": "Face gems",
+    "id": "tooth-gems",
+    "name": "DIY tooth gems",
     "wave": "Temporary self-adornment",
     "trend": "Stick-on jewellery",
-    "stage": "rising",
+    "stage": "emerging",
     "position": "lagging",
-    "level": 30.9,
-    "momentum": 5.23,
+    "level": 20.1,
+    "momentum": 2.506,
     "saturation": null,
     "evidence": [
      "search interest rising",
      "sibling items rising"
     ],
     "confidence": 2,
-    "quiet_child": false,
+    "quiet_child": true,
+    "flags": [
+     "cosmetic/dental safety",
+     "marketplace restrictions likely"
+    ],
+    "attributes": {
+     "material": "crystal",
+     "use": "everyday",
+     "aesthetic": "sparkle",
+     "audience": "20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 17.4,
+    "momentum": 2.196,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   }
+  ],
+  "quiet_children": [
+   {
+    "id": "face-gems",
+    "name": "Face gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 23.9,
+    "momentum": 1.862,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
     "flags": [
      "skin-contact adhesive"
     ],
@@ -1388,9 +1420,38 @@
     "margins": null,
     "timing": "enough evidence",
     "pick": true
-   }
-  ],
-  "quiet_children": [
+   },
+   {
+    "id": "tooth-gems",
+    "name": "DIY tooth gems",
+    "wave": "Temporary self-adornment",
+    "trend": "Stick-on jewellery",
+    "stage": "emerging",
+    "position": "lagging",
+    "level": 20.1,
+    "momentum": 2.506,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "cosmetic/dental safety",
+     "marketplace restrictions likely"
+    ],
+    "attributes": {
+     "material": "crystal",
+     "use": "everyday",
+     "aesthetic": "sparkle",
+     "audience": "20s",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
    {
     "id": "magnetic-slider",
     "name": "Magnetic fidget sliders",
@@ -1489,7 +1550,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "too late to source",
-    "days_away": 31,
+    "days_away": 30,
     "bucket": "calendar"
    },
    {
@@ -1504,7 +1565,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "too late to source",
-    "days_away": 34,
+    "days_away": 33,
     "bucket": "calendar"
    },
    {
@@ -1520,7 +1581,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 88,
+    "days_away": 87,
     "bucket": "calendar"
    },
    {
@@ -1536,7 +1597,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 114,
+    "days_away": 113,
     "bucket": "calendar"
    },
    {
@@ -1552,7 +1613,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 225,
+    "days_away": 224,
     "bucket": "calendar"
    },
    {
@@ -1567,7 +1628,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 265,
+    "days_away": 264,
     "bucket": "calendar"
    },
    {
@@ -1583,11 +1644,21 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 577,
+    "days_away": 576,
     "bucket": "planning"
    }
   ],
-  "weather_triggers": [],
+  "weather_triggers": [
+   {
+    "id": "first-cold-snap",
+    "name": "First cold snap (London min below 3\u00b0C in forecast)",
+    "items": [
+     "rechargeable-hand-warmer"
+    ],
+    "triggered": true,
+    "first_date": "2026-11-13"
+   }
+  ],
   "graded": 0,
   "issued": 0,
   "scoreboard": {
@@ -1734,12 +1805,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 32 (Fear)"
+   "detail": "latest 29 (Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "154 days stored"
+   "detail": "155 days stored"
   },
   {
    "source": "markets strand",
@@ -1749,7 +1820,7 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 4 items this run (rotating)"
+   "detail": "refreshed 9 items this run (rotating)"
   },
   {
    "source": "Wikipedia pageviews",
@@ -1760,11 +1831,6 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
-  },
-  {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   }
  ]
 }
