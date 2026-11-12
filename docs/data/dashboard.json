@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T14:39Z",
+ "generated": "2026-11-12T15:29Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -423,7 +423,7 @@
       "name": "Stick-on jewellery",
       "stage": "rising",
       "momentum": 5.126,
-      "wiki_momentum": -0.034,
+      "wiki_momentum": -0.031,
       "items": [
        {
         "id": "face-gems",
@@ -614,8 +614,8 @@
       "id": "fidget",
       "name": "Fidget gadgets",
       "stage": "emerging",
-      "momentum": 0.99,
-      "wiki_momentum": -0.043,
+      "momentum": 2.054,
+      "wiki_momentum": -0.014,
       "items": [
        {
         "id": "magnetic-slider",
@@ -624,8 +624,8 @@
         "trend": "Fidget gadgets",
         "stage": "emerging",
         "position": "leading",
-        "level": 17.4,
-        "momentum": 2.196,
+        "level": 22.4,
+        "momentum": 2.936,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -652,15 +652,16 @@
         "name": "Clicky keycap keychains",
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
-        "stage": "steady",
+        "stage": "emerging",
         "position": "lagging",
-        "level": 0.0,
-        "momentum": -0.25,
+        "level": 7.1,
+        "momentum": 1.429,
         "saturation": null,
         "evidence": [
+         "search interest rising",
          "sibling items rising"
         ],
-        "confidence": 1,
+        "confidence": 2,
         "quiet_child": true,
         "flags": [],
         "attributes": {
@@ -670,7 +671,9 @@
          "audience": "teens-30s",
          "price_band": "under-5"
         },
-        "margins": null
+        "margins": null,
+        "timing": "enough evidence",
+        "pick": true
        },
        {
         "id": "taba-squishy",
@@ -678,9 +681,9 @@
         "wave": "Tactile and calming gadgets",
         "trend": "Fidget gadgets",
         "stage": "rising",
-        "position": "in step",
-        "level": 26.3,
-        "momentum": 1.025,
+        "position": "lagging",
+        "level": 34.7,
+        "momentum": 1.797,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -714,8 +717,8 @@
       "id": "personal-heat",
       "name": "Personal heating",
       "stage": "rising",
-      "momentum": 8.543,
-      "wiki_momentum": 0.623,
+      "momentum": 10.814,
+      "wiki_momentum": 0.612,
       "items": [
        {
         "id": "rechargeable-hand-warmer",
@@ -724,8 +727,8 @@
         "trend": "Personal heating",
         "stage": "rising",
         "position": null,
-        "level": 47.6,
-        "momentum": 8.543,
+        "level": 54.1,
+        "momentum": 10.814,
         "saturation": null,
         "evidence": [
          "search interest rising",
@@ -800,7 +803,7 @@
       "name": "Stargazing kit",
       "stage": "rising",
       "momentum": 5.556,
-      "wiki_momentum": -0.178,
+      "wiki_momentum": -0.184,
       "items": [
        {
         "id": "red-torch",
@@ -1040,8 +1043,8 @@
     "trend": "Fidget gadgets",
     "stage": "emerging",
     "position": "leading",
-    "level": 17.4,
-    "momentum": 2.196,
+    "level": 22.4,
+    "momentum": 2.936,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1068,15 +1071,16 @@
     "name": "Clicky keycap keychains",
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
-    "stage": "steady",
+    "stage": "emerging",
     "position": "lagging",
-    "level": 0.0,
-    "momentum": -0.25,
+    "level": 7.1,
+    "momentum": 1.429,
     "saturation": null,
     "evidence": [
+     "search interest rising",
      "sibling items rising"
     ],
-    "confidence": 1,
+    "confidence": 2,
     "quiet_child": true,
     "flags": [],
     "attributes": {
@@ -1086,7 +1090,9 @@
      "audience": "teens-30s",
      "price_band": "under-5"
     },
-    "margins": null
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
    },
    {
     "id": "taba-squishy",
@@ -1094,9 +1100,9 @@
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
     "stage": "rising",
-    "position": "in step",
-    "level": 26.3,
-    "momentum": 1.025,
+    "position": "lagging",
+    "level": 34.7,
+    "momentum": 1.797,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1125,8 +1131,8 @@
     "trend": "Personal heating",
     "stage": "rising",
     "position": null,
-    "level": 47.6,
-    "momentum": 8.543,
+    "level": 54.1,
+    "momentum": 10.814,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1245,8 +1251,8 @@
     "trend": "Personal heating",
     "stage": "rising",
     "position": null,
-    "level": 47.6,
-    "momentum": 8.543,
+    "level": 54.1,
+    "momentum": 10.814,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1329,6 +1335,36 @@
     "pick": true
    },
    {
+    "id": "magnetic-slider",
+    "name": "Magnetic fidget sliders",
+    "wave": "Tactile and calming gadgets",
+    "trend": "Fidget gadgets",
+    "stage": "emerging",
+    "position": "leading",
+    "level": 22.4,
+    "momentum": 2.936,
+    "saturation": null,
+    "evidence": [
+     "search interest rising",
+     "sibling items rising"
+    ],
+    "confidence": 2,
+    "quiet_child": true,
+    "flags": [
+     "small magnets - keep away from young children"
+    ],
+    "attributes": {
+     "material": "metal",
+     "use": "desk",
+     "aesthetic": "premium",
+     "audience": "adults",
+     "price_band": "5-15"
+    },
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
+   },
+   {
     "id": "tooth-gems",
     "name": "DIY tooth gems",
     "wave": "Temporary self-adornment",
@@ -1353,36 +1389,6 @@
      "use": "everyday",
      "aesthetic": "sparkle",
      "audience": "20s",
-     "price_band": "5-15"
-    },
-    "margins": null,
-    "timing": "enough evidence",
-    "pick": true
-   },
-   {
-    "id": "magnetic-slider",
-    "name": "Magnetic fidget sliders",
-    "wave": "Tactile and calming gadgets",
-    "trend": "Fidget gadgets",
-    "stage": "emerging",
-    "position": "leading",
-    "level": 17.4,
-    "momentum": 2.196,
-    "saturation": null,
-    "evidence": [
-     "search interest rising",
-     "sibling items rising"
-    ],
-    "confidence": 2,
-    "quiet_child": true,
-    "flags": [
-     "small magnets - keep away from young children"
-    ],
-    "attributes": {
-     "material": "metal",
-     "use": "desk",
-     "aesthetic": "premium",
-     "audience": "adults",
      "price_band": "5-15"
     },
     "margins": null,
@@ -1459,8 +1465,8 @@
     "trend": "Fidget gadgets",
     "stage": "emerging",
     "position": "leading",
-    "level": 17.4,
-    "momentum": 2.196,
+    "level": 22.4,
+    "momentum": 2.936,
     "saturation": null,
     "evidence": [
      "search interest rising",
@@ -1487,15 +1493,16 @@
     "name": "Clicky keycap keychains",
     "wave": "Tactile and calming gadgets",
     "trend": "Fidget gadgets",
-    "stage": "steady",
+    "stage": "emerging",
     "position": "lagging",
-    "level": 0.0,
-    "momentum": -0.25,
+    "level": 7.1,
+    "momentum": 1.429,
     "saturation": null,
     "evidence": [
+     "search interest rising",
      "sibling items rising"
     ],
-    "confidence": 1,
+    "confidence": 2,
     "quiet_child": true,
     "flags": [],
     "attributes": {
@@ -1505,7 +1512,9 @@
      "audience": "teens-30s",
      "price_band": "under-5"
     },
-    "margins": null
+    "margins": null,
+    "timing": "enough evidence",
+    "pick": true
    },
    {
     "id": "eclipse-glasses",
@@ -1550,7 +1559,7 @@
     "sell_start": "2026-11-13",
     "buy_by": "2026-10-16",
     "status": "too late to source",
-    "days_away": 30,
+    "days_away": 29,
     "bucket": "calendar"
    },
    {
@@ -1565,7 +1574,7 @@
     "sell_start": "2026-11-23",
     "buy_by": "2026-10-26",
     "status": "too late to source",
-    "days_away": 33,
+    "days_away": 32,
     "bucket": "calendar"
    },
    {
@@ -1581,7 +1590,7 @@
     "sell_start": "2027-01-16",
     "buy_by": "2026-12-19",
     "status": "planning",
-    "days_away": 87,
+    "days_away": 86,
     "bucket": "calendar"
    },
    {
@@ -1597,7 +1606,7 @@
     "sell_start": "2027-02-11",
     "buy_by": "2027-01-14",
     "status": "planning",
-    "days_away": 113,
+    "days_away": 112,
     "bucket": "calendar"
    },
    {
@@ -1613,7 +1622,7 @@
     "sell_start": "2027-05-12",
     "buy_by": "2027-04-14",
     "status": "planning",
-    "days_away": 224,
+    "days_away": 223,
     "bucket": "calendar"
    },
    {
@@ -1628,7 +1637,7 @@
     "sell_start": "2027-06-18",
     "buy_by": "2027-05-21",
     "status": "planning",
-    "days_away": 264,
+    "days_away": 263,
     "bucket": "calendar"
    },
    {
@@ -1644,7 +1653,7 @@
     "sell_start": "2028-04-10",
     "buy_by": "2028-03-13",
     "status": "planning",
-    "days_away": 576,
+    "days_away": 575,
     "bucket": "planning"
    }
   ],
@@ -1805,12 +1814,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 29 (Fear)"
+   "detail": "latest 28 (Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "155 days stored"
+   "detail": "156 days stored"
   },
   {
    "source": "markets strand",
@@ -1820,7 +1829,7 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
+   "detail": "refreshed 4 items this run (rotating)"
   },
   {
    "source": "Wikipedia pageviews",
