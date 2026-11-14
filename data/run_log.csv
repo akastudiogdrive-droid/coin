@@ -442,3 +442,12 @@ Google Trends,ok,refreshed 9 items this run (rotating),2026-11-13
 Wikipedia pageviews,ok,4 trends,2026-11-13
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-13
 weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-13
+prices (Yahoo Finance),ok,25/25 assets,2026-11-14
+crypto fear & greed (alternative.me),ok,latest 13 (Extreme Fear),2026-11-14
+"weather, London (Open-Meteo)",failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-14
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-14
+Google Trends,ok,refreshed 4 items this run (rotating),2026-11-14
+Wikipedia pageviews,ok,4 trends,2026-11-14
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-14
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-14
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-14
