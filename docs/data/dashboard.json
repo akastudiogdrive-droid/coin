@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T14:12Z",
+ "generated": "2026-11-16T16:14Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -570,7 +570,7 @@
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "159 days stored"
+   "detail": "160 days stored"
   },
   {
    "source": "markets strand",
@@ -580,7 +580,12 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
+   "detail": "refreshed 3 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
+   "status": "failed",
+   "detail": "keycap-keychain: empty"
   },
   {
    "source": "Wikipedia pageviews",
