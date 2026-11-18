@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T16:22Z",
+ "generated": "2026-11-18T15:53Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,7 +565,7 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 12 (Extreme Fear)"
+   "detail": "latest 11 (Extreme Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
@@ -580,7 +580,12 @@
   {
    "source": "Google Trends",
    "status": "ok",
-   "detail": "refreshed 10 items this run (rotating)"
+   "detail": "refreshed 2 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
+   "status": "failed",
+   "detail": "rechargeable-hand-warmer: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
@@ -593,14 +598,9 @@
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
   },
   {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
-  },
-  {
    "source": "opportunities strand",
    "status": "failed",
-   "detail": "Invalid value 'False' for dtype 'float64'"
+   "detail": "Invalid value 'True' for dtype 'float64'"
   }
  ]
 }
