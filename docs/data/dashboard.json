@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T15:57Z",
+ "generated": "2026-11-20T15:40Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,22 +565,17 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 10 (Extreme Fear)"
+   "detail": "latest 12 (Extreme Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "163 days stored"
+   "detail": "164 days stored"
   },
   {
    "source": "markets strand",
    "status": "failed",
    "detail": "Invalid value 'True' for dtype 'float64'"
-  },
-  {
-   "source": "Google Trends",
-   "status": "ok",
-   "detail": "refreshed 2 items this run (rotating)"
   },
   {
    "source": "Google Trends",
@@ -596,11 +591,6 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
-  },
-  {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "opportunities strand",
