@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:40Z",
+ "generated": "2026-11-21T14:52Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -570,7 +570,7 @@
   {
    "source": "weather, London (Open-Meteo)",
    "status": "ok",
-   "detail": "164 days stored"
+   "detail": "165 days stored"
   },
   {
    "source": "markets strand",
@@ -579,8 +579,13 @@
   },
   {
    "source": "Google Trends",
+   "status": "ok",
+   "detail": "refreshed 9 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
    "status": "failed",
-   "detail": "nail-charms-3d: The request failed: Google returned a response with code 429"
+   "detail": "keycap-keychain: empty"
   },
   {
    "source": "Wikipedia pageviews",
@@ -595,7 +600,7 @@
   {
    "source": "opportunities strand",
    "status": "failed",
-   "detail": "Invalid value 'True' for dtype 'float64'"
+   "detail": "Invalid value 'False' for dtype 'float64'"
   }
  ]
 }
