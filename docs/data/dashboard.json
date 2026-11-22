@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T14:52Z",
+ "generated": "2026-11-22T14:47Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -565,12 +565,12 @@
   {
    "source": "crypto fear & greed (alternative.me)",
    "status": "ok",
-   "detail": "latest 12 (Extreme Fear)"
+   "detail": "latest 11 (Extreme Fear)"
   },
   {
    "source": "weather, London (Open-Meteo)",
-   "status": "ok",
-   "detail": "165 days stored"
+   "status": "failed",
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "markets strand",
@@ -579,13 +579,8 @@
   },
   {
    "source": "Google Trends",
-   "status": "ok",
-   "detail": "refreshed 9 items this run (rotating)"
-  },
-  {
-   "source": "Google Trends",
    "status": "failed",
-   "detail": "keycap-keychain: empty"
+   "detail": "keycap-keychain: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
