@@ -521,3 +521,12 @@ Google Trends,failed,keycap-keychain: The request failed: Google returned a resp
 Wikipedia pageviews,ok,4 trends,2026-11-22
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-22
 opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-22
+prices (Yahoo Finance),ok,25/25 assets,2026-11-23
+crypto fear & greed (alternative.me),ok,latest 11 (Extreme Fear),2026-11-23
+"weather, London (Open-Meteo)",failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-23
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-23
+Google Trends,failed,keycap-keychain: The request failed: Google returned a response with code 429,2026-11-23
+Wikipedia pageviews,ok,4 trends,2026-11-23
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-23
+weather trigger,failed,"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)",2026-11-23
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-23

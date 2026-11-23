@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T14:47Z",
+ "generated": "2026-11-23T18:36Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -591,6 +591,11 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
+  },
+  {
+   "source": "weather trigger",
+   "status": "failed",
+   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "opportunities strand",
