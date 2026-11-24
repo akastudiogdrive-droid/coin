@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:36Z",
+ "generated": "2026-11-24T18:03Z",
  "markets": {
   "assets": [],
   "fear_greed": null,
@@ -569,8 +569,8 @@
   },
   {
    "source": "weather, London (Open-Meteo)",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+   "status": "ok",
+   "detail": "168 days stored"
   },
   {
    "source": "markets strand",
@@ -579,8 +579,13 @@
   },
   {
    "source": "Google Trends",
+   "status": "ok",
+   "detail": "refreshed 4 items this run (rotating)"
+  },
+  {
+   "source": "Google Trends",
    "status": "failed",
-   "detail": "keycap-keychain: The request failed: Google returned a response with code 429"
+   "detail": "keycap-keychain: empty; fake-piercings: The request failed: Google returned a response with code 429"
   },
   {
    "source": "Wikipedia pageviews",
@@ -591,11 +596,6 @@
    "source": "eBay listings",
    "status": "not set up",
    "detail": "add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable"
-  },
-  {
-   "source": "weather trigger",
-   "status": "failed",
-   "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
   },
   {
    "source": "opportunities strand",
