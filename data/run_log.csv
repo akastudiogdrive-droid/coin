@@ -548,3 +548,12 @@ Google Trends,failed,keycap-keychain: empty; tooth-gems: The request failed: Goo
 Wikipedia pageviews,ok,4 trends,2026-11-25
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-25
 opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-25
+prices (Yahoo Finance),ok,25/25 assets,2026-11-26
+crypto fear & greed (alternative.me),ok,latest 11 (Extreme Fear),2026-11-26
+"weather, London (Open-Meteo)",ok,170 days stored,2026-11-26
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-26
+Google Trends,ok,refreshed 8 items this run (rotating),2026-11-26
+Google Trends,failed,face-gems: The request failed: Google returned a response with code 429,2026-11-26
+Wikipedia pageviews,ok,4 trends,2026-11-26
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-26
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-26
