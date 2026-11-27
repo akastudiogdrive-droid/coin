@@ -557,3 +557,11 @@ Google Trends,failed,face-gems: The request failed: Google returned a response w
 Wikipedia pageviews,ok,4 trends,2026-11-26
 eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-26
 opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-26
+prices (Yahoo Finance),ok,25/25 assets,2026-11-27
+crypto fear & greed (alternative.me),ok,latest 12 (Extreme Fear),2026-11-27
+"weather, London (Open-Meteo)",ok,171 days stored,2026-11-27
+markets strand,failed,Invalid value 'True' for dtype 'float64',2026-11-27
+Google Trends,failed,face-gems: The request failed: Google returned a response with code 429,2026-11-27
+Wikipedia pageviews,ok,4 trends,2026-11-27
+eBay listings,not set up,add EBAY_CLIENT_ID / EBAY_CLIENT_SECRET secrets to enable,2026-11-27
+opportunities strand,failed,Invalid value 'False' for dtype 'float64',2026-11-27
